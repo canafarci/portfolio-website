@@ -1,0 +1,70 @@
+header {
+  height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
+  flex-direction: row;
+}
+
+.header__container {
+  text-align: center;
+  vertical-align: bottom;
+  gap: 1rem;
+}
+
+.pfimage {
+  text-align: center;
+  width: 20vh;
+  height: 100%;
+  border-radius: 25vh;
+  overflow: hidden;
+  margin-left: 1rem;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.header__row {
+  margin: 1rem;
+  border-left: 1rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+.header__socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  height: 10%;
+
+  bottom: 3rem;
+}
+
+.icon {
+  color: rgba(77, 181, 255, 0.4);
+}
+.scroll__down {
+  font-weight: 300;
+}
+
+/* Media Queries */
+/*Medium Size*/
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 50%;
+  }
+}
+
+/*Small Size*/
+@media screen and (max-width: 600px) {
+}

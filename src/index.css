@@ -45,7 +45,6 @@ body {
 
 .container {
   width: var(--container-width-lg);
-  margin: 0 auto;
 }
 
 h1,
@@ -57,7 +56,14 @@ h5 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1 rem;
 }
 
 section {
@@ -92,11 +98,12 @@ a:hover {
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
-  padding: 0.75rem 1.2rem;
+  padding: 0.25rem 0.5rem;
   border-radius: 0.4rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);
   transition: var(--transition);
+  margin-bottom: 1rem;
 }
 
 .btn:hover {
@@ -132,6 +139,10 @@ img {
 @media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
+  }
+
+  h1 {
+    font-size: 2.5rem;
   }
 
   section > h2 {
