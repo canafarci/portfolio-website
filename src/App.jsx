@@ -4,15 +4,15 @@ import Contact from "./components/contact/Contact";
 import Experience from "./components/Experience/Experience";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/header/Header";
-import Nav from "./components/nav/Nav";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
+import ContentTabs from "./components/tabs/ContentTabs";
 
 const App = () => {
   return (
     <>
       <Header />
-      <Nav />
+      <ContentTabs />
       <About />
       <Experience />
       <Services />
