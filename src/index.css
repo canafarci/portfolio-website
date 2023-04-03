@@ -1,15 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100;200;300;400;500&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
-}
-
 :root {
   --color-bg: #1f1f38;
   --color-bg-variant: #2c2c6c;
@@ -65,21 +55,6 @@ h5 {
   font-size: 1 rem;
 }
 
-section {
-  margin-top: 8rem;
-}
-
-section > h2,
-section > h5 {
-  text-align: center;
-  color: var(--color-light);
-}
-
-section > h2 {
-  color: var(--color-primary);
-  margin-bottom: 3rem;
-}
-
 .text-light {
   color: var(--color-bg-variant);
 }
@@ -124,16 +99,6 @@ img {
 
 /* Media Queries */
 /*Medium Size*/
-@media screen and (max-width: 1024px) {
-  .container {
-    width: var(--container-width-md);
-  }
-
-  section {
-    margin-top: 6 rem;
-    height: 100vh;
-  }
-}
 
 /*Small Size*/
 @media screen and (max-width: 600px) {

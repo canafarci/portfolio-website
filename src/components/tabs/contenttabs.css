@@ -1,0 +1,17 @@
+.tab_container {
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+}
+.tab_right {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.tab_left {
+  display: flex;
+  justify-content: center;
+}
+.tabpanel_container {
+  display: flex;
+}

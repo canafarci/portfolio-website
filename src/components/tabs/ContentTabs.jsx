@@ -4,6 +4,11 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
+import About from "../about/About";
+import Experience from "../Experience/Experience";
+import Skills from "../Skills/Skills";
+import Portfolio from "../portfolio/Portfolio";
+import "./contenttabs.css";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -14,13 +19,10 @@ function TabPanel(props) {
       hidden={value !== index}
       id={`vertical-tabpanel-${index}`}
       aria-labelledby={`vertical-tab-${index}`}
+      className="tabpanel_container"
       {...other}
     >
-      {value === index && (
-        <Box sx={{ p: 3 }}>
-          <Typography>{children}</Typography>
-        </Box>
-      )}
+      {value === index && <Box className="tab_right">{children}</Box>}
     </div>
   );
 }
@@ -47,49 +49,45 @@ export default function ContentTabs() {
 
   return (
     <Box
+      className="tab_container"
       sx={{
         flexGrow: 1,
         display: "flex",
-        height: 500,
+        height: "100%",
+        width: "100%",
       }}
     >
-      <Tabs
-        orientation="vertical"
-        variant="scrollable"
-        value={value}
-        onChange={handleChange}
-        aria-label="Vertical tabs example"
-        sx={{ borderRight: 1, borderColor: "divider" }}
-      >
-        <Tab label="About" {...a11yProps(0)} />
-        <Tab label="Experience" {...a11yProps(1)} />
-        <Tab label="Item Three" {...a11yProps(2)} />
-        <Tab label="Item Four" {...a11yProps(3)} />
-        <Tab label="Item Five" {...a11yProps(4)} />
-        <Tab label="Item Six" {...a11yProps(5)} />
-        <Tab label="Item Seven" {...a11yProps(6)} />
-      </Tabs>
-      <TabPanel value={value} index={0}>
-        Item One
-      </TabPanel>
-      <TabPanel value={value} index={1}>
-        Item Two
-      </TabPanel>
-      <TabPanel value={value} index={2}>
-        Item Three
-      </TabPanel>
-      <TabPanel value={value} index={3}>
-        Item Four
-      </TabPanel>
-      <TabPanel value={value} index={4}>
-        Item Five
-      </TabPanel>
-      <TabPanel value={value} index={5}>
-        Item Six
-      </TabPanel>
-      <TabPanel value={value} index={6}>
-        Item Seven
-      </TabPanel>
+      <Box className="tab_left">
+        <Tabs
+          orientation="vertical"
+          variant="scrollable"
+          value={value}
+          onChange={handleChange}
+          aria-label="Information Tabs"
+          sx={{
+            width: "100%",
+          }}
+        >
+          <Tab label="About" {...a11yProps(0)} />
+          <Tab label="Experience" {...a11yProps(1)} />
+          <Tab label="Skills" {...a11yProps(2)} />
+          <Tab label="Portfolio" {...a11yProps(3)} />
+        </Tabs>
+      </Box>
+      <div className="tab_right">
+        <TabPanel value={value} index={0}>
+          <About />
+        </TabPanel>
+        <TabPanel value={value} index={1}>
+          <Experience />
+        </TabPanel>
+        <TabPanel value={value} index={2}>
+          <Skills />
+        </TabPanel>
+        <TabPanel value={value} index={3}>
+          <Portfolio />
+        </TabPanel>
+      </div>
     </Box>
   );
 }
