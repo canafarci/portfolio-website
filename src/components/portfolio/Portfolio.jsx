@@ -9,29 +9,6 @@ import { contentData } from "./ContentData";
 import PortfolioCards from "./PortfolioCards";
 import { useNavigate } from "react-router-dom";
 
-function TabPanel(props) {
-  const { children, value, index, ...other } = props;
-
-  return (
-    <div
-      role="tabpanel"
-      hidden={value !== index}
-      id={`horizontal-tabpanel-${index}`}
-      aria-labelledby={`horizontal-tab-${index}`}
-      className="tabpanel_container"
-      {...other}
-    >
-      {value === index && <Box className="tab_right">{children}</Box>}
-    </div>
-  );
-}
-
-TabPanel.propTypes = {
-  children: PropTypes.node,
-  index: PropTypes.number.isRequired,
-  value: PropTypes.number.isRequired,
-};
-
 function a11yProps(index) {
   return {
     id: `horizontal-tab-${index}`,
@@ -47,6 +24,7 @@ export default function Portfolio() {
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
+    setSelectedItem(null); // reset selectedItem state when changing tabs
   };
 
   const handleItemClick = (item) => {
@@ -78,32 +56,35 @@ export default function Portfolio() {
   );
 
   return (
-    <Box
-      className="tab_container"
-      sx={{
-        flexGrow: 1,
-        display: "flex",
-        height: "100%",
-        width: "100%",
-        flexDirection: "column",
-      }}
-    >
-      <Tabs
-        value={value}
-        onChange={handleChange}
-        aria-label="Portfolio Tabs"
-        sx={{
-          width: "100%",
-          borderBottom: "1px solid black",
-        }}
-        variant="scrollable"
-        scrollButtons="auto"
-      >
-        {tabs.map((tab, index) => (
-          <Tab key={index} label={tab} {...a11yProps(index)} />
-        ))}
-      </Tabs>
-      {selectedItem ? (
+    <Box className="tab_container">
+      <div>
+        <Tabs
+          value={value}
+          onChange={handleChange}
+          aria-label="Portfolio Tabs"
+          sx={{
+            borderBottom: "1px solid black",
+          }}
+          variant="scrollable"
+          scrollButtons="auto"
+        >
+          {tabs.map((tab, index) => (
+            <Tab
+              className="tab-item"
+              key={index}
+              label={tab}
+              {...a11yProps(index)}
+            />
+          ))}
+        </Tabs>
+        <div className="portfolio_cards_container">
+          <PortfolioCards
+            items={filteredContentData}
+            onItemClick={handleItemClick}
+          />
+        </div>
+      </div>
+      {selectedItem && (
         <div className="portfolio_item_container">
           <button className="back_button" onClick={handleBackClick}>
             Back
@@ -118,7 +99,7 @@ export default function Portfolio() {
               <Typography variant="h4" className="portfolio_item_title">
                 {selectedItem.title}
               </Typography>
-              <Typography variant="body 2" className="portfolio_item_text">
+              <Typography variant="body2" className="portfolio_item_text">
                 {selectedItem.description}
               </Typography>
               <a
@@ -131,13 +112,6 @@ export default function Portfolio() {
               </a>
             </div>
           </div>
-        </div>
-      ) : (
-        <div className="portfolio_cards_container">
-          <PortfolioCards
-            items={filteredContentData}
-            onItemClick={handleItemClick}
-          />
         </div>
       )}
     </Box>

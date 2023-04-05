@@ -1,23 +1,39 @@
-import { Link } from "react-router-dom";
+import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import CardActions from "@material-ui/core/CardActions";
-import { useNavigate } from "react-router-dom";
+import Dialog from "@material-ui/core/Dialog";
+import Button from "@material-ui/core/Button";
+import PortfolioItemDetails from "./PortfolioItemDetails";
+import "./portfoliocards.css";
 
 function PortfolioCards(props) {
   const navigate = useNavigate();
-  const { items, onItemClick } = props;
+  const { items } = props;
+  const [selectedItem, setSelectedItem] = useState(null);
+
+  const handleItemClick = (item) => {
+    setSelectedItem(item);
+  };
+
+  const handleClose = () => {
+    setSelectedItem(null);
+  };
+
+  const handleLearnMoreClick = (item) => {
+    setSelectedItem(item);
+    navigate(`/portfolio-item-details/${item.id}`);
+  };
 
   return (
     <div className="portfolio_cards">
       {items.map((item) => (
         <Card
-          onClick={() => {
-            navigate("/portfolio-item-details");
-          }}
           key={item.id}
           className="portfolio_card"
+          onClick={() => handleItemClick(item)}
         >
           <CardContent>
             <img
@@ -33,16 +49,30 @@ function PortfolioCards(props) {
             </Typography>
           </CardContent>
           <CardActions>
-            <Link
-              to={`/portfolio-item-details`}
+            <Button
               className="portfolio_card_button"
-              onClick={() => onItemClick(item)}
+              onClick={() => handleLearnMoreClick(item)}
             >
               Learn More
-            </Link>
+            </Button>
           </CardActions>
         </Card>
       ))}
+      <Dialog
+        open={!!selectedItem}
+        onClose={handleClose}
+        fullWidth
+        maxWidth="md"
+      >
+        {selectedItem && (
+          <>
+            <PortfolioItemDetails
+              item={selectedItem}
+              handleClose={handleClose}
+            />
+          </>
+        )}
+      </Dialog>
     </div>
   );
 }

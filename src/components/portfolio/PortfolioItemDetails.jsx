@@ -1,44 +1,38 @@
 import React from "react";
-import { useParams, useNavigate } from "react-router-dom";
-import { contentData } from "./ContentData";
 import Typography from "@material-ui/core/Typography";
 import "./portfolioitemdetails.css";
+import DialogTitle from "@material-ui/core/DialogTitle";
+import DialogContent from "@material-ui/core/DialogContent";
+import DialogActions from "@material-ui/core/DialogActions";
+import Button from "@material-ui/core/Button";
 
-function PortfolioItemDetails() {
-  const navigate = useNavigate();
-  const { itemId } = useParams();
-  const selectedItem = contentData.find((item) => item.id === itemId);
-
+function PortfolioItemDetails({ item, handleClose }) {
   return (
     <div className="portfolio_item_details">
-      <button className="back_button" onClick={() => navigate(-1)}>
-        Back
-      </button>
-      <div className="portfolio_item_media">
-        {selectedItem.images.map((image, index) => (
-          <img
-            key={index}
-            src={image}
-            alt={selectedItem.title}
-            className="portfolio_item_image"
-          />
-        ))}
-        {selectedItem.videos && (
-          <video
-            src={selectedItem.videos}
-            controls
-            className="portfolio_item_video"
-          />
-        )}
-      </div>
-      <div className="portfolio_item_description">
-        <Typography variant="h4" className="portfolio_item_title">
-          {selectedItem.title}
+      <DialogTitle>{item.title}</DialogTitle>
+      <DialogContent>
+        <img
+          src={item.image}
+          alt={item.title}
+          className="portfolio_item_image"
+        />
+        <Typography variant="body2" className="portfolio_item_text">
+          {item.description}
         </Typography>
-        <Typography variant="body 2" className="portfolio_item_text">
-          {selectedItem.description}
-        </Typography>
-      </div>
+      </DialogContent>
+      <DialogActions>
+        <Button onClick={handleClose} color="primary">
+          Close
+        </Button>
+        <a
+          href={item.details}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="portfolio_item_link"
+        >
+          View Details
+        </a>
+      </DialogActions>
     </div>
   );
 }

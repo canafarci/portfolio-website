@@ -48,15 +48,7 @@ export default function ContentTabs() {
   };
 
   return (
-    <Box
-      className="tab_container"
-      sx={{
-        flexGrow: 1,
-        display: "flex",
-        height: "100%",
-        width: "100%",
-      }}
-    >
+    <Box className="tab_container">
       <Box className="tab_left">
         <Tabs
           orientation="vertical"
@@ -64,9 +56,6 @@ export default function ContentTabs() {
           value={value}
           onChange={handleChange}
           aria-label="Information Tabs"
-          sx={{
-            width: "100%",
-          }}
         >
           <Tab label="About" {...a11yProps(0)} />
           <Tab label="Experience" {...a11yProps(1)} />

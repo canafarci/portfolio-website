@@ -1,60 +1,33 @@
-.portfolio_item_container {
+.portfolio_item_details {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-color: #f9f9f9;
+  padding: 20px;
 }
 
-.portfolio_item_title {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+.portfolio_item_details .MuiDialogTitle-root {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.portfolio_item_image {
-  width: 50%;
-  height: auto;
-  margin-right: 50px;
-  border-radius: 5px;
-  margin-top: 1rem;
+.portfolio_item_details .portfolio_item_image {
+  max-width: 100%;
+  margin-bottom: 20px;
 }
 
-.portfolio_item_description {
-  width: 50%;
-  font-size: 1.2rem;
+.portfolio_item_details .portfolio_item_text {
   text-align: justify;
   line-height: 1.5;
-  margin-bottom: 1rem;
+  margin-bottom: 20px;
 }
 
-.portfolio_item_link {
-  display: inline-block;
-  padding: 10px;
-  background-color: #008cba;
-  color: white;
-  border-radius: 5px;
+.portfolio_item_details .MuiDialogActions-root {
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.portfolio_item_details .portfolio_item_link {
+  color: #3f51b5;
   text-decoration: none;
-  margin-top: 1rem;
-}
-
-.portfolio_item_link:hover {
-  background-color: #005c7a;
-}
-
-.back_button {
-  background-color: transparent;
-  font-size: 1rem;
-  color: #008cba;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  border-radius: 10px;
-  border-width: 1px;
-  border-color: darkcyan;
-  padding: 5px;
-}
-
-.back_button:hover {
-  color: #005c7a;
-  text-decoration: underline;
+  margin-left: 20px;
 }
