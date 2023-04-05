@@ -6,6 +6,8 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import "./portfolio.css";
 import { contentData } from "./ContentData";
+import PortfolioCards from "./PortfolioCards";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -64,6 +66,7 @@ export default function Portfolio() {
     "Other Design Work",
     "Other Development Work",
   ];
+
   const filteredContentData = contentData.filter(
     (item) =>
       value === 0 || // Show all items for the "All" tab
@@ -128,30 +131,10 @@ export default function Portfolio() {
         </div>
       ) : (
         <div className="portfolio_cards_container">
-          {filteredContentData.map((item, index) => (
-            <div
-              key={index}
-              className="portfolio_card"
-              onClick={() => handleItemClick(item)}
-            >
-              <img
-                src={item.image}
-                alt={item.title}
-                className="portfolio_card_image"
-              />
-              <div className="portfolio_card_text">
-                <Typography variant="h5" className="portfolio_card_title">
-                  {item.title}
-                </Typography>
-                <Typography
-                  variant="body2"
-                  className="portfolio_card_description"
-                >
-                  {item.description}
-                </Typography>
-              </div>
-            </div>
-          ))}
+          <PortfolioCards
+            items={filteredContentData}
+            onItemClick={handleItemClick}
+          />
         </div>
       )}
     </Box>
