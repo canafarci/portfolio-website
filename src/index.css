@@ -12,7 +12,7 @@
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
-  --container-width-ms: 90%;
+  --container-width-sm: 95%;
 }
 
 html {
@@ -28,12 +28,15 @@ body {
   background: var(--color-white);
   color: var(--color-bg);
   line-height: 1.7;
+  font-size: 16px; /* added font size for better mobile readability */
 }
 
 /* General Styles */
 
 .container {
   width: var(--container-width-lg);
+  margin: 0 auto; /* center align on mobile */
+  padding: 0 20px; /* add padding for mobile screens */
 }
 
 h1,
@@ -46,13 +49,15 @@ h5 {
 
 h1 {
   font-size: 3rem;
+  margin-top: 0; /* remove margin for mobile */
 }
+
 h3 {
   font-size: 1.5rem;
 }
 
 h5 {
-  font-size: 1 rem;
+  font-size: 1rem;
 }
 
 .text-light {
@@ -98,19 +103,31 @@ img {
 }
 
 /* Media Queries */
-/*Medium Size*/
 
-/*Small Size*/
-@media screen and (max-width: 600px) {
-  .container {
-    width: var(--container-width-sm);
-  }
-
+/* Medium Size */
+@media screen and (max-width: 768px) {
   h1 {
     font-size: 2.5rem;
   }
+  h3 {
+    font-size: 1.3rem;
+  }
+}
 
-  section > h2 {
-    margin-top: 2 rem;
+/* Small Size */
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.1rem;
+  }
+  .container {
+    width: var(--container-width-sm);
+    padding: 0 10px; /* reduce padding for smaller screens */
+  }
+  .btn {
+    font-size: 14px;
+    padding: 0.2rem 0.4rem; /* reduce padding for smaller buttons */
   }
 }
