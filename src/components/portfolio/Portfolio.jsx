@@ -7,7 +7,7 @@ import Box from "@mui/material/Box";
 import "./portfolio.css";
 import { contentData } from "./ContentData";
 import PortfolioCards from "./PortfolioCards";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -40,6 +40,8 @@ function a11yProps(index) {
 }
 
 export default function Portfolio() {
+  const navigate = useNavigate();
+
   const [value, setValue] = React.useState(0);
   const [selectedItem, setSelectedItem] = React.useState(null);
 
@@ -49,6 +51,7 @@ export default function Portfolio() {
 
   const handleItemClick = (item) => {
     setSelectedItem(item);
+    navigate(`/portfolio/${item.id}`); // navigate to new route with item id
   };
 
   const handleBackClick = () => {

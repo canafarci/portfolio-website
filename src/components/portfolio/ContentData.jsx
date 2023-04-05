@@ -4,9 +4,11 @@ import kemerburgaz from "./arch-images/kemerburgaz-1.jpg";
 export const contentData = [
   {
     category: "architectural_visualizations",
-    title: "Modern House Design",
+    title: "Kemerburgaz Villas",
+    date: "September 2020",
+    location: "Kemerburgaz // İstanbul",
     description: "A stunning modern house design visualization.",
     image: kemerburgaz,
-    details: "https://example.com/modern-house-details",
+    images: [kemerburgaz, kemerburgaz],
   },
 ];

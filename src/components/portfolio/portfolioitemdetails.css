@@ -17,6 +17,7 @@
   height: auto;
   margin-right: 50px;
   border-radius: 5px;
+  margin-top: 1rem;
 }
 
 .portfolio_item_description {
@@ -39,4 +40,21 @@
 
 .portfolio_item_link:hover {
   background-color: #005c7a;
+}
+
+.back_button {
+  background-color: transparent;
+  font-size: 1rem;
+  color: #008cba;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: darkcyan;
+  padding: 5px;
+}
+
+.back_button:hover {
+  color: #005c7a;
+  text-decoration: underline;
 }
