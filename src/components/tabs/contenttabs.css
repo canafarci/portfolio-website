@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   align-content: flex-start;
+  width: 100%;
 }
 
 .tab_left {
@@ -12,7 +13,7 @@
 .tab_right {
   display: flex;
   flex-direction: column;
-  width: 85%;
+  flex: 1;
 }
 
 .tabpanel_container {

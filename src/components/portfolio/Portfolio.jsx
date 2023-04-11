@@ -1,39 +1,30 @@
-import * as React from "react";
-import PropTypes from "prop-types";
+import React from "react";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
-import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
+import Dialog from "@mui/material/Dialog";
+import DialogContent from "@mui/material/DialogContent";
 import "./portfolio.css";
 import { contentData } from "./ContentData";
 import PortfolioCards from "./PortfolioCards";
-import { useNavigate } from "react-router-dom";
-
-function a11yProps(index) {
-  return {
-    id: `horizontal-tab-${index}`,
-    "aria-controls": `horizontal-tabpanel-${index}`,
-  };
-}
 
 export default function Portfolio() {
-  const navigate = useNavigate();
-
   const [value, setValue] = React.useState(0);
+  const [open, setOpen] = React.useState(false);
   const [selectedItem, setSelectedItem] = React.useState(null);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
-    setSelectedItem(null); // reset selectedItem state when changing tabs
   };
 
-  const handleItemClick = (item) => {
+  const handleCardClick = (item) => {
     setSelectedItem(item);
-    navigate(`/portfolio/${item.id}`); // navigate to new route with item id
+    setOpen(true);
   };
 
-  const handleBackClick = () => {
-    setSelectedItem(null);
+  const handleClose = () => {
+    setOpen(false);
   };
 
   const tabs = [
@@ -50,70 +41,48 @@ export default function Portfolio() {
 
   const filteredContentData = contentData.filter(
     (item) =>
-      value === 0 || // Show all items for the "All" tab
-      item.category === // Show items with matching category
-        tabs[value].toLowerCase().replace(/ /g, "_") // Convert tab label to category name
+      value === 0 ||
+      item.category === tabs[value].toLowerCase().replace(/ /g, "_")
   );
 
   return (
-    <Box className="tab_container">
-      <div>
-        <Tabs
-          value={value}
-          onChange={handleChange}
-          aria-label="Portfolio Tabs"
-          sx={{
-            borderBottom: "1px solid black",
-          }}
-          variant="scrollable"
-          scrollButtons="auto"
-        >
-          {tabs.map((tab, index) => (
-            <Tab
-              className="tab-item"
-              key={index}
-              label={tab}
-              {...a11yProps(index)}
-            />
-          ))}
-        </Tabs>
-        <div className="portfolio_cards_container">
+    <Box sx={{ width: "100%" }}>
+      <Tabs
+        value={value}
+        onChange={handleChange}
+        aria-label="Portfolio Tabs"
+        sx={{
+          borderBottom: "1px solid black",
+        }}
+        className="tabs_holder"
+        variant="scrollable"
+        scrollButtons="auto"
+      >
+        {tabs.map((tab, index) => (
+          <Tab className="tab-item" key={index} label={tab} />
+        ))}
+      </Tabs>
+      <div className="portfolio_cards_container">
+        {filteredContentData.map((item, index) => (
           <PortfolioCards
-            items={filteredContentData}
-            onItemClick={handleItemClick}
+            key={index}
+            item={item}
+            onCardClick={handleCardClick}
           />
-        </div>
+        ))}
       </div>
-      {selectedItem && (
-        <div className="portfolio_item_container">
-          <button className="back_button" onClick={handleBackClick}>
-            Back
-          </button>
-          <div className="portfolio_item_details">
-            <img
-              src={selectedItem.image}
-              alt={selectedItem.title}
-              className="portfolio_item_image"
-            />
-            <div className="portfolio_item_description">
-              <Typography variant="h4" className="portfolio_item_title">
-                {selectedItem.title}
-              </Typography>
-              <Typography variant="body2" className="portfolio_item_text">
-                {selectedItem.description}
-              </Typography>
-              <a
-                href={selectedItem.details}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="portfolio_item_link"
-              >
-                View Details
-              </a>
-            </div>
-          </div>
-        </div>
-      )}
+      <Dialog open={open} onClose={handleClose} fullWidth maxWidth="md">
+        <DialogContent>
+          {/* Render the content of the selected item in the dialog */}
+          {selectedItem && (
+            <>
+              <h2>{selectedItem.title}</h2>
+              <p>{selectedItem.description}</p>
+              {/* Render any other content you want to show in the dialog */}
+            </>
+          )}
+        </DialogContent>
+      </Dialog>
     </Box>
   );
 }

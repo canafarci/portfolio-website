@@ -1,80 +1,35 @@
-import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import Card from "@material-ui/core/Card";
-import CardContent from "@material-ui/core/CardContent";
-import Typography from "@material-ui/core/Typography";
-import CardActions from "@material-ui/core/CardActions";
-import Dialog from "@material-ui/core/Dialog";
-import Button from "@material-ui/core/Button";
-import PortfolioItemDetails from "./PortfolioItemDetails";
-import "./portfoliocards.css";
+import React from "react";
+import Card from "@mui/material/Card";
+import CardActionArea from "@mui/material/CardActionArea";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Typography from "@mui/material/Typography";
 
-function PortfolioCards(props) {
-  const navigate = useNavigate();
-  const { items } = props;
-  const [selectedItem, setSelectedItem] = useState(null);
-
-  const handleItemClick = (item) => {
-    setSelectedItem(item);
-  };
-
-  const handleClose = () => {
-    setSelectedItem(null);
-  };
-
-  const handleLearnMoreClick = (item) => {
-    setSelectedItem(item);
-    navigate(`/portfolio-item-details/${item.id}`);
-  };
-
+const PortfolioCards = ({ item, onCardClick }) => {
   return (
-    <div className="portfolio_cards">
-      {items.map((item) => (
-        <Card
-          key={item.id}
-          className="portfolio_card"
-          onClick={() => handleItemClick(item)}
-        >
-          <CardContent>
-            <img
-              src={item.image}
-              alt={item.title}
-              className="portfolio_card_image"
-            />
-            <Typography gutterBottom variant="h5" component="h2">
-              {item.title}
-            </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
-              {item.description}
-            </Typography>
-          </CardContent>
-          <CardActions>
-            <Button
-              className="portfolio_card_button"
-              onClick={() => handleLearnMoreClick(item)}
-            >
-              Learn More
-            </Button>
-          </CardActions>
-        </Card>
-      ))}
-      <Dialog
-        open={!!selectedItem}
-        onClose={handleClose}
-        fullWidth
-        maxWidth="md"
-      >
-        {selectedItem && (
-          <>
-            <PortfolioItemDetails
-              item={selectedItem}
-              handleClose={handleClose}
-            />
-          </>
-        )}
-      </Dialog>
-    </div>
+    <Card
+      onClick={() => onCardClick(item)}
+      style={{ minWidth: "250px", maxWidth: "350px" }}
+    >
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          alt={item.title}
+          height="140"
+          image={item.image}
+          title={item.title}
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            {item.title}
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            {item.description}
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+    </Card>
   );
-}
+};
 
 export default PortfolioCards;

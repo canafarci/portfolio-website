@@ -7,7 +7,63 @@ export const contentData = [
     title: "Kemerburgaz Villas",
     date: "September 2020",
     location: "Kemerburgaz // İstanbul",
-    description: "A stunning modern house design visualization.",
+    description:
+      "A stunning modern house design visualization. A stunning modern house design visualization. A stunning modern house design visualization.",
+    image: kemerburgaz,
+    images: [kemerburgaz, kemerburgaz],
+  },
+
+  {
+    category: "architectural_visualizations",
+    title: "Kemerburgaz Villas",
+    date: "September 2020",
+    location: "Kemerburgaz // İstanbul",
+    description:
+      "A stunning modern house design visualization. A stunning modern house design visualization. A stunning modern house design visualization.",
+    image: kemerburgaz,
+    images: [kemerburgaz, kemerburgaz],
+  },
+
+  {
+    category: "architectural_visualizations",
+    title: "Kemerburgaz Villas",
+    date: "September 2020",
+    location: "Kemerburgaz // İstanbul",
+    description:
+      "A stunning modern house design visualization. A stunning modern house design visualization. A stunning modern house design visualization.",
+    image: kemerburgaz,
+    images: [kemerburgaz, kemerburgaz],
+  },
+
+  {
+    category: "architectural_visualizations",
+    title: "Kemerburgaz Villas",
+    date: "September 2020",
+    location: "Kemerburgaz // İstanbul",
+    description:
+      "A stunning modern house design visualization. A stunning modern house design visualization. A stunning modern house design visualization.",
+    image: kemerburgaz,
+    images: [kemerburgaz, kemerburgaz],
+  },
+
+  {
+    category: "architectural_visualizations",
+    title: "Kemerburgaz Villas",
+    date: "September 2020",
+    location: "Kemerburgaz // İstanbul",
+    description:
+      "A stunning modern house design visualization. A stunning modern house design visualization. A stunning modern house design visualization.",
+    image: kemerburgaz,
+    images: [kemerburgaz, kemerburgaz],
+  },
+
+  {
+    category: "architectural_visualizations",
+    title: "Kemerburgaz Villas",
+    date: "September 2020",
+    location: "Kemerburgaz // İstanbul",
+    description:
+      "A stunning modern house design visualization. A stunning modern house design visualization. A stunning modern house design visualization.",
     image: kemerburgaz,
     images: [kemerburgaz, kemerburgaz],
   },

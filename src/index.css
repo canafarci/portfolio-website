@@ -33,12 +33,6 @@ body {
 
 /* General Styles */
 
-.container {
-  width: var(--container-width-lg);
-  margin: 0 auto; /* center align on mobile */
-  padding: 0 20px; /* add padding for mobile screens */
-}
-
 h1,
 h2,
 h3,
@@ -54,6 +48,10 @@ h1 {
 
 h3 {
   font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.15rem;
 }
 
 h5 {
