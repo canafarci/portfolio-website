@@ -38,4 +38,44 @@ p {
 
 .portfolio_image {
   margin-top: 5px;
+  border-radius: 10px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  height: 50px;
+  color: var(--color-primary);
+  padding: 0.1rem 0.1rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
+}
+
+.row h3 {
+  font-size: 1.3rem;
+}
+
+.row h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.row p {
+  margin-bottom: 0;
+  margin-top: 0;
 }
