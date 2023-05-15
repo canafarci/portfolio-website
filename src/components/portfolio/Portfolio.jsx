@@ -78,6 +78,35 @@ export default function Portfolio() {
             <>
               <h2>{selectedItem.title}</h2>
               <p>{selectedItem.description}</p>
+              <p>{selectedItem.detailed_description}</p>
+              {selectedItem.webGLUrl && (
+                <iframe
+                  frameborder="0"
+                  src={selectedItem.webGLUrl}
+                  allowfullscreen="1"
+                  width={selectedItem.webgl_width}
+                  height={selectedItem.webgl_height}
+                ></iframe>
+              )}
+              {selectedItem.videoUrl && (
+                <iframe
+                  width="560"
+                  height="315"
+                  src={selectedItem.videoUrl}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              )}
+
+              {selectedItem.images &&
+                selectedItem.images.map((image, index) => (
+                  <img
+                    key={index}
+                    src={image}
+                    alt={`${selectedItem.title} ${index}`}
+                    className="portfolio_image"
+                  />
+                ))}
               {/* Render any other content you want to show in the dialog */}
             </>
           )}

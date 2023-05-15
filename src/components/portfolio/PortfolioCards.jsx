@@ -9,7 +9,7 @@ const PortfolioCards = ({ item, onCardClick }) => {
   return (
     <Card
       onClick={() => onCardClick(item)}
-      style={{ minWidth: "250px", maxWidth: "350px" }}
+      style={{ width: "300px", height: "250px" }}
     >
       <CardActionArea>
         <CardMedia
