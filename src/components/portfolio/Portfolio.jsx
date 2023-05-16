@@ -118,6 +118,12 @@ export default function Portfolio() {
                 <h4>Job Type: </h4>
                 <p>{selectedItem.job_type}</p>
               </div>
+              {selectedItem.location && (
+                <div className="row">
+                  <h4>Location: </h4>
+                  <p>{selectedItem.location}</p>
+                </div>
+              )}
               {selectedItem.role && (
                 <div className="row">
                   <h4>Role: </h4>

@@ -1,13 +1,14 @@
 export const contentData = [
+  //!Kemerburgaz
   {
     category: ["architectural_visualizations", "architectural_designs"],
     title: "Kemerburgaz Villas",
     date: "  September 2020",
-    location: "Kemerburgaz // İstanbul",
+    location: "   Kemerburgaz // İstanbul",
     description: "Housing project in Kemerburgaz/İstanbul",
     detailed_description:
       "Façade, landscape and interior design work with 3D renders",
-    skills: "  3DS Max, Corona Renderer, Substance Painter, Photoshop",
+    skills: "  3DS Max, Corona Renderer, Substance Painter, Photoshop, AutoCAD",
     genre: null,
     job_type: "  Freelance Project",
     image:
@@ -27,6 +28,7 @@ export const contentData = [
     behance_link:
       "https://www.behance.net/gallery/152287837/Kemerburgaz-Villas",
   },
+  //!ERG
   {
     category: ["architectural_visualizations", "architectural_designs"],
     title: "ERG Headquarters",
@@ -35,7 +37,7 @@ export const contentData = [
     description: "Office Building and headquarters complex",
     detailed_description:
       "Façade, landscape and interior design work with 3D renders for a construction company",
-    skills: "  3DS Max, Corona Renderer, Substance Painter, Photoshop",
+    skills: "  3DS Max, Corona Renderer, Substance Painter, Photoshop, AutoCAD",
     genre: null,
     job_type: "  Freelance Project",
     image:
@@ -50,6 +52,192 @@ export const contentData = [
     github_link: null,
     behance_link: "https://www.behance.net/gallery/152287153/ERG-Headquarters",
   },
+  //!Interior Study
+  {
+    category: ["architectural_visualizations", "architectural_designs"],
+    title: "Interior Study",
+    date: "  May 2020",
+    location: null,
+    description: "Interior design, lighting and render study",
+    detailed_description: "",
+    skills: "  3DS Max, Corona Renderer, Substance Painter, Photoshop, AutoCAD",
+    genre: null,
+    job_type: "  Freelance Project",
+    image:
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/08ef64152289001.631b33a54c2ac.jpg",
+    images: [
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/08ef64152289001.631b33a54c2ac.jpg",
+    ],
+    videoUrl: null,
+    webGLUrl: null,
+    github_link: null,
+    behance_link: "https://www.behance.net/gallery/152287153/ERG-Headquarters",
+  },
+  //!Alya Park
+  {
+    category: ["architectural_visualizations", "architectural_designs"],
+    title: "Alya Park Orman",
+    date: "  November 2020",
+    location: "   Sarıyer // İstanbul",
+    description: "Residential Complex",
+    detailed_description:
+      "Façade, landscape and interior design work with 3D renders",
+    skills: "  3DS Max, Corona Renderer, Substance Painter, Photoshop, AutoCAD",
+    genre: null,
+    job_type: "  Freelance Project",
+    image:
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/b77663152279677.631b11b4625a1.jpg",
+    images: [
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/b77663152279677.631b11b4625a1.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/b6295b152279677.631b11b463796.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/035368152279677.631b11b461b2a.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/41abe4152279677.631b11b462dd3.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/f4144b152279677.631b11b46133c.jpg",
+    ],
+    videoUrl: null,
+    webGLUrl: null,
+    github_link: null,
+    behance_link: "https://www.behance.net/gallery/152279677/Alya-Park-Saryer",
+  },
+  //!Antep
+  {
+    category: ["architectural_visualizations", "architectural_designs"],
+    title: "Municipal Offices Interior",
+    date: "  September 2020",
+    location: "   Şehitkamil  // Gaziantep",
+    description:
+      "Interior design project for a government office complex belonging to the Gaziantep Municipal Water Board.",
+    detailed_description:
+      "interior design and furniture design work with 3D renders",
+    skills: "  3DS Max, Corona Renderer, Substance Painter, Photoshop, AutoCAD",
+    genre: null,
+    job_type: "  Freelance Project",
+    image:
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/2eacbb152287443.631b2dfbcb976.jpg",
+    images: [
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/2eacbb152287443.631b2dfbcb976.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/6e60db152287443.631b2dfbcfba2.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/e040d2152287443.631b2dfbcf397.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/eb28c5152287443.631b2dfbcc122.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/391673152287443.631b2dfbcec3c.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/0e9f00152287443.631b2dfbcd990.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/d34d70152287443.631b2dfbcc8c5.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/51a72a152287443.631b2dfbd02f0.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/f89be2152287443.631b2dfbce2bb.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/36019e152287443.631b2dfbcd0cf.jpg",
+    ],
+    videoUrl: null,
+    webGLUrl: null,
+    github_link: null,
+    behance_link:
+      "https://www.behance.net/gallery/152287443/Gaziantep-Municipal-Water-Board-Offices-Interior",
+  },
+  //!Döşemealtı Villa
+  {
+    category: ["architectural_visualizations", "architectural_designs"],
+    title: "Döşemealtı Villa",
+    date: "  March 2021",
+    location: "   Döşemealtı  // Antalya",
+    description:
+      "Interior, façade and landscape design work for a residential unit",
+    detailed_description: "",
+    skills: "  3DS Max, Corona Renderer, Substance Painter, Photoshop, AutoCAD",
+    genre: null,
+    job_type: "  Freelance Project",
+    image:
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/5dc3f6152285065.631b255eb956a.png",
+    images: [
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/5dc3f6152285065.631b255eb956a.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/6088d5152285065.631b255ebb879.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/242493152285065.631b255ebc921.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/9cd4d0152285065.631b255eb9d30.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/b7e67c152285065.631b255eba5d7.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/c3fe3f152285065.631b255ebc3ca.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/2864fc152285065.631b255ebb312.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/7b8933152285065.631b255ebbe3e.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/af250c152285065.631b255ebacb8.jpg",
+    ],
+    videoUrl: null,
+    webGLUrl: null,
+    github_link: null,
+    behance_link: "https://www.behance.net/gallery/152285065/Doesemealt-Villa",
+  },
+  //!Devrek
+  {
+    category: ["architectural_visualizations", "architectural_designs"],
+    title: "Community Housing",
+    date: "  November  2021",
+    location: "   Devrek  // Zonguldak",
+    description:
+      "Façade and landscape design work for a community residential complex",
+    detailed_description: "",
+    skills: "  3DS Max, Corona Renderer, Substance Painter, Photoshop, AutoCAD",
+    genre: null,
+    job_type: "  Freelance Project",
+    image:
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/07717c152288179.631b30bf43ea9.jpg",
+    images: [
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/07717c152288179.631b30bf43ea9.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/0a85e9152288179.631b30bf4361f.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/57720b152288179.631b30bf420d2.jpg",
+    ],
+    videoUrl: null,
+    webGLUrl: null,
+    github_link: null,
+    behance_link:
+      "https://www.behance.net/gallery/152288179/Devrek-Community-Housing",
+  },
+  //!Güzeloba
+  {
+    category: ["architectural_visualizations", "architectural_designs"],
+    title: "Güzeloba Housing",
+    date: "  April  2021",
+    location: "   Güzeloba  // Antalya",
+    description: "Façade and landscape design work for a residential complex",
+    detailed_description: "",
+    skills: "  3DS Max, Corona Renderer, Substance Painter, Photoshop, AutoCAD",
+    genre: null,
+    job_type: "  Freelance Project",
+    image:
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/100734152288675.631b32731f6d9.jpg",
+    images: [
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/100734152288675.631b32731f6d9.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/c393e0152288675.631b32732060a.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/fs/c81064152288675.631b32731eed1.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/b8e8ba152288675.631b32731fe6f.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/f03029152288675.631b32731e436.jpg",
+    ],
+    videoUrl: null,
+    webGLUrl: null,
+    github_link: null,
+    behance_link: "https://www.behance.net/gallery/152288675/Guezeloba-Housing",
+  },
+  //!Başiskele
+  {
+    category: ["architectural_visualizations", "architectural_designs"],
+    title: "Başiskele Hotel",
+    date: "  January  2021",
+    location: "   Başiskele  // Kocaeli",
+    description: "Façade and landscape design work for a hotel complex",
+    detailed_description: "",
+    skills: "  3DS Max, Corona Renderer, Substance Painter, Photoshop, AutoCAD",
+    genre: null,
+    job_type: "  Freelance Project",
+    image:
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/1c8f9b152284167.631b221faef62.jpg",
+    images: [
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/9e666f152284167.631b221fae490.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/319b3a152284167.631b221fb0c9d.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/2242f5152284167.631b221fafa3d.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/794949152284167.631b221fb032e.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/1c8f9b152284167.631b221faef62.jpg",
+    ],
+    videoUrl: null,
+    webGLUrl: null,
+    github_link: null,
+    behance_link: "https://www.behance.net/gallery/152288675/Guezeloba-Housing",
+  },
+  //!Drunken Dungeon
   {
     category: ["pc_games"],
     title: "Drunken Dungeon",
@@ -74,6 +262,7 @@ export const contentData = [
     github_link: "https://github.com/canafarci/DrunkenWizard",
     behance_link: null,
   },
+  //!NYT
   {
     category: ["mobile_games"],
     title: "My Yellow Taxi Co.",
