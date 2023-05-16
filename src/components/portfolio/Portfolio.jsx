@@ -33,7 +33,6 @@ export default function Portfolio() {
     "All",
     "Mobile Games",
     "PC Games",
-    "Multiplayer Games",
     "Architectural Visualizations",
     "Mobile Apps",
     "Architectural Designs",
@@ -44,7 +43,7 @@ export default function Portfolio() {
   const filteredContentData = contentData.filter(
     (item) =>
       value === 0 ||
-      item.category === tabs[value].toLowerCase().replace(/ /g, "_")
+      item.category.includes(tabs[value].toLowerCase().replace(/ /g, "_"))
   );
 
   return (
@@ -73,7 +72,13 @@ export default function Portfolio() {
           />
         ))}
       </div>
-      <Dialog open={open} onClose={handleClose} fullWidth maxWidth="md">
+      <Dialog
+        open={open}
+        onClose={handleClose}
+        fullWidth
+        maxWidth="md"
+        height="100%"
+      >
         <DialogContent>
           {/* Render the content of the selected item in the dialog */}
           {selectedItem && (
@@ -119,26 +124,36 @@ export default function Portfolio() {
                   <p>{selectedItem.role}</p>
                 </div>
               )}
+              {selectedItem.genre && (
+                <div className="row">
+                  <h4>Genre: </h4>
+                  <p>{selectedItem.genre}</p>
+                </div>
+              )}
 
               <p>{selectedItem.description}</p>
               <p>{selectedItem.detailed_description}</p>
               {selectedItem.webGLUrl && (
-                <iframe
-                  frameborder="0"
-                  src={selectedItem.webGLUrl}
-                  allowfullscreen="1"
-                  width={selectedItem.webgl_width}
-                  height={selectedItem.webgl_height}
-                ></iframe>
+                <div className="media">
+                  <iframe
+                    frameborder="0"
+                    src={selectedItem.webGLUrl}
+                    allowfullscreen="1"
+                    width={selectedItem.webgl_width}
+                    height={selectedItem.webgl_height}
+                  ></iframe>
+                </div>
               )}
               {selectedItem.videoUrl && (
-                <iframe
-                  width="560"
-                  height="315"
-                  src={selectedItem.videoUrl}
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
+                <div className="media">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src={selectedItem.videoUrl}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
               )}
 
               {selectedItem.images &&

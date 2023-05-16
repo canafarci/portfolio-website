@@ -9,13 +9,13 @@ const PortfolioCards = ({ item, onCardClick }) => {
   return (
     <Card
       onClick={() => onCardClick(item)}
-      style={{ width: "300px", height: "250px" }}
+      style={{ width: "300px", height: "300px" }}
     >
       <CardActionArea>
         <CardMedia
           component="img"
           alt={item.title}
-          height="140"
+          height="180"
           image={item.image}
           title={item.title}
         />
