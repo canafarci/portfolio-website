@@ -279,14 +279,136 @@ export const contentData = [
     image:
       "https://img.itch.zone/aW1nLzEyMTg1MTY5LnBuZw==/315x250%23c/6cytVJ.png",
     images: [
-      "https://img.itch.zone/aW1hZ2UvMTYyMTE2OS85NTA3OTMwLnBuZw==/original/qEci2l.png",
-      "https://img.itch.zone/aW1hZ2UvMTYyMTE2OS85NTA3OTMzLnBuZw==/original/X9VINU.png",
+      "https://drive.google.com/uc?export=view&id=1nlYRdpCHujFoPClAdIXg76X5rayTJBdv",
     ],
     videoUrl: "https://www.youtube.com/embed/v0I0KCClqKY",
     webGLUrl: "https://itch.io/embed-upload/7922490?color=ededed",
     webgl_width: "540",
     webgl_height: "900",
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.flowtart.taxicompany",
     github_link: "https://github.com/canafarci/MyYellowTaxiCo",
+    behance_link: null,
+  },
+  //!Weapon rush
+  {
+    category: ["mobile_games"],
+    title: "Weapon Rush: Runner Clicker",
+    date: "  February 2023",
+    location: null,
+    description: "Roguelite inspired runner game",
+    detailed_description:
+      "In this game, goal is to upgrade the player and buy followers to kill the end boss. \nWhenever player dies, he restarts with all of the previously bought upgrades, which resets when player progresses to the next level.",
+    skills: "  Unity 3D, C#",
+    genre: "  Runner",
+    role: "  Programming and Gameplay Design, completed with the Flowtart Studios team",
+    job_type: "  Prototype project developed for Game Theory Games",
+    image:
+      "https://play-lh.googleusercontent.com/_DpBIJhbAyLWsSY1lcPQXOB9yRr7o9Yw-LdiUxzaOOPzItvhHOBO0ZR4iy5fdnWbRHk=s256-rw",
+    images: [
+      "https://play-lh.googleusercontent.com/-6YTic5_e90IA_72oIBv5ivGHob3cH2qzCqgbysgyq4xpHKj6lKrfcPKkwaouxm61w=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/lLN4HWmV98bZ0h0uqkux5kNqg3J-QI-lV4hD4CH0_nvO19QS-Ff_XmdS2wrWmoanuZ0=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/cTPhu8kWPaz8NXnUYSM9U_u_fBQg7KHa0Vkx4f6J3ykQdAvYtkwUhC3s21v3D_TrWA=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/bDNAsuykXaX5IBmy21iaou-4eFblq19ThhvfAtwVMNnr77S7oZGNZYBsuq-ptYKKEFQ=w2560-h1440-rw",
+    ],
+    horizontalImages: true,
+    videoUrl: "https://www.youtube.com/embed/sfCsFO9W1BQ",
+    webGLUrl: "https://itch.io/embed-upload/7927013?color=ededed",
+    webgl_width: "500",
+    webgl_height: "850",
+    github_link: "https://github.com/canafarci/RunnerClicker",
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.flowtart.weaponrush",
+    behance_link: null,
+  },
+  //!Wonder
+  {
+    category: ["mobile_games"],
+    title: "Wonder Builders",
+    date: "  January 2023",
+    location: null,
+    description: "Idle clicker with wonder building theme",
+    detailed_description:
+      "Player upgrades the worker speed, count and merges them to build the wonder faster, \nin this prototype player can build Eiffel Tower and Pyramid at Giza",
+    skills: "  Unity 3D, C#",
+    genre: "  Idle Clicker",
+    role: "  Programming, Gameplay and Architectural design, completed with the Flowtart Studios team",
+    job_type: "  Prototype project developed for Game Theory Games",
+    image:
+      "https://play-lh.googleusercontent.com/U2bL4VmpWOmW0yXa5VzciV9hWWUaAzU-N-hCWsas2aAvf-LYt7mmZVPpjgtsoJpIXhQ=s256-rw",
+    images: [
+      "https://play-lh.googleusercontent.com/MYNX2emWmz7rBXrwmBck4Brw39jnIQOtoxz4JDfOEeYJzBLIceJmgM40rSr3XpGRdA=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/G9Y3zRnTgyAAz077h6DMOwOkl8LuHlqdTVtK23zJ84qL9hOUr-ZQeG-E7_3t3ugnyw=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/XI3eVb8FkHVUqnIlY77cjvLNj5wueAEEwHxQAbfIn-fVOsS8mNSU_GoAKt0yot1ZI2k=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/eU3vMxkuCMt6uFTQvYQh76Mpq5izrRU70wOo_gVR7zdkCkvgTO2853z9AdSFObCBdR4=w2560-h1440-rw",
+    ],
+    horizontalImages: true,
+    videoUrl: "https://www.youtube.com/embed/lUnxmFhP6J0",
+    webGLUrl: "https://itch.io/embed-upload/7933036?color=ededed",
+    webgl_width: "500",
+    webgl_height: "850",
+    github_link: "https://github.com/canafarci/WonderBuilder",
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.flowtart.wondercraft",
+    behance_link: null,
+  },
+  //!Swing
+  {
+    category: ["mobile_games"],
+    title: "Swing Ride Idle ASMR",
+    date: "  January 2023",
+    location: null,
+    description: "Idle clicker with a theme park/christmas setting",
+    detailed_description:
+      "Player manages a swing ride, and makes money from ride customers \nPlayer can buy new seats, upgrade existing seats and buy a new wheel to make even more money",
+    skills: "  Unity 3D, C#",
+    genre: "  Idle Clicker",
+    role: "  Programming, Gameplay design, completed with the Flowtart Studios team",
+    job_type: "  Prototype project developed for Game Theory Games",
+    image:
+      "https://play-lh.googleusercontent.com/YPxSsNmTKNLjHUTCmjmveKSarMip5y3-ReQD2OLS8n_xHGqeL254fNVvCA9FAfeC1g=s256-rw",
+    images: [
+      "https://play-lh.googleusercontent.com/ZaHJOrt3qvXR5U5l0wXq0wtqUB3ZdsNJV7Lx7abV1SM4_02EXwfsKPOEE_3Jl5CuPcMB=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/k0of7LqyACYBABeDM-tYxL9l_623wy914aeS2yz9-XMDV99Iva7Dh8M_f9D8V1tDEEI=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/8YwGEDzhxEjGUvl3kWImfkcy4KBNz3oGcT8kvUlLMha2gKPvtnx5dFmLx43DfQivoRw=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/GepjRIMtmVO1KrjVc2htRfZbJ9N2iHZqokvBreZMDLeexUIbyUWEwdwKbdW3BS5wfuqK=w2560-h1440-rw",
+    ],
+    horizontalImages: true,
+    videoUrl: "https://www.youtube.com/embed/7GpVk9cp-XA",
+    webGLUrl: "https://itch.io/embed-upload/7936708?color=ededed",
+    webgl_width: "500",
+    webgl_height: "850",
+    github_link: "https://github.com/canafarci/SwingClicker",
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.flowtart.swingclicker",
+    behance_link: null,
+  },
+  //!Storage Wars
+  {
+    category: ["mobile_games"],
+    title: "Storage Masters 3D",
+    date: "  February 2022",
+    location: null,
+    description: "Storage discovery and sale simulator",
+    detailed_description:
+      "Player unlocks forgotten storages, finds valuable items and sells them in auctions to make money",
+    skills: "  Unity 3D, C#",
+    genre: "  Simulator",
+    role: "  Programming, Gameplay and Level design, completed with the Flowtart Studios team",
+    job_type: "  Prototype project developed for Game Theory Games",
+    image:
+      "https://drive.google.com/uc?export=view&id=1_aIUOMMzDZ71OP09gtC1BcunyBnAZF9x",
+    images: [
+      "https://drive.google.com/uc?export=view&id=17k2u1yaPnMDUeoYWKP0yq_8KuLnRlqYh",
+      "https://drive.google.com/uc?export=view&id=12ir4JtXFXnTbaKXj64nk0y2YDz8h9L36",
+      "https://drive.google.com/uc?export=view&id=1KEvTxuG-bv3_s3zN4krjq8UvAdSZDSrk",
+      "https://drive.google.com/uc?export=view&id=1qsesPNGdsw9UvlY6YuufNhEpJbBtHbRP",
+    ],
+    horizontalImages: true,
+    webGLUrl: "https://itch.io/embed-upload/7936890?color=ededed",
+    webgl_width: "500",
+    webgl_height: "880",
+    github_link: "https://github.com/canafarci/StorageWars",
     behance_link: null,
   },
 ];

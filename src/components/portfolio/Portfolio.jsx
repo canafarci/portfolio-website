@@ -7,7 +7,7 @@ import Dialog from "@mui/material/Dialog";
 import DialogContent from "@mui/material/DialogContent";
 import { contentData } from "./ContentData";
 import PortfolioCards from "./PortfolioCards";
-import { FaLinkedin, FaGithub, FaBehanceSquare } from "react-icons/fa";
+import { FaGooglePlay, FaGithub, FaBehanceSquare } from "react-icons/fa";
 import "../../index.css";
 import "./portfolio.css";
 
@@ -79,32 +79,44 @@ export default function Portfolio() {
         maxWidth="md"
         height="100%"
       >
-        <DialogContent>
+        <DialogContent className="dialog_content">
           {/* Render the content of the selected item in the dialog */}
           {selectedItem && (
             <>
               <div className="socials">
                 <h2>{selectedItem.title}</h2>
-                {selectedItem.github_link && (
-                  <a
-                    href={selectedItem.github_link}
-                    target="_blank"
-                    className="button"
-                  >
-                    <FaGithub size={40} className="icon" />
-                    <h4> Source Code</h4>
-                  </a>
-                )}
-                {selectedItem.behance_link && (
-                  <a
-                    href={selectedItem.behance_link}
-                    target="_blank"
-                    className="button"
-                  >
-                    <FaBehanceSquare size={40} className="icon" />
-                    <h4> Behance</h4>
-                  </a>
-                )}
+                <div className="social_links">
+                  {selectedItem.github_link && (
+                    <a
+                      href={selectedItem.github_link}
+                      target="_blank"
+                      className="button"
+                    >
+                      <FaGithub size={40} className="icon" />
+                      <h4> Source Code</h4>
+                    </a>
+                  )}
+                  {selectedItem.google_play_link && (
+                    <a
+                      href={selectedItem.google_play_link}
+                      target="_blank"
+                      className="button"
+                    >
+                      <FaGooglePlay size={40} className="icon" />
+                      <h4> Play Store</h4>
+                    </a>
+                  )}
+                  {selectedItem.behance_link && (
+                    <a
+                      href={selectedItem.behance_link}
+                      target="_blank"
+                      className="button"
+                    >
+                      <FaBehanceSquare size={40} className="icon" />
+                      <h4> Behance</h4>
+                    </a>
+                  )}
+                </div>
               </div>
               <div className="row">
                 <h4>Date: </h4>
@@ -136,7 +148,6 @@ export default function Portfolio() {
                   <p>{selectedItem.genre}</p>
                 </div>
               )}
-
               <p>{selectedItem.description}</p>
               <p>{selectedItem.detailed_description}</p>
               {selectedItem.webGLUrl && (
@@ -153,24 +164,28 @@ export default function Portfolio() {
               {selectedItem.videoUrl && (
                 <div className="media">
                   <iframe
-                    width="560"
-                    height="315"
+                    width={selectedItem.horizontalImages ? "830" : "850"}
+                    height="400"
                     src={selectedItem.videoUrl}
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                   ></iframe>
                 </div>
               )}
-
-              {selectedItem.images &&
-                selectedItem.images.map((image, index) => (
-                  <img
-                    key={index}
-                    src={image}
-                    alt={`${selectedItem.title} ${index}`}
-                    className="portfolio_image"
-                  />
-                ))}
+              {selectedItem.images && (
+                <div
+                  className={selectedItem.horizontalImages ? "image-row" : ""}
+                >
+                  {selectedItem.images.map((image, index) => (
+                    <img
+                      key={index}
+                      src={image}
+                      alt={`${selectedItem.title} ${index}`}
+                      className="portfolio_image"
+                    />
+                  ))}
+                </div>
+              )}
               {/* Render any other content you want to show in the dialog */}
             </>
           )}
