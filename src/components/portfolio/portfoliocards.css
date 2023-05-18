@@ -34,3 +34,6 @@
   margin-top: 0;
   margin-bottom: 0;
 }
+.card_shadow {
+  box-shadow: "5px 10px";
+}

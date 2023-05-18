@@ -409,6 +409,8 @@ export const contentData = [
     webgl_width: "500",
     webgl_height: "875",
     github_link: "https://github.com/canafarci/StorageWars",
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.flowtart.storagemasters",
     behance_link: null,
   },
   //!House Flipper 3D
@@ -441,6 +443,8 @@ export const contentData = [
     webgl_width: "500",
     webgl_height: "870",
     github_link: "https://github.com/canafarci/HouseFlipper",
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.flowtart.houseflipper",
     behance_link: null,
   },
   //!Popcorn
@@ -469,6 +473,8 @@ export const contentData = [
     webgl_width: "500",
     webgl_height: "870",
     github_link: "https://github.com/canafarci/PopcornClicker",
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.flowtart.popcornclicker",
     behance_link: null,
   },
   //!Easter Egg
@@ -501,6 +507,8 @@ export const contentData = [
     webgl_width: "500",
     webgl_height: "870",
     github_link: "https://github.com/canafarci/EasterEggRunner",
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.flowtart.easteregg",
     behance_link: null,
   },
 ];

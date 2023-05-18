@@ -54,6 +54,7 @@ export default function Portfolio() {
         aria-label="Portfolio Tabs"
         sx={{
           borderBottom: "1px solid black",
+          marginLeft: "1vw",
         }}
         className="tabs_holder"
         variant="scrollable"
