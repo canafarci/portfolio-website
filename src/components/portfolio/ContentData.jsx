@@ -415,7 +415,7 @@ export const contentData = [
   {
     category: ["mobile_games"],
     title: "House Flipper 3D",
-    date: "  February 2022",
+    date: "  March 2022",
     location: null,
     description: "House repair and renovation simulator",
     detailed_description:
@@ -439,8 +439,68 @@ export const contentData = [
     horizontalImages: true,
     webGLUrl: "https://itch.io/embed-upload/7937642?color=ededed",
     webgl_width: "500",
-    webgl_height: "875",
+    webgl_height: "870",
     github_link: "https://github.com/canafarci/HouseFlipper",
+    behance_link: null,
+  },
+  //!Popcorn
+  {
+    category: ["mobile_games"],
+    title: "Pop-it Popcorn ASMR",
+    date: "  November 2022",
+    location: null,
+    description: "Popcorn Themed Idle Clicker",
+    detailed_description:
+      "Player buys upgrades to cook popcorn faster, then sells them to earn money",
+    skills: "  Unity 3D, C#",
+    genre: "  Idle Clicker",
+    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
+    job_type: "  Prototype project developed for Game Theory Games",
+    image:
+      "https://img.itch.zone/aW1nLzEyMjEwNzM5LnBuZw==/315x250%23c/VTx9jK.png",
+    images: [
+      "https://img.itch.zone/aW1hZ2UvMjA3NTk2Ny8xMjIxMDc0OC5qcGc=/347x500/SvRaCk.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NTk2Ny8xMjIxMDc0OS5qcGc=/347x500/7dbLEt.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NTk2Ny8xMjIxMDc1MC5qcGc=/347x500/4IKXrW.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NTk2Ny8xMjIxMDc1MS5qcGc=/347x500/iddBd%2B.jpg",
+    ],
+    horizontalImages: true,
+    webGLUrl: "https://itch.io/embed-upload/7939293?color=ededed",
+    webgl_width: "500",
+    webgl_height: "870",
+    github_link: "https://github.com/canafarci/PopcornClicker",
+    behance_link: null,
+  },
+  //!Easter Egg
+  {
+    category: ["mobile_games"],
+    title: "Easter Egg Runner",
+    date: "  April 2022",
+    location: null,
+    description: "Easter themed forward stack runner",
+    detailed_description:
+      "Player stacks easter eggs in front of the screen, paints them, decorates them with stencils while avoiding obstacles \nand gives them to a girl who gifts them to the neighboring houses.",
+    skills: "  Unity 3D, C#",
+    genre: "  Runner",
+    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
+    job_type: "  Prototype project developed for Game Theory Games",
+    image:
+      "	https://img.itch.zone/aW1nLzEyMjExMDQ3LnBuZw==/315x250%23c/tr2v7f.png",
+    images: [
+      "https://img.itch.zone/aW1hZ2UvMjA3NjAxMi8xMjIxMTA3Ny5qcGc=/347x500/cGTg1Q.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NjAxMi8xMjIxMTA3OC5qcGc=/347x500/MDDi9t.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NjAxMi8xMjIxMTA4MC5qcGc=/347x500/kHAekF.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NjAxMi8xMjIxMTA4MS5qcGc=/347x500/Dobxvz.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NjAxMi8xMjIxMTA4My5qcGc=/347x500/0a70Rg.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NjAxMi8xMjIxMTA4NS5qcGc=/347x500/36LgXY.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NjAxMi8xMjIxMTA4NC5qcGc=/347x500/sYbFbr.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NjAxMi8xMjIxMTA4Mi5qcGc=/347x500/DxGWrn.jpg",
+    ],
+    horizontalImages: true,
+    webGLUrl: "https://itch.io/embed-upload/7939428?color=ededed",
+    webgl_width: "500",
+    webgl_height: "870",
+    github_link: "https://github.com/canafarci/EasterEggRunner",
     behance_link: null,
   },
 ];
