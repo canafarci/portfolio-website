@@ -73,11 +73,11 @@ export default function Portfolio() {
         ))}
       </div>
       <Dialog
+        className="fullHeight"
         open={open}
         onClose={handleClose}
         fullWidth
         maxWidth="md"
-        height="100%"
       >
         <DialogContent className="dialog_content">
           {/* Render the content of the selected item in the dialog */}
