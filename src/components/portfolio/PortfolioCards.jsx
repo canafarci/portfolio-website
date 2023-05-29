@@ -19,6 +19,7 @@ const PortfolioCards = ({ item, onCardClick }) => {
           height="180"
           image={item.image}
           title={item.title}
+          referrerPolicy="no-referrer"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">

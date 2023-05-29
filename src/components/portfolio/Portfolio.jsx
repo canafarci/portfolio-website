@@ -183,6 +183,7 @@ export default function Portfolio() {
                       src={image}
                       alt={`${selectedItem.title} ${index}`}
                       className="portfolio_image"
+                      referrerPolicy="no-referrer"
                     />
                   ))}
                 </div>
