@@ -79,7 +79,8 @@ export const contentData = [
     title: "Alya Park Orman",
     date: "  November 2020",
     location: "   Sarıyer // İstanbul",
-    description: "Residential Complex",
+    description:
+      "Façade and landscape design for a residential Complex in İstanbul",
     detailed_description:
       "Façade, landscape and interior design work with 3D renders",
     skills: "  3DS Max, Corona Renderer, Substance Painter, Photoshop, AutoCAD",
@@ -105,8 +106,7 @@ export const contentData = [
     title: "Municipal Offices Interior",
     date: "  September 2020",
     location: "   Şehitkamil  // Gaziantep",
-    description:
-      "Interior design project for a government office complex belonging to the Gaziantep Municipal Water Board.",
+    description: "Interior design project for a government office complex.",
     detailed_description:
       "interior design and furniture design work with 3D renders",
     skills: "  3DS Max, Corona Renderer, Substance Painter, Photoshop, AutoCAD",
@@ -872,7 +872,7 @@ export const contentData = [
     title: "Rubix Box",
     date: "  May 2021",
     location: null,
-    description: "Puzzle game inspired by logic toy Rubik's Cube",
+    description: "Puzzle game inspired by Rubik's Cube",
     detailed_description:
       "Player is given a 5x5 board with one empty square to move all of the other pieces. Goal is to match the central 3x3 area to the 3x3 pattern displayed above the playing area.",
     skills: "  Unity 3D, C#",

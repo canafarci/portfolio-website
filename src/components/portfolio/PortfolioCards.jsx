@@ -3,7 +3,6 @@ import Card from "@mui/material/Card";
 import CardActionArea from "@mui/material/CardActionArea";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
-import Typography from "@mui/material/Typography";
 
 const PortfolioCards = ({ item, onCardClick }) => {
   return (
@@ -16,18 +15,16 @@ const PortfolioCards = ({ item, onCardClick }) => {
         <CardMedia
           component="img"
           alt={item.title}
-          height="180"
+          height="240"
           image={item.image}
           title={item.title}
           referrerPolicy="no-referrer"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            {item.title}
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            {item.description}
-          </Typography>
+          <div className="card_text">
+            <h4>{item.title}</h4>
+            <p>{item.description}</p>
+          </div>
         </CardContent>
       </CardActionArea>
     </Card>

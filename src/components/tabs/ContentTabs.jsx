@@ -57,24 +57,24 @@ export default function ContentTabs() {
           onChange={handleChange}
           aria-label="Information Tabs"
         >
-          <Tab label="About" {...a11yProps(0)} />
-          <Tab label="Experience" {...a11yProps(1)} />
-          <Tab label="Skills" {...a11yProps(2)} />
-          <Tab label="Portfolio" {...a11yProps(3)} />
+          <Tab label="Portfolio" {...a11yProps(0)} />
+          <Tab label="About" {...a11yProps(1)} />
+          <Tab label="Experience" {...a11yProps(2)} />
+          <Tab label="Skills" {...a11yProps(3)} />
         </Tabs>
       </Box>
       <div className="tab_right">
         <TabPanel value={value} index={0}>
-          <About />
+          <Portfolio />
         </TabPanel>
         <TabPanel value={value} index={1}>
-          <Experience />
+          <About />
         </TabPanel>
         <TabPanel value={value} index={2}>
-          <Skills />
+          <Experience />
         </TabPanel>
         <TabPanel value={value} index={3}>
-          <Portfolio />
+          <Skills />
         </TabPanel>
       </div>
     </Box>
