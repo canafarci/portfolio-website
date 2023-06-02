@@ -15,6 +15,7 @@ function ItemDialog({ selectedItem }) {
               href={selectedItem.github_link}
               target="_blank"
               className="button"
+              rel="noreferrer"
             >
               <FaGithub size={40} className="icon" />
               <h4> Source Code</h4>
@@ -25,6 +26,7 @@ function ItemDialog({ selectedItem }) {
               href={selectedItem.google_play_link}
               target="_blank"
               className="button"
+              rel="noreferrer"
             >
               <FaGooglePlay size={40} className="icon" />
               <h4> Play Store</h4>
@@ -35,6 +37,7 @@ function ItemDialog({ selectedItem }) {
               href={selectedItem.behance_link}
               target="_blank"
               className="button"
+              rel="noreferrer"
             >
               <FaBehanceSquare size={40} className="icon" />
               <h4> Behance</h4>
@@ -82,6 +85,7 @@ function ItemDialog({ selectedItem }) {
             allowfullscreen="1"
             width={selectedItem.webgl_width}
             height={selectedItem.webgl_height}
+            title="webglplayer"
           ></iframe>
         </div>
       )}
@@ -93,6 +97,7 @@ function ItemDialog({ selectedItem }) {
             src={selectedItem.videoUrl}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
+            title="videoplayer"
           ></iframe>
         </div>
       )}

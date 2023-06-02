@@ -894,4 +894,33 @@ export const contentData = [
     github_link: "https://github.com/canafarci/RubixBox",
     behance_link: null,
   },
+  //!Slick Gammon
+  {
+    category: ["mobile_games"],
+    title: "Slick Gammon",
+    date: "  May 2021",
+    location: null,
+    description: "Multiplayer arcade game",
+    detailed_description:
+      "Two players compete to stack all of the pucks on the other player's side by throwing them to other side with a slingshot. The game has two modes, one for playing against an AI and another for local multiplayer. (In order to play offline multipler, a device with touch input is required, mouse clicks does not register in this build. You can try downloading the app from the play store.)",
+    skills: "  Unity 3D, C#",
+    genre: "  Multiplayer arcade game",
+    role: "  Programming, AI and Gameplay design, completed with the Flowtart Studios team",
+    job_type: "  Project developed for Diger Yapim",
+    image:
+      "https://play-lh.googleusercontent.com/MDDKo1f2o4bEgD-MYAEEto7mJoZe0jgmze4RYzzbKqZi7EhHqqfhEnD_TMkQPNH3fQ=w480-h960",
+    images: [
+      "https://img.itch.zone/aW1hZ2UvMjA5MzIwNC8xMjMxNDM5Mi5wbmc=/794x1000/T30Yo5.png",
+      "https://img.itch.zone/aW1hZ2UvMjA5MzIwNC8xMjMxNDM5NS5wbmc=/794x1000/NlClNx.png",
+      "https://img.itch.zone/aW1hZ2UvMjA5MzIwNC8xMjMxNDQwMi5wbmc=/794x1000/fDO8EI.png",
+      "https://img.itch.zone/aW1hZ2UvMjA5MzIwNC8xMjMxNDQwMS5wbmc=/794x1000/b2L9XP.png",
+    ],
+    horizontalImages: true,
+    webGLUrl: "https://itch.io/embed-upload/8008499?color=333333",
+    webgl_width: "500",
+    webgl_height: "870",
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.digeryapim.slickgammon",
+    behance_link: null,
+  },
 ];
