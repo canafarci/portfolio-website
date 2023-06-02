@@ -33,11 +33,10 @@ export default function Portfolio() {
     "All",
     "Mobile Games",
     "PC Games",
-    "Architectural Visualizations",
-    "Mobile Apps",
     "Architectural Designs",
-    "Other Design Work",
-    "Other Development Work",
+    "Academic Work",
+    "Mobile Apps",
+    "Other Work",
   ];
 
   const filteredContentData = contentData.filter(

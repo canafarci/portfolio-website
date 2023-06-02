@@ -1,7 +1,42 @@
 export const contentData = [
+  //!Tez
+  {
+    category: ["academic_work"],
+    title: "Global Sensitivity Analysis for Urban Heat Island Effect",
+    date: "August 2022",
+    location: "   Ankara // Turkey",
+    description: "Thesis written for MARCH degree",
+    detailed_description:
+      "As part of a European Union research programme with my university (BAP), my thesis focused on exploring the detrimental consequences of Urban Heat Islands (UHI) caused by rapid urbanization and inadequate government policies. UHI exacerbates resource consumption, environmental footprint, and poses risks to human health and comfort. I emphasized the need for new design and adaptation strategies in urban settlements to reduce energy consumption and environmental impact.\n\nTo investigate the thermal conditions under UHI effects, I utilized the Urban Weather Generator (UWG), a simulation package written in Python. This powerful tool allowed me to model and analyze the impact of various parameters on UHI intensity. The simulation incorporated geometric data created using Rhinoceros3D, a 3D modeling software, to accurately represent the urban environment.\n\nIn my research, I employed sensitivity analysis, a valuable method to measure the impact of input variables on the output. Sensitivity analysis helps identify the most influential parameters and understand their contributions to the overall UHI effect. It provides valuable insights for modeling, decision-making, and developing effective mitigation strategies.\n\nThrough global sensitivity analysis, I assessed UHI increase in a residential district in Ankara, Turkey, and identified the parameters that significantly contribute to UHI effects. By conducting simulations during average summer and winter weeks, I also explored the seasonal impact on UHI.\n\nThe findings of my thesis highlight the urgent need for sustainable urban development and offer valuable insights for mitigating the adverse effects of UHI.\n\nYou can also explore the source code of the project from the link on the upper right.",
+    skills: "  Python, Rhinoceros3D, Grasshopper",
+    genre: null,
+    job_type: "  Master's Thesis",
+    image:
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/140740152287837.631b2f94e7994.jpg",
+    github_link: "https://github.com/canafarci/Bap_Project",
+    pdf_link:
+      "https://drive.google.com/file/d/1rjUUK0w3BS7LreUYc7eU5_TxjX2J76oN/preview",
+  },
+  //!License works
+  {
+    category: ["academic_work"],
+    title: "Bachelor's Degree Works",
+    date: "  2014 - 2019",
+    location: "   Ankara // Turkey",
+    description: "Selected works from my Bachelor's studies",
+    detailed_description:
+      "This collection includes works for my studio and architectural history classes",
+    skills: "  Python, Rhinoceros3D, Grasshopper, Revit, Autocad",
+    genre: null,
+    job_type: "  Study Collection",
+    image:
+      "https://drive.google.com/uc?export=view&id=1WvSmlHecedD5QXGObuqoZZx1DJ-9HSAg",
+    pdf_link:
+      "https://drive.google.com/file/d/13wVPfTiS3bp1vrDdM1VVwg5uqLM85wWr/preview",
+  },
   //!Kemerburgaz
   {
-    category: ["architectural_visualizations", "architectural_designs"],
+    category: ["architectural_designs"],
     title: "Kemerburgaz Villas",
     date: "  September 2020",
     location: "   Kemerburgaz // İstanbul",
@@ -30,7 +65,7 @@ export const contentData = [
   },
   //!ERG
   {
-    category: ["architectural_visualizations", "architectural_designs"],
+    category: ["architectural_designs"],
     title: "ERG Headquarters",
     date: "  October 2020",
     location: "   Gölbaşı // Ankara",
@@ -54,7 +89,7 @@ export const contentData = [
   },
   //!Interior Study
   {
-    category: ["architectural_visualizations", "architectural_designs"],
+    category: ["architectural_designs"],
     title: "Interior Study",
     date: "  May 2020",
     location: null,
@@ -75,7 +110,7 @@ export const contentData = [
   },
   //!Alya Park
   {
-    category: ["architectural_visualizations", "architectural_designs"],
+    category: ["architectural_designs"],
     title: "Alya Park Orman",
     date: "  November 2020",
     location: "   Sarıyer // İstanbul",
@@ -102,7 +137,7 @@ export const contentData = [
   },
   //!Antep
   {
-    category: ["architectural_visualizations", "architectural_designs"],
+    category: ["architectural_designs"],
     title: "Municipal Offices Interior",
     date: "  September 2020",
     location: "   Şehitkamil  // Gaziantep",
@@ -134,7 +169,7 @@ export const contentData = [
   },
   //!Döşemealtı Villa
   {
-    category: ["architectural_visualizations", "architectural_designs"],
+    category: ["architectural_designs"],
     title: "Döşemealtı Villa",
     date: "  March 2021",
     location: "   Döşemealtı  // Antalya",
@@ -164,7 +199,7 @@ export const contentData = [
   },
   //!Devrek
   {
-    category: ["architectural_visualizations", "architectural_designs"],
+    category: ["architectural_designs"],
     title: "Community Housing",
     date: "  November  2021",
     location: "   Devrek  // Zonguldak",
@@ -189,7 +224,7 @@ export const contentData = [
   },
   //!Güzeloba
   {
-    category: ["architectural_visualizations", "architectural_designs"],
+    category: ["architectural_designs"],
     title: "Güzeloba Housing",
     date: "  April  2021",
     location: "   Güzeloba  // Antalya",
@@ -214,7 +249,7 @@ export const contentData = [
   },
   //!Başiskele
   {
-    category: ["architectural_visualizations", "architectural_designs"],
+    category: ["architectural_designs"],
     title: "Başiskele Hotel",
     date: "  January  2021",
     location: "   Başiskele  // Kocaeli",

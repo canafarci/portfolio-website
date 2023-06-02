@@ -54,7 +54,7 @@ function ItemDialog({ selectedItem }) {
         <p>{selectedItem.skills}</p>
       </div>
       <div className="row">
-        <h4>Job Type: </h4>
+        <h4>Work Type: </h4>
         <p>{selectedItem.job_type}</p>
       </div>
       {selectedItem.location && (
@@ -89,6 +89,15 @@ function ItemDialog({ selectedItem }) {
           ></iframe>
         </div>
       )}
+      {selectedItem.pdf_link && (
+        <div className="pdf_display">
+          <iframe
+            src={selectedItem.pdf_link}
+            width="100%"
+            height="600px"
+          ></iframe>
+        </div>
+      )}
       {selectedItem.videoUrl && (
         <div className="media">
           <iframe
@@ -114,7 +123,6 @@ function ItemDialog({ selectedItem }) {
           ))}
         </div>
       )}
-      {/* Render any other content you want to show in the dialog */}
     </>
   );
 }

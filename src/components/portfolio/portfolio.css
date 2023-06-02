@@ -78,6 +78,12 @@ p {
   flex-direction: row;
   justify-content: center;
 }
+.pdf_display {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-width: 2px;
+}
 .image-row {
   display: flex;
   flex-direction: row;
