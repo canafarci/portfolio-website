@@ -12,18 +12,19 @@ export const contentData = [
     genre: null,
     job_type: "  Master's Thesis",
     image:
-      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/140740152287837.631b2f94e7994.jpg",
+      "https://www.bachelorprint.eu/wp-content/uploads/2019/12/Standard-leather-binding-red-comparison.png",
     github_link: "https://github.com/canafarci/Bap_Project",
     pdf_link:
       "https://drive.google.com/file/d/1rjUUK0w3BS7LreUYc7eU5_TxjX2J76oN/preview",
   },
-  //!License works
+  //!License design works
   {
     category: ["academic_work"],
-    title: "Bachelor's Degree Works",
+    title: "Bachelor's Degree Design Works",
     date: "  2014 - 2019",
     location: "   Ankara // Turkey",
-    description: "Selected works from my Bachelor's studies",
+    skills: "  Python, Rhinoceros3D, Grasshopper",
+    description: "Selected design works from my Bachelor's studies",
     detailed_description:
       "This collection includes works for my studio and architectural history classes",
     skills: "  Python, Rhinoceros3D, Grasshopper, Revit, Autocad",
@@ -33,6 +34,40 @@ export const contentData = [
       "https://drive.google.com/uc?export=view&id=1WvSmlHecedD5QXGObuqoZZx1DJ-9HSAg",
     pdf_link:
       "https://drive.google.com/file/d/13wVPfTiS3bp1vrDdM1VVwg5uqLM85wWr/preview",
+  },
+  //!License AH works
+  {
+    category: ["academic_work"],
+    title: "Architectural History Researches",
+    date: "  2015 - 2019",
+    location: "   Ankara // Turkey",
+    description: "Selected Architectural History researches from my studies",
+    detailed_description:
+      "This collection includes architectural examination papers of of Aachen cathedral in Germany, Santiago del Compostela in Spain and a research paper titled 'Evolution of the State Mechanism and Transformation from City Temple to Palace Temple in Ancient Mesopotamia' \n\nFirst two works was part of the bachelor's studies, and the last work was done as a part of an Master's degree course in architectural history, which examined how cosmological patterns are used as design inspirations in medieval architecture.",
+    genre: null,
+    job_type: "  Study Collection",
+    image:
+      "https://drive.google.com/uc?export=view&id=1sIFKA6xI2bODoyx5EVJIpp0_J4dmqF8X",
+    pdf_link:
+      "https://drive.google.com/file/d/1GKva-cFVQjsJoc37s1BdD-fOtOpv3i84/preview",
+  },
+  //!RadianceGAN
+  {
+    category: ["academic_work"],
+    title: "Illumination Prediction AI",
+    skills: "  Tensorflow, Python, Rhinoceros3D, Grasshopper, Honeybee",
+    date: "  2020",
+    location: "   Ankara // Turkey",
+    description:
+      "Generative Adversarial Network AI for fast prediction of indoor illumination ",
+    detailed_description:
+      "This project utilizes TensorFlow and generative AI techniques to predict the indoor illumination condition of a conceptual plan drawing by analyzing color-coded architectural drawings mapped with daylighting simulation results. \n\nI developed this AI model as my potential thesis topic prior to joining the EU funded global warming research program which focused on urban heat islands, which ended up as my thesis topic.",
+    genre: null,
+    job_type: "  Study Collection",
+    image:
+      "https://drive.google.com/uc?export=view&id=1XByHvd4GHFVqfJmn0sA29GA1r4rfmBjl",
+    pdf_link:
+      "https://drive.google.com/file/d/1O6e-eDvBIPborOOtz04gcg8rMmiIt5CD/preview",
   },
   //!Kemerburgaz
   {

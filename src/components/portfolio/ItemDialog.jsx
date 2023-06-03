@@ -49,10 +49,12 @@ function ItemDialog({ selectedItem }) {
         <h4>Date: </h4>
         <p>{selectedItem.date}</p>
       </div>
-      <div className="row">
-        <h4>Skills: </h4>
-        <p>{selectedItem.skills}</p>
-      </div>
+      {selectedItem.skills && (
+        <div className="row">
+          <h4>Skills: </h4>
+          <p>{selectedItem.skills}</p>
+        </div>
+      )}
       <div className="row">
         <h4>Work Type: </h4>
         <p>{selectedItem.job_type}</p>
