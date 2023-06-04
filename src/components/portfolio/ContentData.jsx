@@ -54,7 +54,7 @@ export const contentData = [
   //!RadianceGAN
   {
     category: ["academic_work"],
-    title: "Illumination Prediction AI",
+    title: "Indoor Illumination Calculation AI",
     skills: "  Tensorflow, Python, Rhinoceros3D, Grasshopper, Honeybee",
     date: "  2020",
     location: "   Ankara // Turkey",
@@ -68,6 +68,25 @@ export const contentData = [
       "https://drive.google.com/uc?export=view&id=1XByHvd4GHFVqfJmn0sA29GA1r4rfmBjl",
     pdf_link:
       "https://drive.google.com/file/d/1O6e-eDvBIPborOOtz04gcg8rMmiIt5CD/preview",
+    github_link: "https://github.com/canafarci/MARCH_Repo",
+  },
+  //!Arch Date prediction
+  {
+    category: ["academic_work"],
+    title: "Architectural Date Prediction AI",
+    skills: "  Tensorflow, Python",
+    date: "  2020",
+    location: "   Ankara // Turkey",
+    description:
+      "Multiclass classification AI for predicting the construction date of an building. ",
+    detailed_description:
+      "This AI model utilizes Deep Learning multiclass image classification with Tensorflow backend and Keras API to correcty predict the date span which the work of architecture was constructed in. Date spans are not in equal length, rather they are classified in such a way that they give equal amount of attention to the various leaps in architectural design and construction technique changes. Dataset is composed of 3680 images, with 15 different date labels.",
+    genre: null,
+    job_type: "  Study Collection",
+    image:
+      "https://drive.google.com/uc?export=view&id=13NAIheXVOXoYf_EEJPutdgVRMmW0Erws",
+    pdf_link:
+      "https://drive.google.com/file/d/1yHt_2Mw_kAkW725McSCc1BRioEyrmKgv/preview",
   },
   //!Kemerburgaz
   {
