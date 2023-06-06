@@ -1,4 +1,31 @@
 export const contentData = [
+  //!ExpensTracker
+  {
+    category: ["mobile_apps"],
+    title: "Expense Tracker",
+    date: "June 2022",
+    location: "   Ankara // Turkey",
+    description: "Expense tracking app built in React Native",
+    detailed_description:
+      "A mobile app developed as a freelance project, this app utilizes Firebase user authentication by email/password login and uses realtime database to store recent expenses. User can see the expenses recorded in the past month, edit and delete them and has an option to check the full expense history",
+    skills: "  Javascript, React Native, Expo, Google Firebase, REST API",
+    genre: null,
+    job_type: "  Freelance project",
+    image:
+      "https://drive.google.com/uc?export=view&id=1BwPYxNFlQ0cPuYFlKpoUb5tHq8A8Ht79",
+    images: [
+      "https://drive.google.com/uc?export=view&id=1BwPYxNFlQ0cPuYFlKpoUb5tHq8A8Ht79",
+      "https://drive.google.com/uc?export=view&id=1x9SpuVrJnJ4mtlVPd1UP097RV-3JuQT-",
+      "https://drive.google.com/uc?export=view&id=1-kKNCGkIMxTsd7UXWTcS4dTOB8OtZzfL",
+      "https://drive.google.com/uc?export=view&id=1AKW6MlEhuOBQORXyWexr31JFm6iCnGRC",
+      "https://drive.google.com/uc?export=view&id=1-KAT_9za3Fv28xApTmWzoWeF0kVF3Hcl",
+      "https://drive.google.com/uc?export=view&id=1VA9hd-sjwVZXnlwcAUhd7C_hIdsjT_ap",
+      "https://drive.google.com/uc?export=view&id=1vM3hYwwURLnjwcAYfCsMSkOFlVyuNjwp",
+      "https://drive.google.com/uc?export=view&id=1XJhDBRMeWV_dBCvZo8SL0Shmg9FqL3oW",
+    ],
+    horizontalImages: true,
+    github_link: "https://github.com/canafarci/ExpenseTracker",
+  },
   //!Tez
   {
     category: ["academic_work"],
