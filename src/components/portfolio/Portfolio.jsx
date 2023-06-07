@@ -10,11 +10,13 @@ import "../../index.css";
 import "./portfolio.css";
 import "./portfoliocards.css";
 import ItemDialog from "./ItemDialog";
-
+import { useMediaQuery, useTheme } from "@material-ui/core";
 export default function Portfolio() {
   const [value, setValue] = React.useState(0);
   const [open, setOpen] = React.useState(false);
   const [selectedItem, setSelectedItem] = React.useState(null);
+  const theme = useTheme();
+  const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -45,18 +47,23 @@ export default function Portfolio() {
   );
 
   return (
-    <Box sx={{ width: "100%" }}>
+    <Box className="box_root">
       <Tabs
         value={value}
         onChange={handleChange}
         aria-label="Portfolio Tabs"
-        sx={{
-          borderBottom: "1px solid black",
-          marginLeft: "1vw",
-        }}
+        scrollButtons="auto"
         className="tabs_holder"
         variant="scrollable"
-        scrollButtons="auto"
+        indicatorColor="secondary"
+        sx={
+          isSmallScreen
+            ? {}
+            : {
+                borderBottom: "1px solid lightgray",
+                marginLeft: "1vw",
+              }
+        }
       >
         {tabs.map((tab, index) => (
           <Tab className="tab-item" key={index} label={tab} />
@@ -76,10 +83,16 @@ export default function Portfolio() {
         open={open}
         onClose={handleClose}
         fullWidth
-        maxWidth="md"
+        maxWidth={false}
+        fullScreen={isSmallScreen ? true : false}
       >
         <DialogContent className="dialog_content">
-          {selectedItem && <ItemDialog selectedItem={selectedItem} />}
+          {selectedItem && (
+            <ItemDialog
+              selectedItem={selectedItem}
+              onCloseClicked={() => setOpen(false)}
+            />
+          )}
         </DialogContent>
       </Dialog>
     </Box>

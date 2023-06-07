@@ -8,7 +8,7 @@ const PortfolioCards = ({ item, onCardClick }) => {
   return (
     <Card
       onClick={() => onCardClick(item)}
-      style={{ width: "300px", height: "300px", borderRadius: "1vw" }}
+      style={{ width: "300px", height: "300px", borderRadius: "20px" }}
       className="card_shadow"
     >
       <CardActionArea>

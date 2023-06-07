@@ -4,6 +4,7 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
+import { useMediaQuery, useTheme } from "@material-ui/core";
 import About from "../about/About";
 import Experience from "../Experience/Experience";
 import Skills from "../Skills/Skills";
@@ -15,11 +16,11 @@ function TabPanel(props) {
 
   return (
     <div
+      className="tabpanel_container"
       role="tabpanel"
       hidden={value !== index}
       id={`vertical-tabpanel-${index}`}
       aria-labelledby={`vertical-tab-${index}`}
-      className="tabpanel_container"
       {...other}
     >
       {value === index && <Box className="tab_right">{children}</Box>}
@@ -42,6 +43,8 @@ function a11yProps(index) {
 
 export default function ContentTabs() {
   const [value, setValue] = React.useState(0);
+  const theme = useTheme();
+  const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -51,11 +54,21 @@ export default function ContentTabs() {
     <Box className="tab_container">
       <Box className="tab_left">
         <Tabs
-          orientation="vertical"
+          orientation={isSmallScreen ? "horizontal" : "vertical"}
           variant="scrollable"
           value={value}
           onChange={handleChange}
           aria-label="Information Tabs"
+          scrollButtons="auto"
+          className="main_tabs"
+          sx={
+            isSmallScreen
+              ? {
+                  borderBottom: "1px solid lightgray",
+                  marginLeft: "1vw",
+                }
+              : {}
+          }
         >
           <Tab label="Portfolio" {...a11yProps(0)} />
           <Tab label="About" {...a11yProps(1)} />

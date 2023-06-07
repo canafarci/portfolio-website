@@ -1,17 +1,32 @@
 import React from "react";
+import DeleteIcon from "@mui/icons-material/Delete";
+import IconButton from "@mui/material/IconButton";
+
 import {
   FaGooglePlay,
   FaGithub,
   FaBehanceSquare,
   FaAppStoreIos,
+  FaArrowCircleLeft,
 } from "react-icons/fa";
 import "./itemdialog.css";
 
-function ItemDialog({ selectedItem }) {
+function ItemDialog({ selectedItem, onCloseClicked }) {
   return (
-    <>
+    <div className="item_container">
+      <div className="close_button">
+        <IconButton
+          disableRipple={true}
+          aria-label="delete"
+          className="close_button"
+          onClick={onCloseClicked}
+        >
+          <FaArrowCircleLeft size={20} className="close_icon" />
+          &nbsp; <span className="medium">close </span>
+        </IconButton>
+      </div>
+      <h2>{selectedItem.title}</h2>
       <div className="socials">
-        <h2>{selectedItem.title}</h2>
         <div className="social_links">
           {selectedItem.github_link && (
             <a
@@ -164,7 +179,7 @@ function ItemDialog({ selectedItem }) {
           ))}
         </div>
       )}
-    </>
+    </div>
   );
 }
 

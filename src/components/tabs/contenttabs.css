@@ -16,6 +16,10 @@
   flex: 1;
 }
 
+.tab-text {
+  text-orientation: sideways-right;
+}
+
 .tabpanel_container {
   display: flex;
 }
@@ -26,4 +30,20 @@
 
 .tabpanel_container > div > div {
   height: 100%;
+}
+.main_tabs .MuiTabs-indicator {
+  background-color: var(--color-secondary);
+}
+
+/* Small Size */
+@media screen and (max-width: 480px) {
+  .tab_left {
+    width: 100%;
+  }
+  .tab_container {
+    flex-direction: column;
+  }
+  .tab_right {
+    width: 100%;
+  }
 }

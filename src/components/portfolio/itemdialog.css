@@ -1,3 +1,33 @@
+.item_container {
+  flex: auto;
+  flex-direction: column;
+  width: 95%;
+  padding-right: 5%;
+}
+.close_button {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 0;
+  border-bottom: 1px;
+}
+.close_button .medium {
+  text-decoration: underline;
+}
+.close_button .MuiIconButton-root:hover {
+  background-color: transparent;
+  color: var(--color-secondary-variant);
+}
+.close_icon {
+  color: var(--color-secondary);
+}
+.socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
 .button {
   border-radius: 1rem;
   padding-left: 8px;
@@ -24,4 +54,42 @@
 }
 .descriptions {
   line-height: auto;
+}
+
+.item_container h2 {
+  margin: 0;
+  margin-top: 10px;
+}
+.image-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; /* or 'center' if you want them centered */
+}
+.image-row .portfolio_image {
+  width: 23%;
+  margin: 1%;
+}
+.image-row .double_image {
+  width: 47%;
+  margin: 1%;
+}
+.image-row .portfolio_video {
+  width: 47%;
+  margin: 1%;
+}
+/* Small Size */
+@media screen and (max-width: 480px) {
+  .image-row .portfolio_image {
+    width: 98%;
+    margin: 1%;
+  }
+  .image-row .double_image {
+    width: 98%;
+    margin: 1%;
+  }
+  .image-row .portfolio_video {
+    width: 98%;
+    margin: 1%;
+  }
 }
