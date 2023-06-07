@@ -1,5 +1,10 @@
 import React from "react";
-import { FaGooglePlay, FaGithub, FaBehanceSquare } from "react-icons/fa";
+import {
+  FaGooglePlay,
+  FaGithub,
+  FaBehanceSquare,
+  FaAppStoreIos,
+} from "react-icons/fa";
 import "./portfolio.css";
 import "./portfoliocards.css";
 
@@ -30,6 +35,17 @@ function ItemDialog({ selectedItem }) {
             >
               <FaGooglePlay size={40} className="icon" />
               <h4> Play Store</h4>
+            </a>
+          )}
+          {selectedItem.app_store_link && (
+            <a
+              href={selectedItem.app_store_link}
+              target="_blank"
+              className="button"
+              rel="noreferrer"
+            >
+              <FaAppStoreIos size={40} className="icon" />
+              <h4> App Store</h4>
             </a>
           )}
           {selectedItem.behance_link && (

@@ -30,6 +30,8 @@ export const contentData = [
     webGLUrl: null,
     google_play_link:
       "https://play.google.com/store/apps/details?id=com.soneraltincit.cityfightvsstreetgang&hl=en&gl=US",
+    app_store_link:
+      "https://apps.apple.com/us/app/city-fighter-vs-street-gang/id1380448783",
   },
   //!Hollow Ocean Video
   {
