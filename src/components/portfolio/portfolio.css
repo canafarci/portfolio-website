@@ -46,8 +46,8 @@ p {
 .row {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: flex-end;
 }
 .button {
   display: flex;
@@ -63,10 +63,12 @@ p {
 }
 .row h3 {
   font-size: 1.3rem;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 .row h4 {
   font-size: 1.2rem;
-  margin-bottom: 0;
+  margin-bottom: -1px;
   margin-top: 0;
 }
 .row p {
@@ -91,8 +93,16 @@ p {
   justify-content: space-around; /* or 'center' if you want them centered */
 }
 .image-row .portfolio_image {
-  width: 23%; /* slightly less than 25% to allow for margins/gaps */
-  margin: 1%; /* adjust as needed */
+  width: 23%;
+  margin: 1%;
+}
+.image-row .double_image {
+  width: 47%;
+  margin: 1%;
+}
+.image-row .portfolio_video {
+  width: 47%;
+  margin: 1%;
 }
 
 .social_links {

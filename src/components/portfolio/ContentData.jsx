@@ -1,9 +1,180 @@
 export const contentData = [
-  //!ExpensTracker
+  //!City Fighter
   {
-    category: ["mobile_apps"],
+    category: ["mobile_games"],
+    title: "City Fighter vs Street Gang",
+    date: "  September  2021 - March 2023",
+    description:
+      "Casual side scroller game with 10M+ downloads in Play store and 242K Ratings in App store",
+    detailed_description:
+      "Player progresses through levels in a classical implementation of side scroller genre in mobile devices.  \n\nThe game was initially released in 2018 and my role in the project started with our contract with Game Theory Games, and i worked on mainly improving the game and adding new features such as analytics and monetization. I have also worked on periodical events to create more engagement for the app.",
+    skills: "  C#, Unity, Photon Networking",
+    genre: null,
+    job_type: "  Feature development and Game maintenance in Unity",
+    role: "  Gameplay and UI programming , Multiplayer prototyping, Game maintenance as a part of Game Theory Games",
+    image:
+      "https://play-lh.googleusercontent.com/-qVtOWsgH0ftF1FIJ09Ce13rFn1zaBA_WVxRRBHyuvrG7alWLFA-nldU402Qm-T_Kg",
+    images: [
+      "https://play-lh.googleusercontent.com/M6F1PrZck8wn8JXoxu3acj60uqz347UfUMZplOklUaFBJDUZeiSbPCvtSfPZXFpTz7Q=w1052-h592",
+      "https://play-lh.googleusercontent.com/XojiPutZ3_a-NVVKaexEl7F6JXhVxz3yPCGa2C8DR-nqAVtAZ0Hz68FPjQSgg4gcdLc=w1052-h592",
+      "https://play-lh.googleusercontent.com/xTqdlVbukk_rizWhmlKV6_LD-VQj5msirJX2EL7tgK6QbZZRA21I81gKX89pAbf0DH-G=w1052-h592",
+      "https://play-lh.googleusercontent.com/7Uj82h_fiZ6S8eal0DDigRlLRyu4j2rH8ONu0EVc_6WSQcCsbErOO_XlEDEV-MMfCA=w1052-h592",
+      "https://play-lh.googleusercontent.com/KlqFVhZVpdtxwXoxyyJosDlQJTVmPT1Y-hU29JcCzSnOxxvURDMaIqQF1VGqVyerxJQ=w1052-h592",
+      "https://play-lh.googleusercontent.com/HQhgGr8HDZ73fd0H7uaNtlSeNnCkWQOEGBtIa-qjowDv4BLlplFUjQyQS-1wBM0QfU8=w1052-h592",
+      "https://play-lh.googleusercontent.com/AGnK9YODX2gipKInPONTCGSGfFZVIW_B_VM6QrtLILy94ZP921-CujeVexAXNS_tMKo=w1052-h592",
+      "https://play-lh.googleusercontent.com/hKwe9p6dQPMIQ7jF9T6uW-j_I5QDCwGKiJkT8kjMBEinyZUjiNkU6ZsC57ItUlNLwt8=w1052-h592",
+    ],
+    horizontalImages: true,
+    doubleImage: true,
+    videoUrl: "https://www.youtube.com/embed/5rl6OhGCbUg",
+    webGLUrl: null,
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.soneraltincit.cityfightvsstreetgang&hl=en&gl=US",
+  },
+  //!Hollow Ocean Video
+  {
+    category: ["other_work"],
+    title: "AI Generated Videos for 2020 Venice Biennale",
+    date: "  September  2020",
+    description: "Aimed for creating environmental awareness",
+    detailed_description:
+      "Hollow Ocean is an installation intended to provide a glimpse at potential future changes to maritime environments.\n\nThe ocean, in this project, has six chapters. Each chapter belongs to death. The first chapter, Plastic Ocean which looks at the material invasion of aquatic life with man-made synthetic polymers. Entering the food chain both as prey and predator, plastic simply kills. The second chapter, Dark Ocean looks at the darkest depths of the ocean floor, where humans are drilling for an equally dark substance called petroleum. The third chapter, Phantom Ocean reveals that as humans devoured shrimp stir fry, overfishing has devoured 90% of top predators and continues to kill in a hungry hunt for what our species calls seafood. The fourth chapter, Acid Ocean observes the complex and delicately balanced chemistry of the ocean, providing a salty womb that allows myriad creatures to proliferate. A minute change in acidity, however, can and will take billions of lives. The fifth chapter, Stifled Ocean sees oceans just like the land, both are rendered man-made, with a new temperature, new salinity, and new acidity lives dictated by anthropogenic forces, ocean life is stifled. The last chapter, Hollow Ocean is dedicated to global warming.",
+    skills: "  Tensorflow, Python",
+    genre: null,
+    job_type: "  Freelance Project",
+    role: "  Creating environmental awareness videos using Generative Adversarial Networks.",
+    image:
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4845f6152299431.631b57353de95.jpg",
+    images: [
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4845f6152299431.631b57353de95.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5d925f152299431.631b57353ee46.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c5c107152299431.631b57353e623.jpg",
+    ],
+    horizontalImages: true,
+    videos: [
+      "https://www-ccv.adobe.io/v1/player/ccv/Lo-RhPkirgZ/embed?api_key=behance1&bgcolor=%23191919",
+      "https://www-ccv.adobe.io/v1/player/ccv/TddXHDozVJq/embed?api_key=behance1&bgcolor=%23191919",
+      "https://www-ccv.adobe.io/v1/player/ccv/UBPBNsGEC5U/embed?api_key=behance1&bgcolor=%23191919",
+    ],
+    webGLUrl: null,
+    behance_link:
+      "https://www.behance.net/gallery/152299431/Hollow-Ocean-2048-for-Venice-Biennale",
+  },
+  //!Montana
+  {
+    category: ["other_work"],
+    title: "Montana NFT Video Collection",
+    date: "  April  2022",
+    description:
+      "Pseudo-random generation and After Effects video generation of an NFT project",
+    detailed_description:
+      "My part in the project was to create pseudo-random generation scripts for Adobe Photoshop to combine layers for specific rarities as per design document and generating the metadata for the blockchain network.",
+    skills: "  Javascript, Python, After Effects",
+    genre: null,
+    job_type: "  Freelance Project",
+    image:
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/43c99f152295771.631bc7ae9f68b.jpg",
+    images: [
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/43c99f152295771.631bc7ae9f68b.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e834e5152295771.631bc7ae9f15f.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3fc45b152295771.631bc7aea0651.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/33a8eb152295771.631bc7ae9d74d.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7fe754152295771.631bc7ae9dc8a.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/0f5351152295771.631bc7ae9c29d.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a14a5c152295771.631bc7ae9ccee.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c2b08e152295771.631bc7ae9b20f.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a5c3b6152295771.631bc7aea00fb.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8a3698152295771.631bc7ae9ec32.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/46c979152295771.631bc7ae9d22c.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1334ed152295771.631bc7ae9e1b9.jpg",
+    ],
+    horizontalImages: true,
+    videos: [
+      "https://www-ccv.adobe.io/v1/player/ccv/NiXq5JREIE2/embed?api_key=behance1&bgcolor=%23191919",
+      "https://www-ccv.adobe.io/v1/player/ccv/SfqjNzC7RcL/embed?api_key=behance1&bgcolor=%23191919",
+      "https://www-ccv.adobe.io/v1/player/ccv/3CR3fxf2ewW/embed?api_key=behance1&bgcolor=%23191919",
+      "https://www-ccv.adobe.io/v1/player/ccv/MH4sZAh-D-F/embed?api_key=behance1&bgcolor=%23191919",
+    ],
+    webGLUrl: null,
+    github_link: "https://github.com/canafarci/MontanaNFTGenerator",
+    behance_link:
+      "https://www.behance.net/gallery/152295771/Montana-NFT-Collection",
+  },
+  //!Turtle
+  {
+    category: ["other_work"],
+    title: "Turtlerz NFT Collection",
+    date: "  March  2022",
+    description:
+      "Pseudo-random generation and Photoshop combination of an NFT project",
+    detailed_description:
+      "My part in the project was to create pseudo-random generation scripts for Adobe Photoshop to combine layers for specific rarities as per design document and generating the metadata for the blockchain network.",
+    skills: "  Javascript, Python, Photoshop",
+    genre: null,
+    job_type: "  Freelance Project",
+    image:
+      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/0f944b152292647.631b4067acc82.jpg",
+    images: [
+      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/0f944b152292647.631b4067acc82.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/409799152292647.631b4067b1ef6.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/99db39152292647.631b4067b47c1.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/bfb2ba152292647.631b4067afa63.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/3a7009152292647.631b4067ad6e6.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/7f60a3152292647.631b4067b1642.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/3e7bc9152292647.631b4067ae295.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/6ddf34152292647.631b4067b27fd.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/c95f2d152292647.631b4067b544d.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/a59b26152292647.631b4067b334d.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/3c6866152292647.631b4067b0370.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/0cc113152292647.631b4067af0c3.jpg",
+    ],
+    horizontalImages: true,
+    videoUrl: null,
+    webGLUrl: null,
+    github_link:
+      "https://github.com/canafarci/TurtleNFTGenerator/blob/master/turtleGeneratorl.jsx",
+    behance_link:
+      "https://www.behance.net/gallery/152292647/Turtlerz-NFT-Collection",
+  },
+  //!Train
+  {
+    category: ["mobile_games"],
+    title: "My Train Station!",
+    date: "  November 2022",
+    location: null,
+    description: "Train station management Idle-Arcade",
+    detailed_description:
+      "In this game, player emulates an train station manager. Player accepts new passengers into the train station, stores their luggage if they have one, and finally makes them get into the train. Player can also give drinks to waiting passangers for extra income, and has to repair the train when it returns broken.\n\nThe player can buy upgrades to automate passenger acception process by hiring an npc, can buy other npcs to automatically distribute drinks to the waiting passengers and store passanger luggages. Player can also buy new trains and add new wagons to the trains to be able to serve more customers. Player can also expand the passanger waiting zone by buying new seating areas.",
+    skills: "  Unity 3D, C#",
+    genre: "  Idle-Arcade",
+    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
+    job_type: "  Prototype project developed for Game Theory Games",
+    image:
+      "https://lh3.googleusercontent.com/WKG4H1vH5Nb9QllkCv6XIDo5iW2W-6A2gfhjmX-gjdh_9COK1BJzbPd3dauSwmw5HMA",
+    images: [
+      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODIyOC5qcGc=/794x1000/Q3gocu.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODI0MS5qcGc=/794x1000/91ed4m.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODIzOS5qcGc=/794x1000/f16YYJ.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODIzNC5qcGc=/794x1000/pzlLcR.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODIzMi5qcGc=/794x1000/lNSD%2Fr.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODIzNi5qcGc=/794x1000/5IUT%2B1.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODI0Mi5qcGc=/794x1000/JOMF2d.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODI0MC5qcGc=/794x1000/%2BfbpD4.jpg",
+    ],
+    horizontalImages: true,
+    webGLUrl: "https://itch.io/embed-upload/8061466?color=333333",
+    webgl_width: "500",
+    webgl_height: "870",
+    github_link: "https://github.com/canafarci/TrainStation",
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.flowtart.mytrainidlearcade",
+    behance_link: null,
+  },
+  //!Expense Tracker
+  {
+    category: ["other_work"],
     title: "Expense Tracker",
-    date: "June 2022",
+    date: "   June 2022",
     location: "   Ankara // Turkey",
     description: "Expense tracking app built in React Native",
     detailed_description:
@@ -687,7 +858,6 @@ export const contentData = [
       "https://play-lh.googleusercontent.com/hGO9esJlRENJa2OfhaCYKn8x2Af5UEqIDML1yVr8EmK2JWGmo_0JdyH6RBDxYJfXHA=w2560-h1440-rw",
     ],
     horizontalImages: true,
-    webGLUrl: "https://itch.io/embed-upload/7943529?color=ededed",
     webgl_width: "500",
     webgl_height: "870",
     github_link: "https://github.com/canafarci/GearAndRopes",

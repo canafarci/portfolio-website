@@ -68,7 +68,7 @@ function ItemDialog({ selectedItem }) {
       {selectedItem.role && (
         <div className="row">
           <h4>Role: </h4>
-          <p>{selectedItem.role}</p>
+          <p> {selectedItem.role}</p>
         </div>
       )}
       {selectedItem.genre && (
@@ -112,6 +112,20 @@ function ItemDialog({ selectedItem }) {
           ></iframe>
         </div>
       )}
+      {selectedItem.videos && (
+        <div className="image-row">
+          {selectedItem.videos.map((video, index) => (
+            <iframe
+              height={300}
+              src={video}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              title="videoplayer"
+              className="portfolio_video"
+            ></iframe>
+          ))}
+        </div>
+      )}
       {selectedItem.images && (
         <div className={selectedItem.horizontalImages ? "image-row" : ""}>
           {selectedItem.images.map((image, index) => (
@@ -119,7 +133,9 @@ function ItemDialog({ selectedItem }) {
               key={index}
               src={image}
               alt={`${selectedItem.title} ${index}`}
-              className="portfolio_image"
+              className={
+                selectedItem.doubleImage ? "double_image" : "portfolio_image"
+              }
               referrerPolicy="no-referrer"
             />
           ))}

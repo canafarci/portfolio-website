@@ -35,7 +35,6 @@ export default function Portfolio() {
     "PC Games",
     "Architectural Designs",
     "Academic Work",
-    "Mobile Apps",
     "Other Work",
   ];
 
