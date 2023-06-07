@@ -6,13 +6,13 @@ const HeaderSocials = () => {
   return (
     <div className="header__socials">
       <a href="https://github.com/canafarci" target="_blank">
-        <FaGithub size={40} className="icon" />
+        <FaGithub size={30} className="icon" />
       </a>
       <a href="https://www.linkedin.com/in/berkecakir/" target="_blank">
-        <FaLinkedin size={40} className="icon" />
+        <FaLinkedin size={30} className="icon" />
       </a>
       <a href="https://www.behance.net/berkecakir" target="_blank">
-        <FaBehanceSquare size={40} className="icon" />
+        <FaBehanceSquare size={30} className="icon" />
       </a>
     </div>
   );

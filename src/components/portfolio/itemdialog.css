@@ -1,0 +1,27 @@
+.button {
+  border-radius: 1rem;
+  padding-left: 8px;
+  padding-right: 3px;
+  height: 35px;
+  border-radius: 20px;
+}
+
+.button h4 {
+  font-size: medium;
+}
+
+.button .icon {
+  color: var(--color-primary);
+}
+
+.bold {
+  font-weight: 500;
+  font-size: larger;
+}
+
+.medium {
+  font-size: medium;
+}
+.descriptions {
+  line-height: auto;
+}

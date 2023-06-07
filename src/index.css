@@ -1,12 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100;200;300;400;500&display=swap");
 
 :root {
-  --color-bg: #1f1f38;
-  --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
-  --color-white: #f1f0f0;
-  --color-light: rgba(255, 255, 255, 0.6);
+  --color-bg: #8b919c;
+  --color-bg-variant: #abb1bc;
+  --color-primary: #f56300;
+  --color-primary-variant: #ff8400;
+  --color-primary-pale: #f9d8b5;
+  --color-secondary: #0066cc;
+  --color-secondary-variant: #2887e5;
+  --color-white: #eeeeee;
+  --color-black: #111111;
+  --color-dark-gray: #424245;
+  --color-gray: #ебебе6;
+  --color-light: #f5f5f7;
 
   --transition: all 400ms ease;
 
@@ -26,9 +32,8 @@ html {
 body {
   font-family: "Saira Semi Condensed", sans-serif;
   background: var(--color-white);
-  color: var(--color-bg);
-  line-height: 1.7;
-  font-size: 16px; /* added font size for better mobile readability */
+  color: var(--color-dark-gray);
+  font-size: 16px;
 }
 
 /* General Styles */
@@ -43,7 +48,7 @@ h5 {
 
 h1 {
   font-size: 3rem;
-  margin-top: 0; /* remove margin for mobile */
+  margin-top: 0;
 }
 
 h3 {
@@ -59,16 +64,18 @@ h5 {
 }
 
 .text-light {
-  color: var(--color-bg-variant);
+  color: var(--color-gray);
 }
 
 a {
   color: var(--color-primary);
   transition: var(--transition);
+  text-decoration: none;
 }
 
 a:hover {
-  color: var(--color-bg);
+  color: var(--color-primary-variant);
+  text-decoration: underline;
 }
 
 .btn {
@@ -76,7 +83,7 @@ a:hover {
   display: inline-block;
   color: var(--color-primary);
   padding: 0.25rem 0.5rem;
-  border-radius: 0.4rem;
+  border-radius: 1rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);
   transition: var(--transition);
@@ -84,14 +91,19 @@ a:hover {
 }
 
 .btn:hover {
-  background: var(--color-white);
-  color: var(--color-bg);
+  color: var(--color-primary-variant);
+  border-color: var(--color-primary-pale);
+}
+.btn-primary:hover {
+  background: var(--color-secondary-variant);
+  color: var(--color-white);
   border-color: transparent;
 }
 
 .btn-primary {
-  background: var(--color-primary);
-  color: var(--color-bg);
+  background: var(--color-secondary);
+  color: var(--color-white);
+  border: 1px solid var(--color-secondary);
 }
 
 img {

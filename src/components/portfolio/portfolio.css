@@ -27,9 +27,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
-p {
-  white-space: pre-wrap;
-}
+
 .portfolio_image {
   margin-top: 5px;
   border-radius: 10px;

@@ -12,10 +12,6 @@ const Header = () => {
         <h3 className="text-light">Developer // Designer</h3>
         <CTA />
         <HeaderSocials />
-
-        <a href="#contact" className="scroll__down">
-          Scroll Down
-        </a>
       </div>
       <div className="pfimage">
         <img src={pfpic} alt="pfimage" />

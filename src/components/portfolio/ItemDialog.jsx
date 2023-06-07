@@ -5,11 +5,9 @@ import {
   FaBehanceSquare,
   FaAppStoreIos,
 } from "react-icons/fa";
-import "./portfolio.css";
-import "./portfoliocards.css";
+import "./itemdialog.css";
 
 function ItemDialog({ selectedItem }) {
-  console.log("asd");
   return (
     <>
       <div className="socials">
@@ -22,7 +20,7 @@ function ItemDialog({ selectedItem }) {
               className="button"
               rel="noreferrer"
             >
-              <FaGithub size={40} className="icon" />
+              <FaGithub size={25} className="icon" />
               <h4> Source Code</h4>
             </a>
           )}
@@ -33,7 +31,7 @@ function ItemDialog({ selectedItem }) {
               className="button"
               rel="noreferrer"
             >
-              <FaGooglePlay size={40} className="icon" />
+              <FaGooglePlay size={25} className="icon" />
               <h4> Play Store</h4>
             </a>
           )}
@@ -44,7 +42,7 @@ function ItemDialog({ selectedItem }) {
               className="button"
               rel="noreferrer"
             >
-              <FaAppStoreIos size={40} className="icon" />
+              <FaAppStoreIos size={25} className="icon" />
               <h4> App Store</h4>
             </a>
           )}
@@ -55,46 +53,54 @@ function ItemDialog({ selectedItem }) {
               className="button"
               rel="noreferrer"
             >
-              <FaBehanceSquare size={40} className="icon" />
+              <FaBehanceSquare size={25} className="icon" />
               <h4> Behance</h4>
             </a>
           )}
         </div>
       </div>
-      <div className="row">
-        <h4>Date: </h4>
-        <p>{selectedItem.date}</p>
+      <div>
+        <span className="bold">Date: </span>
+        {"  "}
+        <span className="medium"> {selectedItem.date}</span>
       </div>
       {selectedItem.skills && (
-        <div className="row">
-          <h4>Skills: </h4>
-          <p>{selectedItem.skills}</p>
+        <div>
+          <span className="bold">Skills: </span>
+          {"  "}
+          <span className="medium"> {selectedItem.skills}</span>
         </div>
       )}
-      <div className="row">
-        <h4>Work Type: </h4>
-        <p>{selectedItem.job_type}</p>
+      <div>
+        <span className="bold">Work Type: </span>
+        {"  "}
+        <span className="medium"> {selectedItem.job_type}</span>
       </div>
       {selectedItem.location && (
-        <div className="row">
-          <h4>Location: </h4>
-          <p>{selectedItem.location}</p>
+        <div>
+          <span className="bold">Location: </span>
+          {"  "}
+          <span className="medium"> {selectedItem.location}</span>
         </div>
       )}
       {selectedItem.role && (
-        <div className="row">
-          <h4>Role: </h4>
-          <p> {selectedItem.role}</p>
+        <div>
+          <span className="bold">Role: </span>
+          {"  "}
+          <span className="medium"> {selectedItem.role}</span>
         </div>
       )}
       {selectedItem.genre && (
-        <div className="row">
-          <h4>Genre: </h4>
-          <p>{selectedItem.genre}</p>
+        <div>
+          <span className="bold">Genre: </span>
+          {"  "}
+          <span className="medium"> {selectedItem.genre}</span>
         </div>
       )}
-      <p>{selectedItem.description}</p>
-      <p>{selectedItem.detailed_description}</p>
+      <div className="descriptions">
+        <p>{selectedItem.description}</p>
+        <p>{selectedItem.detailed_description}</p>
+      </div>
       {selectedItem.webGLUrl && (
         <div className="media">
           <iframe
@@ -113,6 +119,7 @@ function ItemDialog({ selectedItem }) {
             src={selectedItem.pdf_link}
             width="100%"
             height="600px"
+            title="pdfDisplay"
           ></iframe>
         </div>
       )}

@@ -7,7 +7,7 @@ export const contentData = [
     description:
       "Casual side scroller game with 10M+ downloads in Play store and 242K Ratings in App store",
     detailed_description:
-      "Player progresses through levels in a classical implementation of side scroller genre in mobile devices.  \n\nThe game was initially released in 2018 and my role in the project started with our contract with Game Theory Games, and i worked on mainly improving the game and adding new features such as analytics and monetization. I have also worked on periodical events to create more engagement for the app.",
+      "Player progresses through levels in a classical implementation of side scroller genre in mobile devices.  \n\nMy role in the project started with our contract with Game Theory Games, and i worked mainly on  improving the game and adding new features such as analytics and monetization. I have also worked on periodical events to create more engagement for the app and also led the development of an multiplayer version of this game.",
     skills: "  C#, Unity, Photon Networking",
     genre: null,
     job_type: "  Feature development and Game maintenance in Unity",

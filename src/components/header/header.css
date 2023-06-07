@@ -18,7 +18,6 @@ header {
   border-radius: 25vh;
   overflow: hidden;
   margin-left: 1rem;
-  background-color: aqua;
   display: flex;
   align-items: center;
   justify-content: left;
@@ -51,7 +50,10 @@ header {
 }
 
 .icon {
-  color: rgba(77, 181, 255, 0.4);
+  color: var(--color-secondary-variant);
+}
+.icon:hover {
+  color: var(--color-secondary);
 }
 .scroll__down {
   font-weight: 300;
