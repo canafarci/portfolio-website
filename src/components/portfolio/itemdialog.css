@@ -1,8 +1,9 @@
 .item_container {
   flex: auto;
   flex-direction: column;
-  width: 95%;
-  padding-right: 5%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 .close_button {
   display: flex;
@@ -12,11 +13,11 @@
   border-bottom: 1px;
 }
 .close_button .medium {
-  text-decoration: underline;
+  text-decoration: dashed;
 }
 .close_button .MuiIconButton-root:hover {
   background-color: transparent;
-  color: var(--color-secondary-variant);
+  color: var(--color-primary-variant);
 }
 .close_icon {
   color: var(--color-secondary);

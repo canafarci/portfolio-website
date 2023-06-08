@@ -77,9 +77,9 @@
   flex-direction: row;
   gap: 10px;
 }
-.dialog_content {
+.dialog_content .MuiDialog-paper {
   height: 100%;
-  width: 95%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;

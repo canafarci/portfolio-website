@@ -283,7 +283,7 @@ export const contentData = [
     job_type: "  Passion project",
     role: "  Gameplay and UI programming and general development",
     image:
-      "https://drive.google.com/uc?export=view&id=1ghqvYk513TP25P_fblk742z0JiILiECM",
+      "https://drive.google.com/uc?export=view&id=1Li0HLe29hzqwAZcxVvjQyzZQq3nMx24M",
     horizontalImages: true,
     doubleImage: true,
     webGLUrl: "https://itch.io/embed-upload/8072398?color=333333",
