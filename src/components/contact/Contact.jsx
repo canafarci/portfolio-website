@@ -22,7 +22,7 @@ const Contact = () => {
         <div className="vl"> </div>
         <div className="box">
           <a href={mailtoHref} className="btn">
-            Send an Email to me
+            Send a mail to me!
           </a>
         </div>
       </div>

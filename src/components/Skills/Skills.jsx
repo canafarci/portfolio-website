@@ -3,49 +3,29 @@ import "./skills.css";
 import { Grid } from "@material-ui/core";
 
 const Skills = () => {
-  const programmingLanguages = [
-    { name: "C#", proficiency: 90 },
-    { name: "C++", proficiency: 75 },
-    { name: "Python", proficiency: 90 },
-    { name: "Javascript", proficiency: 65 },
-  ];
-  const gameEngines = [
-    { name: "Unity Engine", proficiency: 95 },
-    { name: "Unreal Engine", proficiency: 75 },
-  ];
+  const programmingLanguages = ["C#", "C++", "Python", "Javascript"];
+
+  const gameEngines = ["Unity Engine", "Unreal Engine"];
 
   const designSkills = [
-    { name: "3DS Max", proficiency: 95 },
-    { name: "Adobe Photoshop", proficiency: 95 },
-    { name: "Corona Renderer", proficiency: 93 },
-    { name: "Rhinoceros 3D", proficiency: 75 },
-    { name: "Substance Painter", proficiency: 75 },
+    "3DS Max",
+    "Adobe Photoshop",
+    "Corona Renderer",
+    "Rhinoceros 3D",
+    "Substance Painter",
   ];
 
-  const frameworks = [
-    { name: "React", proficiency: 65 },
-    { name: "React-Native", proficiency: 75 },
-    { name: "Angular.js", proficiency: 50 },
-  ];
-  const languageSkills = [
-    { name: "Turkish", proficiency: 100 },
-    { name: "English", proficiency: 95 },
-    { name: "Spanish", proficiency: 50 },
-  ];
+  const frameworks = ["React", "React-Native", "Angular.js"];
+
+  const languageSkills = ["Turkish", "English", "Spanish"];
 
   const renderSkillGrid = (skills) => {
     return (
       <Grid container spacing={1}>
         {skills.map((skill) => (
-          <Grid item xs={12} sm={6} md={4} key={skill.name}>
+          <Grid item xs={12} sm={6} md={4} key={skill}>
             <div className="skill">
-              <div className="skill-name">{skill.name}</div>
-              <div className="skill-bar">
-                <div
-                  className="skill-bar-filled"
-                  style={{ width: `${skill.proficiency}%` }}
-                ></div>
-              </div>
+              <p>{skill}</p>
             </div>
           </Grid>
         ))}
