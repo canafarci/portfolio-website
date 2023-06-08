@@ -1,6 +1,6 @@
 import React from "react";
-import DeleteIcon from "@mui/icons-material/Delete";
 import IconButton from "@mui/material/IconButton";
+import { createBrowserHistory } from "history";
 
 import {
   FaGooglePlay,
@@ -12,6 +12,10 @@ import {
 import "./itemdialog.css";
 
 function ItemDialog({ selectedItem, onCloseClicked }) {
+  const history = createBrowserHistory();
+  history.push("/");
+  window.onpopstate = onCloseClicked;
+
   return (
     <div className="item_container">
       <div className="close_button">
