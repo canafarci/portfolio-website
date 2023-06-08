@@ -75,7 +75,8 @@ a {
 }
 p {
   text-align: justify;
-  margin: 7px;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 i {
   text-align: justify;

@@ -81,6 +81,20 @@ export const contentData = [
     behance_link:
       "https://www.behance.net/gallery/152299431/Hollow-Ocean-2048-for-Venice-Biennale",
   },
+  //!port website
+  {
+    category: ["other_work"],
+    title: "Portfolio Website",
+    date: "  June  2022",
+    description: "A website for showcasing my work collection",
+    detailed_description: "This website was developed by me using React",
+    skills: "  Javascript, React, Photoshop",
+    genre: null,
+    job_type: "  Personal Project",
+    image:
+      "https://drive.google.com/uc?export=view&id=11ZhOOgXVh-ywOQZSNZ7bGjJH7A4n29Ir",
+    github_link: "https://github.com/canafarci/portfolio-website",
+  },
   //!Montana
   {
     category: ["other_work"],
