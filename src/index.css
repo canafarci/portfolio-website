@@ -57,6 +57,7 @@ h3 {
 
 h4 {
   font-size: 1.15rem;
+  margin-bottom: 10px;
 }
 
 h5 {
@@ -71,6 +72,14 @@ a {
   color: var(--color-primary);
   transition: var(--transition);
   text-decoration: none;
+}
+p {
+  text-align: justify;
+  margin: 7px;
+}
+i {
+  text-align: justify;
+  margin: 7px;
 }
 
 a:hover {
@@ -130,7 +139,7 @@ img {
     font-size: 2rem;
   }
   h3 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
   .container {
     width: var(--container-width-sm);

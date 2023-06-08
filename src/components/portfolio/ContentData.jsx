@@ -275,7 +275,7 @@ export const contentData = [
     category: ["pc_games"],
     title: "ARPG Project",
     date: "  March 2020  ",
-    description: "ARPG prototype",
+    description: "Action role playing game prototype",
     detailed_description:
       "This project was developed when i was starting my Game Development journey. This game has core combat mechanics and Inventory system implementation.",
     skills: "  C#, Unity",

@@ -9,7 +9,8 @@ const PortfolioCards = ({ item, onCardClick }) => {
     <Card
       onClick={() => onCardClick(item)}
       style={{ width: "300px", height: "300px", borderRadius: "20px" }}
-      className="card_shadow"
+      variant="outlined"
+      className="portfolio_card"
     >
       <CardActionArea>
         <CardMedia

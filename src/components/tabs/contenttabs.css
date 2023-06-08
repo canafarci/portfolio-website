@@ -36,6 +36,9 @@
 .main_tabs .MuiTabs-indicator {
   background-color: var(--color-secondary);
 }
+.main_tabs .MuiTab-root.Mui-selected {
+  color: var(--color-secondary);
+}
 
 /* Small Size */
 @media screen and (max-width: 480px) {

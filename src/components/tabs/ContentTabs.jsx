@@ -60,7 +60,6 @@ export default function ContentTabs() {
           onChange={handleChange}
           aria-label="Information Tabs"
           scrollButtons="auto"
-          className="main_tabs"
           sx={
             isSmallScreen
               ? {
@@ -69,6 +68,7 @@ export default function ContentTabs() {
                 }
               : {}
           }
+          className="main_tabs"
         >
           <Tab label="Portfolio" {...a11yProps(0)} />
           <Tab label="About" {...a11yProps(1)} />
