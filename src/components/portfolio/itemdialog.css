@@ -5,12 +5,24 @@
   justify-content: center;
   align-items: center;
 }
+.top_text {
+  margin-bottom: 7px;
+}
+.item_container h2 {
+  font-family: "Cairo", sans-serif;
+  font-size: xx-large;
+  line-height: 40px;
+}
 .close_button {
   display: flex;
   margin: 0;
   padding: 0;
   gap: 0;
   border-bottom: 1px;
+}
+
+.close_button .MuiButtonBase-root {
+  padding: 0px;
 }
 .close_button .medium {
   text-decoration: dashed;
@@ -23,6 +35,7 @@
   color: var(--color-secondary);
 }
 .socials {
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -30,11 +43,12 @@
   margin-bottom: 20px;
 }
 .button {
-  border-radius: 1rem;
-  padding-left: 8px;
-  padding-right: 3px;
+  display: flex;
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-right: 5px;
   height: 35px;
-  border-radius: 20px;
+  margin-bottom: 0;
 }
 
 .button:hover {
@@ -43,21 +57,33 @@
 
 .button h4 {
   font-size: medium;
+  text-align: center;
+  margin-bottom: 0px;
+  margin: 0;
 }
 
 .button .icon {
   color: var(--color-primary);
 }
 
-.bold {
-  font-weight: 500;
-  font-size: larger;
+.item_container p {
+  margin: 0;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.top_text .bold {
+  font-family: "Cairo", sans-serif;
+  font-size: large;
+  font-weight: bold;
+  line-height: 1px;
 }
 
 .medium {
   font-size: medium;
 }
 .descriptions {
+  margin-top: 20px;
   line-height: auto;
 }
 
@@ -69,7 +95,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around; /* or 'center' if you want them centered */
+  justify-content: space-around;
 }
 .image-row .portfolio_image {
   width: 23%;
@@ -88,7 +114,7 @@
   align-items: center;
 }
 /* Small Size */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .image-row .portfolio_image {
     width: 98%;
     margin: 1%;
@@ -100,5 +126,8 @@
   .image-row .portfolio_video {
     width: 98%;
     margin: 1%;
+  }
+  .descriptions {
+    margin-top: 40px;
   }
 }

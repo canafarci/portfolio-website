@@ -78,42 +78,42 @@ function ItemDialog({ selectedItem, onCloseClicked }) {
           )}
         </div>
       </div>
-      <div>
+      <div className="top_text">
         <span className="bold">Date: </span>
         {"  "}
-        <span className="medium"> {selectedItem.date}</span>
+        <span className="p"> {selectedItem.date}</span>
       </div>
       {selectedItem.skills && (
-        <div>
+        <div className="top_text">
           <span className="bold">Skills: </span>
           {"  "}
-          <span className="medium"> {selectedItem.skills}</span>
+          <span className="p"> {selectedItem.skills}</span>
         </div>
       )}
-      <div>
+      <div className="top_text">
         <span className="bold">Work Type: </span>
         {"  "}
-        <span className="medium"> {selectedItem.job_type}</span>
+        <span className="p"> {selectedItem.job_type}</span>
       </div>
       {selectedItem.location && (
-        <div>
+        <div className="top_text">
           <span className="bold">Location: </span>
           {"  "}
-          <span className="medium"> {selectedItem.location}</span>
+          <span className="p"> {selectedItem.location}</span>
         </div>
       )}
       {selectedItem.role && (
-        <div>
+        <div className="top_text">
           <span className="bold">Role: </span>
           {"  "}
-          <span className="medium"> {selectedItem.role}</span>
+          <span className="p"> {selectedItem.role}</span>
         </div>
       )}
       {selectedItem.genre && (
-        <div>
+        <div className="top_text">
           <span className="bold">Genre: </span>
           {"  "}
-          <span className="medium"> {selectedItem.genre}</span>
+          <span className="p"> {selectedItem.genre}</span>
         </div>
       )}
       <div className="descriptions">

@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100;200;300;400;500&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap");
 :root {
   --color-bg: #8b919c;
   --color-bg-variant: #abb1bc;
@@ -119,34 +119,4 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
-}
-
-/* Media Queries */
-
-/* Medium Size */
-@media screen and (max-width: 768px) {
-  h1 {
-    font-size: 2.5rem;
-  }
-  h3 {
-    font-size: 1.3rem;
-  }
-}
-
-/* Small Size */
-@media screen and (max-width: 480px) {
-  h1 {
-    font-size: 2rem;
-  }
-  h3 {
-    font-size: 1.3rem;
-  }
-  .container {
-    width: var(--container-width-sm);
-    padding: 0 10px; /* reduce padding for smaller screens */
-  }
-  .btn {
-    font-size: 14px;
-    padding: 0.2rem 0.4rem; /* reduce padding for smaller buttons */
-  }
 }
