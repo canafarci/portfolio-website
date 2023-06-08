@@ -36,6 +36,10 @@
   border-radius: 20px;
 }
 
+.button:hover {
+  border-color: var(--color-primary-pale);
+}
+
 .button h4 {
   font-size: medium;
 }
@@ -77,6 +81,10 @@
 .image-row .portfolio_video {
   width: 47%;
   margin: 1%;
+}
+.media {
+  justify-content: center;
+  align-items: center;
 }
 /* Small Size */
 @media screen and (max-width: 480px) {

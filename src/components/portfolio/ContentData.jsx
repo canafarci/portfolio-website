@@ -33,6 +33,25 @@ export const contentData = [
     app_store_link:
       "https://apps.apple.com/us/app/city-fighter-vs-street-gang/id1380448783",
   },
+  //!Hollow Ocean Game
+  {
+    category: ["pc_games"],
+    title: "Hollow Ocean Interactive",
+    date: "  August 2020  ",
+    description: "Interactive experience for building pollution awareness",
+    detailed_description:
+      "As a part of UC San Diego's Art department professor Pinar Yoldas's Studiolab Yoldas, this interactive experience preceded the 2020 Architecture biennale presentation. It showcases the human impact on the ocean by interacting with 6 layers of damage caused by the humans.",
+    skills: "  C#, Unity",
+    genre: null,
+    job_type: "  Development and maintenance",
+    role: "  Gameplay and UI programming, game maintenance as a part of Studiolab Yoldas",
+    image:
+      "https://drive.google.com/uc?export=view&id=1OpPCceZS7FWnM99Ri-o3qHj5Ia5xSnom",
+    horizontalImages: true,
+    doubleImage: true,
+    videoUrl: "https://www.youtube.com/embed/uSWx1r0df4A",
+    webGLUrl: null,
+  },
   //!Hollow Ocean Video
   {
     category: ["other_work"],
@@ -250,6 +269,27 @@ export const contentData = [
       "https://drive.google.com/uc?export=view&id=1sIFKA6xI2bODoyx5EVJIpp0_J4dmqF8X",
     pdf_link:
       "https://drive.google.com/file/d/1GKva-cFVQjsJoc37s1BdD-fOtOpv3i84/preview",
+  },
+  //!RPG Unity Game
+  {
+    category: ["pc_games"],
+    title: "ARPG Project",
+    date: "  March 2020  ",
+    description: "ARPG prototype",
+    detailed_description:
+      "This project was developed when i was starting my Game Development journey. This game has core combat mechanics and Inventory system implementation.",
+    skills: "  C#, Unity",
+    genre: null,
+    job_type: "  Passion project",
+    role: "  Gameplay and UI programming and general development",
+    image:
+      "https://drive.google.com/uc?export=view&id=1ghqvYk513TP25P_fblk742z0JiILiECM",
+    horizontalImages: true,
+    doubleImage: true,
+    webGLUrl: "https://itch.io/embed-upload/8072398?color=333333",
+    webgl_height: 500,
+    webgl_width: 850,
+    github_link: "https://github.com/canafarci/ARPG-Repository",
   },
   //!RadianceGAN
   {
