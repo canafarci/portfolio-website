@@ -660,6 +660,25 @@ export const contentData = [
     github_link: null,
     behance_link: "https://www.behance.net/gallery/152287153/ERG-Headquarters",
   },
+  //!RadianceGAN
+  {
+    category: ["academic_work"],
+    title: "Indoor Illumination Calculation AI",
+    skills: "  Tensorflow, Python, Rhinoceros3D, Grasshopper, Honeybee",
+    date: "  2020",
+    location: "   Ankara // Turkey",
+    description:
+      "Generative Adversarial Network AI for fast prediction of indoor illumination ",
+    detailed_description:
+      "This project utilizes TensorFlow and generative AI techniques to predict the indoor illumination condition of a conceptual plan drawing by analyzing color-coded architectural drawings mapped with daylighting simulation results. \n\nI developed this AI model as my potential thesis topic prior to joining the EU funded global warming research program which focused on urban heat islands, which ended up as my thesis topic.",
+    genre: null,
+    job_type: "  Study Collection",
+    image:
+      "https://i.ibb.co/V2yyhkq/uc-export-view-id-1-XBy-Hvd4-GHFVqf-Jmn0s-A29-GA1r4rfm-Bjl.png",
+    pdf_link:
+      "https://drive.google.com/file/d/1O6e-eDvBIPborOOtz04gcg8rMmiIt5CD/preview",
+    github_link: "https://github.com/canafarci/MARCH_Repo",
+  },
   //!Interior Study
   {
     category: ["architectural_designs"],
