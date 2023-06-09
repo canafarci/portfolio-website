@@ -8,7 +8,7 @@ const PortfolioCards = ({ item, onCardClick }) => {
   return (
     <Card
       onClick={() => onCardClick(item)}
-      style={{ width: "300px", height: "300px", borderRadius: "20px" }}
+      style={{ width: "300px", height: "305px", borderRadius: "20px" }}
       variant="outlined"
       className="portfolio_card"
     >

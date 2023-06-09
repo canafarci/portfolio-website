@@ -128,10 +128,10 @@ export const contentData = [
   {
     category: ["pc_games"],
     title: "Hollow Ocean Interactive",
-    date: "  August 2020  ",
+    date: "  August 2021  ",
     description: "Interactive experience for creating pollution awareness",
     detailed_description:
-      "As a part of UC San Diego's Art department professor Pinar Yoldas's Studiolab Yoldas, this interactive experience preceded the 2020 Architecture biennale presentation. It showcases the human impact on the ocean by interacting with 6 layers of damage caused by the humans.",
+      "As a part of UC San Diego's Art department professor Pinar Yoldas's Studiolab Yoldas, this interactive experience preceded the 2021 Architecture Biennale presentation. It showcases the human impact on the ocean by interacting with 6 layers of damage caused by the humans.",
     skills: "  C#, Unity",
     genre: null,
     job_type: "  Development and maintenance",
@@ -167,11 +167,30 @@ export const contentData = [
     github_link: "https://github.com/canafarci/DrunkenWizard",
     behance_link: null,
   },
+  //!RadianceGAN
+  {
+    category: ["academic_work"],
+    title: "Indoor Illumination Calculation AI",
+    skills: "  Tensorflow, Python, Rhinoceros3D, Grasshopper, Honeybee",
+    date: "  2020",
+    location: "   Ankara // Turkey",
+    description:
+      "Generative Adversarial Network AI for fast prediction of indoor illumination ",
+    detailed_description:
+      "This project utilizes TensorFlow and generative AI techniques to predict the indoor illumination condition of a conceptual plan drawing by analyzing color-coded architectural drawings mapped with daylighting simulation results. \n\nI developed this AI model as my potential thesis topic prior to joining the EU funded global warming research program which focused on urban heat islands, which ended up as my thesis topic.",
+    genre: null,
+    job_type: "  Study Collection",
+    image:
+      "https://i.ibb.co/V2yyhkq/uc-export-view-id-1-XBy-Hvd4-GHFVqf-Jmn0s-A29-GA1r4rfm-Bjl.png",
+    pdf_link:
+      "https://drive.google.com/file/d/1O6e-eDvBIPborOOtz04gcg8rMmiIt5CD/preview",
+    github_link: "https://github.com/canafarci/MARCH_Repo",
+  },
   //!Hollow Ocean Video
   {
     category: ["other_work"],
-    title: "AI Generated Videos for 2020 Venice Biennale",
-    date: "  September  2020",
+    title: "AI Generated Videos for 2021 Venice Biennale",
+    date: "  September  2021",
     description: "Aimed for creating environmental awareness",
     detailed_description:
       "Hollow Ocean is an installation intended to provide a glimpse at potential future changes to maritime environments.\n\nThe ocean, in this project, has six chapters. Each chapter belongs to death. The first chapter, Plastic Ocean which looks at the material invasion of aquatic life with man-made synthetic polymers. Entering the food chain both as prey and predator, plastic simply kills. The second chapter, Dark Ocean looks at the darkest depths of the ocean floor, where humans are drilling for an equally dark substance called petroleum. The third chapter, Phantom Ocean reveals that as humans devoured shrimp stir fry, overfishing has devoured 90% of top predators and continues to kill in a hungry hunt for what our species calls seafood. The fourth chapter, Acid Ocean observes the complex and delicately balanced chemistry of the ocean, providing a salty womb that allows myriad creatures to proliferate. A minute change in acidity, however, can and will take billions of lives. The fifth chapter, Stifled Ocean sees oceans just like the land, both are rendered man-made, with a new temperature, new salinity, and new acidity lives dictated by anthropogenic forces, ocean life is stifled. The last chapter, Hollow Ocean is dedicated to global warming.",
@@ -195,6 +214,24 @@ export const contentData = [
     webGLUrl: null,
     behance_link:
       "https://www.behance.net/gallery/152299431/Hollow-Ocean-2048-for-Venice-Biennale",
+  },
+  //!Arch Date prediction
+  {
+    category: ["academic_work"],
+    title: "Architectural Date Prediction AI",
+    skills: "  Tensorflow, Python",
+    date: "  2020",
+    location: "   Ankara // Turkey",
+    description:
+      "Multiclass classification AI for predicting the construction date of an building. ",
+    detailed_description:
+      "This AI model utilizes Deep Learning multiclass image classification with Tensorflow backend and Keras API to correcty predict the date span which the work of architecture was constructed in. Date spans are not in equal length, rather they are classified in such a way that they give equal amount of attention to the various leaps in architectural design and construction technique changes. Dataset is composed of 3680 images, with 15 different date labels.",
+    genre: null,
+    job_type: "  Study Collection",
+    image:
+      "https://i.ibb.co/Qn1Fhy0/uc-export-view-id-13-NAIhe-XVOXo-Yf-EEJPutdg-VRMm-W0-Erws.jpg",
+    pdf_link:
+      "https://drive.google.com/file/d/1yHt_2Mw_kAkW725McSCc1BRioEyrmKgv/preview",
   },
   //!House Flipper 3D
   {
@@ -242,8 +279,7 @@ export const contentData = [
     skills: "  Python, Rhinoceros3D, Grasshopper",
     genre: null,
     job_type: "  Master's Thesis",
-    image:
-      "https://www.bachelorprint.eu/wp-content/uploads/2019/12/Standard-leather-binding-red-comparison.png",
+    image: "https://i.ibb.co/b7LGznr/Screenshot-2023-06-09-at-20-41-36.png",
     github_link: "https://github.com/canafarci/Bap_Project",
     pdf_link:
       "https://drive.google.com/file/d/1rjUUK0w3BS7LreUYc7eU5_TxjX2J76oN/preview",
@@ -618,24 +654,6 @@ export const contentData = [
     webgl_width: 850,
     github_link: "https://github.com/canafarci/ARPG-Repository",
   },
-  //!Arch Date prediction
-  {
-    category: ["academic_work"],
-    title: "Architectural Date Prediction AI",
-    skills: "  Tensorflow, Python",
-    date: "  2020",
-    location: "   Ankara // Turkey",
-    description:
-      "Multiclass classification AI for predicting the construction date of an building. ",
-    detailed_description:
-      "This AI model utilizes Deep Learning multiclass image classification with Tensorflow backend and Keras API to correcty predict the date span which the work of architecture was constructed in. Date spans are not in equal length, rather they are classified in such a way that they give equal amount of attention to the various leaps in architectural design and construction technique changes. Dataset is composed of 3680 images, with 15 different date labels.",
-    genre: null,
-    job_type: "  Study Collection",
-    image:
-      "https://i.ibb.co/Qn1Fhy0/uc-export-view-id-13-NAIhe-XVOXo-Yf-EEJPutdg-VRMm-W0-Erws.jpg",
-    pdf_link:
-      "https://drive.google.com/file/d/1yHt_2Mw_kAkW725McSCc1BRioEyrmKgv/preview",
-  },
   //!ERG
   {
     category: ["architectural_designs"],
@@ -659,25 +677,6 @@ export const contentData = [
     webGLUrl: null,
     github_link: null,
     behance_link: "https://www.behance.net/gallery/152287153/ERG-Headquarters",
-  },
-  //!RadianceGAN
-  {
-    category: ["academic_work"],
-    title: "Indoor Illumination Calculation AI",
-    skills: "  Tensorflow, Python, Rhinoceros3D, Grasshopper, Honeybee",
-    date: "  2020",
-    location: "   Ankara // Turkey",
-    description:
-      "Generative Adversarial Network AI for fast prediction of indoor illumination ",
-    detailed_description:
-      "This project utilizes TensorFlow and generative AI techniques to predict the indoor illumination condition of a conceptual plan drawing by analyzing color-coded architectural drawings mapped with daylighting simulation results. \n\nI developed this AI model as my potential thesis topic prior to joining the EU funded global warming research program which focused on urban heat islands, which ended up as my thesis topic.",
-    genre: null,
-    job_type: "  Study Collection",
-    image:
-      "https://i.ibb.co/V2yyhkq/uc-export-view-id-1-XBy-Hvd4-GHFVqf-Jmn0s-A29-GA1r4rfm-Bjl.png",
-    pdf_link:
-      "https://drive.google.com/file/d/1O6e-eDvBIPborOOtz04gcg8rMmiIt5CD/preview",
-    github_link: "https://github.com/canafarci/MARCH_Repo",
   },
   //!Interior Study
   {
@@ -1060,7 +1059,7 @@ export const contentData = [
       "https://play.google.com/store/apps/details?id=com.flowtart.deadlymotoracer",
     behance_link: null,
   },
-  //!NFT
+  //!NFT game
   {
     category: ["mobile_games"],
     title: "Non Fungible Game",
