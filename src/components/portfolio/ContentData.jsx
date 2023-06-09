@@ -45,8 +45,7 @@ export const contentData = [
     genre: null,
     job_type: "  Development and maintenance",
     role: "  Gameplay and UI programming, game maintenance as a part of Studiolab Yoldas",
-    image:
-      "https://drive.google.com/uc?export=view&id=1OpPCceZS7FWnM99Ri-o3qHj5Ia5xSnom",
+    image: "https://i.ibb.co/rbr5Nm2/Screenshot-2023-06-08-at-18-25-39.png",
     horizontalImages: true,
     doubleImage: true,
     videoUrl: "https://www.youtube.com/embed/uSWx1r0df4A",
@@ -91,8 +90,7 @@ export const contentData = [
     skills: "  Javascript, React, Photoshop",
     genre: null,
     job_type: "  Personal Project",
-    image:
-      "https://drive.google.com/uc?export=view&id=11ZhOOgXVh-ywOQZSNZ7bGjJH7A4n29Ir",
+    image: "https://i.ibb.co/jbYPDd5/Screenshot-2023-06-09-at-01-30-23.png",
     github_link: "https://github.com/canafarci/portfolio-website",
   },
   //!Montana
@@ -217,17 +215,16 @@ export const contentData = [
     skills: "  Javascript, React Native, Expo, Google Firebase, REST API",
     genre: null,
     job_type: "  Freelance project",
-    image:
-      "https://drive.google.com/uc?export=view&id=1BwPYxNFlQ0cPuYFlKpoUb5tHq8A8Ht79",
+    image: "https://i.ibb.co/QJ6pLWB/1-1.jpg",
     images: [
-      "https://drive.google.com/uc?export=view&id=1BwPYxNFlQ0cPuYFlKpoUb5tHq8A8Ht79",
-      "https://drive.google.com/uc?export=view&id=1x9SpuVrJnJ4mtlVPd1UP097RV-3JuQT-",
-      "https://drive.google.com/uc?export=view&id=1-kKNCGkIMxTsd7UXWTcS4dTOB8OtZzfL",
-      "https://drive.google.com/uc?export=view&id=1AKW6MlEhuOBQORXyWexr31JFm6iCnGRC",
-      "https://drive.google.com/uc?export=view&id=1-KAT_9za3Fv28xApTmWzoWeF0kVF3Hcl",
-      "https://drive.google.com/uc?export=view&id=1VA9hd-sjwVZXnlwcAUhd7C_hIdsjT_ap",
-      "https://drive.google.com/uc?export=view&id=1vM3hYwwURLnjwcAYfCsMSkOFlVyuNjwp",
-      "https://drive.google.com/uc?export=view&id=1XJhDBRMeWV_dBCvZo8SL0Shmg9FqL3oW",
+      "https://i.ibb.co/QJ6pLWB/1-1.jpg",
+      "https://i.ibb.co/xjpbbvp/uc-export-view-id-1x9-Spu-Vr-Jn-J4mtl-VPd1-UP097-RV-3-Ju-QT.jpg",
+      "https://i.ibb.co/DQ9GnBY/uc-export-view-id-1-k-KNCGk-IMx-Tsd7-UXWTc-S4d-TOB8-Ot-Zzf-L.jpg",
+      "https://i.ibb.co/Z6DsCNq/1-3.jpg",
+      "https://i.ibb.co/gvVFppj/1-4.jpg",
+      "https://i.ibb.co/2ZMxFtD/uc-export-view-id-1-VA9hd-sjw-VZXnlwc-AUhd7-C-h-Idsj-T-ap.jpg",
+      "https://i.ibb.co/Z2PGcGk/uc-export-view-id-1v-M3h-Yww-URLnjwc-AYf-Cs-MSk-OFl-Vyu-Njwp.jpg",
+      "https://i.ibb.co/gvVFppj/1-4.jpg",
     ],
     horizontalImages: true,
     github_link: "https://github.com/canafarci/ExpenseTracker",
@@ -256,7 +253,6 @@ export const contentData = [
     title: "Bachelor's Degree Design Works",
     date: "  2014 - 2019",
     location: "   Ankara // Turkey",
-    skills: "  Python, Rhinoceros3D, Grasshopper",
     description: "Selected design works from my Bachelor's studies",
     detailed_description:
       "This collection includes works for my studio and architectural history classes",
@@ -264,7 +260,7 @@ export const contentData = [
     genre: null,
     job_type: "  Study Collection",
     image:
-      "https://drive.google.com/uc?export=view&id=1WvSmlHecedD5QXGObuqoZZx1DJ-9HSAg",
+      "https://i.ibb.co/ScHYVyw/uc-export-view-id-1-Wv-Sml-Heced-D5-QXGObuqo-ZZx1-DJ-9-HSAg.png",
     pdf_link:
       "https://drive.google.com/file/d/13wVPfTiS3bp1vrDdM1VVwg5uqLM85wWr/preview",
   },
@@ -280,7 +276,7 @@ export const contentData = [
     genre: null,
     job_type: "  Study Collection",
     image:
-      "https://drive.google.com/uc?export=view&id=1sIFKA6xI2bODoyx5EVJIpp0_J4dmqF8X",
+      "https://i.ibb.co/B6XTR83/uc-export-view-id-1s-IFKA6x-I2b-ODoyx5-EVJIpp0-J4dmq-F8-X.png",
     pdf_link:
       "https://drive.google.com/file/d/1GKva-cFVQjsJoc37s1BdD-fOtOpv3i84/preview",
   },
@@ -296,8 +292,7 @@ export const contentData = [
     genre: null,
     job_type: "  Passion project",
     role: "  Gameplay and UI programming and general development",
-    image:
-      "https://drive.google.com/uc?export=view&id=1Li0HLe29hzqwAZcxVvjQyzZQq3nMx24M",
+    image: "https://i.ibb.co/V9Yzpt9/Screenshot-2023-06-08-at-20-47-10.png",
     horizontalImages: true,
     doubleImage: true,
     webGLUrl: "https://itch.io/embed-upload/8072398?color=333333",
@@ -319,7 +314,7 @@ export const contentData = [
     genre: null,
     job_type: "  Study Collection",
     image:
-      "https://drive.google.com/uc?export=view&id=1XByHvd4GHFVqfJmn0sA29GA1r4rfmBjl",
+      "https://i.ibb.co/V2yyhkq/uc-export-view-id-1-XBy-Hvd4-GHFVqf-Jmn0s-A29-GA1r4rfm-Bjl.png",
     pdf_link:
       "https://drive.google.com/file/d/1O6e-eDvBIPborOOtz04gcg8rMmiIt5CD/preview",
     github_link: "https://github.com/canafarci/MARCH_Repo",
@@ -338,7 +333,7 @@ export const contentData = [
     genre: null,
     job_type: "  Study Collection",
     image:
-      "https://drive.google.com/uc?export=view&id=13NAIheXVOXoYf_EEJPutdgVRMmW0Erws",
+      "https://i.ibb.co/Qn1Fhy0/uc-export-view-id-13-NAIhe-XVOXo-Yf-EEJPutdg-VRMm-W0-Erws.jpg",
     pdf_link:
       "https://drive.google.com/file/d/1yHt_2Mw_kAkW725McSCc1BRioEyrmKgv/preview",
   },
@@ -622,7 +617,7 @@ export const contentData = [
     image:
       "https://img.itch.zone/aW1nLzEyMTg1MTY5LnBuZw==/315x250%23c/6cytVJ.png",
     images: [
-      "https://drive.google.com/uc?export=view&id=1nlYRdpCHujFoPClAdIXg76X5rayTJBdv",
+      "https://i.ibb.co/YtbQGwR/uc-export-view-id-1nl-YRdp-CHuj-Fo-PCl-Ad-IXg76-X5ray-TJBdv.jpg",
     ],
     videoUrl: "https://www.youtube.com/embed/v0I0KCClqKY",
     webGLUrl: "https://itch.io/embed-upload/7922490?color=ededed",
@@ -740,12 +735,12 @@ export const contentData = [
     role: "  Programming, Gameplay and Level design, completed with the Flowtart Studios team",
     job_type: "  Prototype project developed for Game Theory Games",
     image:
-      "https://drive.google.com/uc?export=view&id=1_aIUOMMzDZ71OP09gtC1BcunyBnAZF9x",
+      "https://i.ibb.co/4SK5HKT/uc-export-view-id-1-a-IUOMMz-DZ71-OP09gt-C1-Bcuny-Bn-AZF9x.png",
     images: [
-      "https://drive.google.com/uc?export=view&id=17k2u1yaPnMDUeoYWKP0yq_8KuLnRlqYh",
-      "https://drive.google.com/uc?export=view&id=12ir4JtXFXnTbaKXj64nk0y2YDz8h9L36",
-      "https://drive.google.com/uc?export=view&id=1KEvTxuG-bv3_s3zN4krjq8UvAdSZDSrk",
-      "https://drive.google.com/uc?export=view&id=1qsesPNGdsw9UvlY6YuufNhEpJbBtHbRP",
+      "https://i.ibb.co/pbZqXTy/uc-export-view-id-17k2u1ya-Pn-MDUeo-YWKP0yq-8-Ku-Ln-Rlq-Yh.jpg",
+      "https://i.ibb.co/SXWRbzB/uc-export-view-id-12ir4-Jt-XFXn-Tba-KXj64nk0y2-YDz8h9-L36.jpg",
+      "https://i.ibb.co/dJfq4BW/uc-export-view-id-1-KEv-Txu-G-bv3-s3z-N4krjq8-Uv-Ad-SZDSrk.jpg",
+      "https://i.ibb.co/2knHg0t/uc-export-view-id-1qses-PNGdsw9-Uvl-Y6-Yuuf-Nh-Ep-Jb-Bt-Hb-RP.jpg",
     ],
     horizontalImages: true,
     webGLUrl: "https://itch.io/embed-upload/7937385?color=ededed",
@@ -770,7 +765,7 @@ export const contentData = [
     role: "  Programming, Gameplay and Architectural design, completed with the Flowtart Studios team",
     job_type: "  Prototype project developed for Game Theory Games",
     image:
-      "https://drive.google.com/uc?export=view&id=1rATsIm69_NCYDJu8WRKC-3rcQmY8RAzn",
+      "https://i.ibb.co/GTNz9fk/uc-export-view-id-1r-ATs-Im69-NCYDJu8-WRKC-3rc-Qm-Y8-RAzn.png",
     images: [
       "https://img.itch.zone/aW1hZ2UvMjA3NTU4NC8xMjIwODIwNS5qcGc=/original/Vd7DSZ.jpg",
       "https://img.itch.zone/aW1hZ2UvMjA3NTU4NC8xMjIwODIwNy5qcGc=/original/IBLo3y.jpg",

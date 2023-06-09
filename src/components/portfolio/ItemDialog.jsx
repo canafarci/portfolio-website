@@ -172,6 +172,7 @@ function ItemDialog({ selectedItem, onCloseClicked }) {
         <div className={selectedItem.horizontalImages ? "image-row" : ""}>
           {selectedItem.images.map((image, index) => (
             <img
+              loading="lazy"
               key={index}
               src={image}
               alt={`${selectedItem.title} ${index}`}

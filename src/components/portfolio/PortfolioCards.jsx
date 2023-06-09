@@ -14,6 +14,7 @@ const PortfolioCards = ({ item, onCardClick }) => {
     >
       <CardActionArea>
         <CardMedia
+          loading="lazy"
           component="img"
           alt={item.title}
           height="240"
