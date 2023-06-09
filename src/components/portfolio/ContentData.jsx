@@ -33,12 +33,103 @@ export const contentData = [
     app_store_link:
       "https://apps.apple.com/us/app/city-fighter-vs-street-gang/id1380448783",
   },
+  //!Kemerburgaz
+  {
+    category: ["architectural_designs"],
+    title: "Kemerburgaz Villas",
+    date: "  September 2020",
+    location: "   Kemerburgaz // İstanbul",
+    description: "Housing project in Kemerburgaz/İstanbul",
+    detailed_description:
+      "Façade, landscape and interior design work with 3D renders",
+    skills: "  3DS Max, Corona Renderer, Substance Painter, Photoshop, AutoCAD",
+    genre: null,
+    job_type: "  Freelance Project",
+    image:
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/140740152287837.631b2f94e7994.jpg",
+    images: [
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/140740152287837.631b2f94e7994.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/e56a9f152287837.631b2f94e9508.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/dd025d152287837.631b2f94e8b7c.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/291b80152287837.631b2f94e67a1.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/ca7858152287837.631b2f94e70b1.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/860819152287837.631b2f94e82d2.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/69844f152287837.631b2f94e5e0f.jpg",
+    ],
+    videoUrl: null,
+    webGLUrl: null,
+    github_link: null,
+    behance_link:
+      "https://www.behance.net/gallery/152287837/Kemerburgaz-Villas",
+  },
+  //!Train
+  {
+    category: ["mobile_games"],
+    title: "My Train Station!",
+    date: "  November 2022",
+    location: null,
+    description: "Train station management Idle-Arcade",
+    detailed_description:
+      "In this game, player emulates an train station manager. Player accepts new passengers into the train station, stores their luggage if they have one, and finally makes them get into the train. Player can also give drinks to waiting passangers for extra income, and has to repair the train when it returns broken.\n\nThe player can buy upgrades to automate passenger acception process by hiring an npc, can buy other npcs to automatically distribute drinks to the waiting passengers and store passanger luggages. Player can also buy new trains and add new wagons to the trains to be able to serve more customers. Player can also expand the passanger waiting zone by buying new seating areas.",
+    skills: "  Unity 3D, C#",
+    genre: "  Idle-Arcade",
+    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
+    job_type: "  Prototype project developed for Game Theory Games",
+    image:
+      "https://lh3.googleusercontent.com/WKG4H1vH5Nb9QllkCv6XIDo5iW2W-6A2gfhjmX-gjdh_9COK1BJzbPd3dauSwmw5HMA",
+    images: [
+      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODIyOC5qcGc=/794x1000/Q3gocu.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODI0MS5qcGc=/794x1000/91ed4m.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODIzOS5qcGc=/794x1000/f16YYJ.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODIzNC5qcGc=/794x1000/pzlLcR.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODIzMi5qcGc=/794x1000/lNSD%2Fr.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODIzNi5qcGc=/794x1000/5IUT%2B1.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODI0Mi5qcGc=/794x1000/JOMF2d.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODI0MC5qcGc=/794x1000/%2BfbpD4.jpg",
+    ],
+    horizontalImages: true,
+    webGLUrl: "https://itch.io/embed-upload/8061466?color=333333",
+    webgl_width: "500",
+    webgl_height: "870",
+    github_link: "https://github.com/canafarci/TrainStation",
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.flowtart.mytrainidlearcade",
+    behance_link: null,
+  },
+  //!NYT
+  {
+    category: ["mobile_games"],
+    title: "My Yellow Taxi Co.",
+    date: "  October 2022 (Version 1) April 2023 (Version 2)",
+    location: null,
+    description: "Idle-Arcade mobile game with a taxi theme",
+    detailed_description:
+      "Start from the ground up in this fun and fast-paced time-management game where the aim is to build a taxi station. \nShow your skills as a manager, invest wisely in staff and cars and work to become the best.",
+    skills: "  Unity 3D, C#",
+    genre: "  Idle-Arcade",
+    role: "  Programming, Gameplay Design, UI Design, completed with the Flowtart Studios team",
+    job_type:
+      "  Prototype project initially developed for Game Theory Games and later revised with Ketchapp games",
+    image:
+      "https://img.itch.zone/aW1nLzEyMTg1MTY5LnBuZw==/315x250%23c/6cytVJ.png",
+    images: [
+      "https://i.ibb.co/YtbQGwR/uc-export-view-id-1nl-YRdp-CHuj-Fo-PCl-Ad-IXg76-X5ray-TJBdv.jpg",
+    ],
+    videoUrl: "https://www.youtube.com/embed/v0I0KCClqKY",
+    webGLUrl: "https://itch.io/embed-upload/7922490?color=ededed",
+    webgl_width: "540",
+    webgl_height: "900",
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.flowtart.taxicompany",
+    github_link: "https://github.com/canafarci/MyYellowTaxiCo",
+    behance_link: null,
+  },
   //!Hollow Ocean Game
   {
     category: ["pc_games"],
     title: "Hollow Ocean Interactive",
     date: "  August 2020  ",
-    description: "Interactive experience for building pollution awareness",
+    description: "Interactive experience for creating pollution awareness",
     detailed_description:
       "As a part of UC San Diego's Art department professor Pinar Yoldas's Studiolab Yoldas, this interactive experience preceded the 2020 Architecture biennale presentation. It showcases the human impact on the ocean by interacting with 6 layers of damage caused by the humans.",
     skills: "  C#, Unity",
@@ -50,6 +141,31 @@ export const contentData = [
     doubleImage: true,
     videoUrl: "https://www.youtube.com/embed/uSWx1r0df4A",
     webGLUrl: null,
+  },
+  //!Drunken Dungeon
+  {
+    category: ["pc_games"],
+    title: "Drunken Dungeon",
+    date: "  July 2022",
+    location: null,
+    description: "An entry to the GMTK Game Jam 2022",
+    detailed_description:
+      "Traverse trough the dungeons with your un-trusty dice of elemental power! \nYou can only use 3 of your 4 powers, and the powers you can use and the buttons for those powers change depending on the roll of the dice.Defeat all of the enemies in the level to advance to the next level. \nControl using WASD keys, spacebar and mouse clicks, ranged actions aimed at cursor. \nRed - Ranged Fireball  \nBlue - Area Ice Attack \nBrown - Earth Shield \nWhite - Air Teleport",
+    skills: "  Unity 3D, C#",
+    genre: "  Roguelike",
+    role: "  Programming, Gameplay Design, Level Design",
+    job_type: "  Passion Project, completed with the Flowtart Studios team",
+    image: "https://img.itch.zone/aW1nLzk1NDk3NDkucG5n/315x250%23c/iCFxeA.png",
+    images: [
+      "https://img.itch.zone/aW1hZ2UvMTYyMTE2OS85NTA3OTMwLnBuZw==/original/qEci2l.png",
+      "https://img.itch.zone/aW1hZ2UvMTYyMTE2OS85NTA3OTMzLnBuZw==/original/X9VINU.png",
+    ],
+    videoUrl: "https://www.youtube.com/embed/ESMAKEjqmtw", // Add this only if video exists
+    webGLUrl: "https://itch.io/embed-upload/7921006?color=ededed", // Add this only if WebGL exists
+    webgl_width: "850",
+    webgl_height: "580",
+    github_link: "https://github.com/canafarci/DrunkenWizard",
+    behance_link: null,
   },
   //!Hollow Ocean Video
   {
@@ -80,18 +196,367 @@ export const contentData = [
     behance_link:
       "https://www.behance.net/gallery/152299431/Hollow-Ocean-2048-for-Venice-Biennale",
   },
-  //!port website
+  //!House Flipper 3D
+  {
+    category: ["mobile_games"],
+    title: "House Flipper 3D",
+    date: "  March 2022",
+    location: null,
+    description: "House repair and renovation simulator",
+    detailed_description:
+      "Inspired by the house renovation reality shows, player buys a heavily damaged house, repairs it, \nbuys new furniture and assembles them, decorates the house and then sells it for profit",
+    skills: "  Unity 3D, C#",
+    genre: "  Simulator",
+    role: "  Programming, Gameplay and Architectural design, completed with the Flowtart Studios team",
+    job_type: "  Prototype project developed for Game Theory Games",
+    image:
+      "https://i.ibb.co/GTNz9fk/uc-export-view-id-1r-ATs-Im69-NCYDJu8-WRKC-3rc-Qm-Y8-RAzn.png",
+    images: [
+      "https://img.itch.zone/aW1hZ2UvMjA3NTU4NC8xMjIwODIwNS5qcGc=/original/Vd7DSZ.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NTU4NC8xMjIwODIwNy5qcGc=/original/IBLo3y.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NTU4NC8xMjIwODIxMS5qcGc=/original/KMNlkB.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NTU4NC8xMjIwODIwOC5qcGc=/original/qaczSc.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NTU4NC8xMjIwODIxMi5qcGc=/original/X%2FQiPk.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NTU4NC8xMjIwODIxMC5qcGc=/original/OXIlHF.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NTU4NC8xMjIwODIxMy5qcGc=/original/uA%2Fv2I.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NTU4NC8xMjIwODIxNC5qcGc=/original/iPzT%2FC.jpg",
+    ],
+    horizontalImages: true,
+    webGLUrl: "https://itch.io/embed-upload/7937642?color=ededed",
+    webgl_width: "500",
+    webgl_height: "870",
+    github_link: "https://github.com/canafarci/HouseFlipper",
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.flowtart.houseflipper",
+    behance_link: null,
+  },
+  //!Tez
+  {
+    category: ["academic_work"],
+    title: "Global Sensitivity Analysis for Urban Heat Island Effect",
+    date: "August 2022",
+    location: "   Ankara // Turkey",
+    description: "Thesis written for MARCH degree",
+    detailed_description:
+      "As part of a European Union research programme with my university (BAP), my thesis focused on exploring the detrimental consequences of Urban Heat Islands (UHI) caused by rapid urbanization and inadequate government policies. UHI exacerbates resource consumption, environmental footprint, and poses risks to human health and comfort. I emphasized the need for new design and adaptation strategies in urban settlements to reduce energy consumption and environmental impact.\n\nTo investigate the thermal conditions under UHI effects, I utilized the Urban Weather Generator (UWG), a simulation package written in Python. This powerful tool allowed me to model and analyze the impact of various parameters on UHI intensity. The simulation incorporated geometric data created using Rhinoceros3D, a 3D modeling software, to accurately represent the urban environment.\n\nIn my research, I employed sensitivity analysis, a valuable method to measure the impact of input variables on the output. Sensitivity analysis helps identify the most influential parameters and understand their contributions to the overall UHI effect. It provides valuable insights for modeling, decision-making, and developing effective mitigation strategies.\n\nThrough global sensitivity analysis, I assessed UHI increase in a residential district in Ankara, Turkey, and identified the parameters that significantly contribute to UHI effects. By conducting simulations during average summer and winter weeks, I also explored the seasonal impact on UHI.\n\nThe findings of my thesis highlight the urgent need for sustainable urban development and offer valuable insights for mitigating the adverse effects of UHI.\n\nYou can also explore the source code of the project from the link on the upper right.",
+    skills: "  Python, Rhinoceros3D, Grasshopper",
+    genre: null,
+    job_type: "  Master's Thesis",
+    image:
+      "https://www.bachelorprint.eu/wp-content/uploads/2019/12/Standard-leather-binding-red-comparison.png",
+    github_link: "https://github.com/canafarci/Bap_Project",
+    pdf_link:
+      "https://drive.google.com/file/d/1rjUUK0w3BS7LreUYc7eU5_TxjX2J76oN/preview",
+  },
+  //!Wonder
+  {
+    category: ["mobile_games"],
+    title: "Wonder Builders",
+    date: "  January 2023",
+    location: null,
+    description: "Idle clicker with a wonder building theme",
+    detailed_description:
+      "Player upgrades the worker speed, count and merges them to build the wonder faster, \nin this prototype player can build Eiffel Tower and Pyramid at Giza",
+    skills: "  Unity 3D, C#",
+    genre: "  Idle Clicker",
+    role: "  Programming, Gameplay and Architectural design, completed with the Flowtart Studios team",
+    job_type: "  Prototype project developed for Game Theory Games",
+    image:
+      "https://play-lh.googleusercontent.com/U2bL4VmpWOmW0yXa5VzciV9hWWUaAzU-N-hCWsas2aAvf-LYt7mmZVPpjgtsoJpIXhQ=s256-rw",
+    images: [
+      "https://play-lh.googleusercontent.com/MYNX2emWmz7rBXrwmBck4Brw39jnIQOtoxz4JDfOEeYJzBLIceJmgM40rSr3XpGRdA=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/G9Y3zRnTgyAAz077h6DMOwOkl8LuHlqdTVtK23zJ84qL9hOUr-ZQeG-E7_3t3ugnyw=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/XI3eVb8FkHVUqnIlY77cjvLNj5wueAEEwHxQAbfIn-fVOsS8mNSU_GoAKt0yot1ZI2k=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/eU3vMxkuCMt6uFTQvYQh76Mpq5izrRU70wOo_gVR7zdkCkvgTO2853z9AdSFObCBdR4=w2560-h1440-rw",
+    ],
+    horizontalImages: true,
+    videoUrl: "https://www.youtube.com/embed/lUnxmFhP6J0",
+    webGLUrl: "https://itch.io/embed-upload/7933036?color=ededed",
+    webgl_width: "500",
+    webgl_height: "850",
+    github_link: "https://github.com/canafarci/WonderBuilder",
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.flowtart.wondercraft",
+    behance_link: null,
+  },
+  //!Döşemealtı Villa
+  {
+    category: ["architectural_designs"],
+    title: "Döşemealtı Villa",
+    date: "  March 2021",
+    location: "   Döşemealtı  // Antalya",
+    description:
+      "Interior, façade and landscape design work for a residential unit",
+    detailed_description: "",
+    skills: "  3DS Max, Corona Renderer, Substance Painter, Photoshop, AutoCAD",
+    genre: null,
+    job_type: "  Freelance Project",
+    image:
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/5dc3f6152285065.631b255eb956a.png",
+    images: [
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/5dc3f6152285065.631b255eb956a.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/6088d5152285065.631b255ebb879.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/242493152285065.631b255ebc921.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/9cd4d0152285065.631b255eb9d30.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/b7e67c152285065.631b255eba5d7.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/c3fe3f152285065.631b255ebc3ca.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/2864fc152285065.631b255ebb312.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/7b8933152285065.631b255ebbe3e.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/af250c152285065.631b255ebacb8.jpg",
+    ],
+    videoUrl: null,
+    webGLUrl: null,
+    github_link: null,
+    behance_link: "https://www.behance.net/gallery/152285065/Doesemealt-Villa",
+  },
+  //!Swing
+  {
+    category: ["mobile_games"],
+    title: "Swing Ride Idle ASMR",
+    date: "  January 2023",
+    location: null,
+    description: "Idle clicker with a theme park/christmas setting",
+    detailed_description:
+      "Player manages a swing ride, and makes money from ride customers \nPlayer can buy new seats, upgrade existing seats and buy a new wheel to make even more money",
+    skills: "  Unity 3D, C#",
+    genre: "  Idle Clicker",
+    role: "  Programming, Gameplay design, completed with the Flowtart Studios team",
+    job_type: "  Prototype project developed for Game Theory Games",
+    image:
+      "https://play-lh.googleusercontent.com/YPxSsNmTKNLjHUTCmjmveKSarMip5y3-ReQD2OLS8n_xHGqeL254fNVvCA9FAfeC1g=s256-rw",
+    images: [
+      "https://play-lh.googleusercontent.com/ZaHJOrt3qvXR5U5l0wXq0wtqUB3ZdsNJV7Lx7abV1SM4_02EXwfsKPOEE_3Jl5CuPcMB=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/k0of7LqyACYBABeDM-tYxL9l_623wy914aeS2yz9-XMDV99Iva7Dh8M_f9D8V1tDEEI=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/8YwGEDzhxEjGUvl3kWImfkcy4KBNz3oGcT8kvUlLMha2gKPvtnx5dFmLx43DfQivoRw=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/GepjRIMtmVO1KrjVc2htRfZbJ9N2iHZqokvBreZMDLeexUIbyUWEwdwKbdW3BS5wfuqK=w2560-h1440-rw",
+    ],
+    horizontalImages: true,
+    videoUrl: "https://www.youtube.com/embed/7GpVk9cp-XA",
+    webGLUrl: "https://itch.io/embed-upload/7936708?color=ededed",
+    webgl_width: "500",
+    webgl_height: "850",
+    github_link: "https://github.com/canafarci/SwingClicker",
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.flowtart.swingclicker",
+    behance_link: null,
+  },
+  //!Turtle
   {
     category: ["other_work"],
-    title: "Portfolio Website",
-    date: "  June  2022",
-    description: "A website for showcasing my work collection",
-    detailed_description: "This website was developed by me using React",
-    skills: "  Javascript, React, Photoshop",
+    title: "Turtlerz NFT Collection",
+    date: "  March  2022",
+    description:
+      "Pseudo-random generation and Photoshop combination of an NFT project",
+    detailed_description:
+      "My part in the project was to create pseudo-random generation scripts for Adobe Photoshop to combine layers for specific rarities as per design document and generating the metadata for the blockchain network.",
+    skills: "  Javascript, Python, Photoshop",
     genre: null,
-    job_type: "  Personal Project",
-    image: "https://i.ibb.co/jbYPDd5/Screenshot-2023-06-09-at-01-30-23.png",
-    github_link: "https://github.com/canafarci/portfolio-website",
+    job_type: "  Freelance Project",
+    image:
+      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/0f944b152292647.631b4067acc82.jpg",
+    images: [
+      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/0f944b152292647.631b4067acc82.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/409799152292647.631b4067b1ef6.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/99db39152292647.631b4067b47c1.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/bfb2ba152292647.631b4067afa63.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/3a7009152292647.631b4067ad6e6.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/7f60a3152292647.631b4067b1642.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/3e7bc9152292647.631b4067ae295.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/6ddf34152292647.631b4067b27fd.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/c95f2d152292647.631b4067b544d.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/a59b26152292647.631b4067b334d.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/3c6866152292647.631b4067b0370.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/0cc113152292647.631b4067af0c3.jpg",
+    ],
+    horizontalImages: true,
+    videoUrl: null,
+    webGLUrl: null,
+    github_link:
+      "https://github.com/canafarci/TurtleNFTGenerator/blob/master/turtleGeneratorl.jsx",
+    behance_link:
+      "https://www.behance.net/gallery/152292647/Turtlerz-NFT-Collection",
+  },
+  //!Popcorn
+  {
+    category: ["mobile_games"],
+    title: "Pop-it Popcorn ASMR",
+    date: "  November 2022",
+    location: null,
+    description: "Popcorn Themed Idle Clicker",
+    detailed_description:
+      "Player buys upgrades to cook popcorn faster, then sells them to earn money",
+    skills: "  Unity 3D, C#",
+    genre: "  Idle Clicker",
+    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
+    job_type: "  Prototype project developed for Game Theory Games",
+    image:
+      "https://img.itch.zone/aW1nLzEyMjEwNzM5LnBuZw==/315x250%23c/VTx9jK.png",
+    images: [
+      "https://img.itch.zone/aW1hZ2UvMjA3NTk2Ny8xMjIxMDc0OC5qcGc=/347x500/SvRaCk.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NTk2Ny8xMjIxMDc0OS5qcGc=/347x500/7dbLEt.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NTk2Ny8xMjIxMDc1MC5qcGc=/347x500/4IKXrW.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NTk2Ny8xMjIxMDc1MS5qcGc=/347x500/iddBd%2B.jpg",
+    ],
+    horizontalImages: true,
+    webGLUrl: "https://itch.io/embed-upload/7939293?color=ededed",
+    webgl_width: "500",
+    webgl_height: "870",
+    github_link: "https://github.com/canafarci/PopcornClicker",
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.flowtart.popcornclicker",
+    behance_link: null,
+  },
+  //!Expense Tracker
+  {
+    category: ["other_work"],
+    title: "Expense Tracker",
+    date: "   June 2022",
+    location: "   Ankara // Turkey",
+    description: "Expense tracking app built in React Native",
+    detailed_description:
+      "A mobile app developed as a freelance project, this app utilizes Firebase user authentication by email/password login and uses realtime database to store recent expenses. User can see the expenses recorded in the past month, edit and delete them and has an option to check the full expense history",
+    skills: "  Javascript, React Native, Expo, Google Firebase, REST API",
+    genre: null,
+    job_type: "  Freelance project",
+    image: "https://i.ibb.co/QJ6pLWB/1-1.jpg",
+    images: [
+      "https://i.ibb.co/QJ6pLWB/1-1.jpg",
+      "https://i.ibb.co/xjpbbvp/uc-export-view-id-1x9-Spu-Vr-Jn-J4mtl-VPd1-UP097-RV-3-Ju-QT.jpg",
+      "https://i.ibb.co/DQ9GnBY/uc-export-view-id-1-k-KNCGk-IMx-Tsd7-UXWTc-S4d-TOB8-Ot-Zzf-L.jpg",
+      "https://i.ibb.co/Z6DsCNq/1-3.jpg",
+      "https://i.ibb.co/gvVFppj/1-4.jpg",
+      "https://i.ibb.co/2ZMxFtD/uc-export-view-id-1-VA9hd-sjw-VZXnlwc-AUhd7-C-h-Idsj-T-ap.jpg",
+      "https://i.ibb.co/Z2PGcGk/uc-export-view-id-1v-M3h-Yww-URLnjwc-AYf-Cs-MSk-OFl-Vyu-Njwp.jpg",
+      "https://i.ibb.co/gvVFppj/1-4.jpg",
+    ],
+    horizontalImages: true,
+    github_link: "https://github.com/canafarci/ExpenseTracker",
+  },
+  //!Cupcake
+  {
+    category: ["mobile_games"],
+    title: "Cupcake Stack",
+    date: "  May 2022",
+    location: null,
+    description: "Forward stack runner with a cake theme",
+    detailed_description:
+      "Player is given cupcake molds on the running platform,  gather them, fills them with dough, bakes them, adds sprinkles and filling and then sells them for profit",
+    skills: "  Unity 3D, C#",
+    genre: "  Forward stack runner",
+    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
+    job_type: "  Prototype project developed for Game Theory Games",
+    image:
+      "https://play-lh.googleusercontent.com/BMkVuEds9QMRHkncC8cELNi8Abkcs7dWS2_jOl--4yHdFeWy5xH1478OOVHVP6pui6U=w240-h480-rw",
+    images: [
+      "https://play-lh.googleusercontent.com/qVASqGYzDn8XZxofmfNlIu8rxvALB4c3ff8HaWa0ZrFFfgS421AO37d8HBvsT-PYa4Q=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/a8Qa-9lEm1uprqB3xWcBupnDbI2XaiUfANeGhSn8se_MilHFEGOXNfhSRQdLAaRc0g=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/5mlxRmDC27c11G0JwwkYbDNAZ_sHje6Soon2ChqMcKts0aQKRoFoGLemzfwGz3zVnUE=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/MFeL7EDP1MDEyB-GVESp_1DLMm0UIsDJyO3dSggJWtC-8kHlwogKZpoqwd1y5atXmQ=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/J-oysuOWZ1KzQ2VMr5yffDw4s--1uXf3ntuPR085QZjNzaqyPPEZfonll-wlL9a0BDM=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/w4O0z6F7BTLBVYjgN2cRGFmr5GN3QNrrNYgDwATJJ0tOVrTrIrcuiwD4Neun6Ktzmmc=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/LRpiJzZHy6IckbTyzfmg881pIT-bTdw8ncceA1tafPWW_ybc8H_oZePvOFUAjwEhbho=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/dLPq3hK31uiEpJAelTbmK_nv-hesNrWp-XPKSu2HHaQa8-OUSZ0XRZ89qab-iTNT9bci=w2560-h1440-rw",
+    ],
+    horizontalImages: true,
+    webGLUrl: "https://itch.io/embed-upload/7963906?color=ededed",
+    webgl_width: "500",
+    webgl_height: "870",
+    github_link: "https://github.com/canafarci/CupcakeStack",
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.flowtart.cupcakestack",
+    behance_link: null,
+  },
+  //!License design works
+  {
+    category: ["academic_work"],
+    title: "Bachelor's Degree Design Works",
+    date: "  2014 - 2019",
+    location: "   Ankara // Turkey",
+    description: "Selected design works from my Bachelor's studies",
+    detailed_description:
+      "This collection includes works for my studio and architectural history classes",
+    skills: "  Python, Rhinoceros3D, Grasshopper, Revit, Autocad",
+    genre: null,
+    job_type: "  Study Collection",
+    image:
+      "https://i.ibb.co/ScHYVyw/uc-export-view-id-1-Wv-Sml-Heced-D5-QXGObuqo-ZZx1-DJ-9-HSAg.png",
+    pdf_link:
+      "https://drive.google.com/file/d/13wVPfTiS3bp1vrDdM1VVwg5uqLM85wWr/preview",
+  },
+  //!Cupid Run
+  {
+    category: ["mobile_games"],
+    title: "Love or Hate Run",
+    date: "  January 2022",
+    location: null,
+    description: "Narrative runner with a matchmaking theme",
+    detailed_description:
+      "Player assumes the role of a cupid, who decides how the relationship of a couple will pan out. Player can choose to make the couple fall in love, or make them fight and break up. As player makes decisions, cupid turns into an angel or a demon according to the nature of the decisions.",
+    skills: "  Unity 3D, C#",
+    genre: "  Narrative runner",
+    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
+    job_type: "  Prototype project developed for Game Theory Games",
+    image:
+      "https://lh3.googleusercontent.com/l-mmiYgiLfbKbqUrhQEETvQd-m3eX_-NF83WU9fgmYi0F844yqGxP8qS-G9B8fAesQ",
+    images: [
+      "https://lh3.googleusercontent.com/nReme0Wo8wgHDBaNNoT7HxJIm-Uf-lt9Hj7bCsNQLn4RVR4wj1n0cEorEtCC4ut_Qg",
+      "https://lh3.googleusercontent.com/PW4JDhr0q76W4XI76kyqiFvMtulA07J3VSNR0Dik5mpUnc2A4uSj7tONLm6g7IXqLUY",
+      "https://lh3.googleusercontent.com/x7VdPbSkqd6eE2RIAKe46QXFiwjdpepZFguv73X_EVTvW8rL1MDpWAAiC6q_Z8jkI59v",
+      "https://lh3.googleusercontent.com/YWcdc0HrqXUv3fpxGFu1ZgMWNJQrVWJ6z-BT5jj4r9Hd847apBY-2yokEGFl3iQ1DQ",
+      "https://lh3.googleusercontent.com/mTENFjLtQjJZK2Vd-B7LWYC5NaCLLxIpC-d6PvLs6zEJjXrwJIZWh-T1GRTjOOAkGK0",
+      "https://lh3.googleusercontent.com/jsSu1MjRERRGsOeBVhykiL7th2jqQzZ9ZQ1riR5oUob-3G7RlQAKxbhOKdI8hi_-aHg",
+      "https://lh3.googleusercontent.com/wlXG5cMDOXkNuVhJNvqk7QeXHQ1ydCCOTwRw_FpvEnEfyFar5DroU3Y3Iajz8HWFo0U",
+      "https://lh3.googleusercontent.com/-wcQHJDkunMOVSNRT7hkkLeOlfY16miS3SFiw7kTy0nE4KFicO5E8tZvxoeQv8jA25-i",
+    ],
+    horizontalImages: true,
+    webGLUrl: "https://itch.io/embed-upload/7983581?color=333333",
+    webgl_width: "500",
+    webgl_height: "870",
+    github_link: "https://github.com/canafarci/CupidRun",
+    behance_link: null,
+  },
+  //!License AH works
+  {
+    category: ["academic_work"],
+    title: "Architectural History Researches",
+    date: "  2015 - 2019",
+    location: "   Ankara // Turkey",
+    description: "Selected Architectural History researches from my studies",
+    detailed_description:
+      "This collection includes architectural examination papers of of Aachen cathedral in Germany, Santiago del Compostela in Spain and a research paper titled 'Evolution of the State Mechanism and Transformation from City Temple to Palace Temple in Ancient Mesopotamia' \n\nFirst two works was part of the bachelor's studies, and the last work was done as a part of an Master's degree course in architectural history, which examined how cosmological patterns are used as design inspirations in medieval architecture.",
+    genre: null,
+    job_type: "  Study Collection",
+    image:
+      "https://i.ibb.co/B6XTR83/uc-export-view-id-1s-IFKA6x-I2b-ODoyx5-EVJIpp0-J4dmq-F8-X.png",
+    pdf_link:
+      "https://drive.google.com/file/d/1GKva-cFVQjsJoc37s1BdD-fOtOpv3i84/preview",
+  },
+  //!Soccer Mania
+  {
+    category: ["mobile_games"],
+    title: "Soccer Mania",
+    date: "  September 2021",
+    location: null,
+    description: "Multiplayer tabletop inspired soccer game",
+    detailed_description:
+      "Two players compete to score goals in this game by dragging stationary player pins and kicking the ball towards each other. Pins are placed on top of small pits, so when the ball is kicked without a clear direction, it often ends up in another pin's vicinity. If the ball cant be interacted with, i.e. it gets stuck, the player who had the control of the ball most recently has an option to move the ball randomly. When a player scores 5 goals, wins the game. (In order to play the game, you need 2 clients. You can open another instance in a new window or another computer.)",
+    skills: "  Unity 3D, Photon Networking, C#",
+    genre: "  Multiplayer sports game",
+    role: "  Programming, Networking and Gameplay design, completed with the Flowtart Studios team",
+    job_type: "  Project developed for Diger Yapim",
+    image:
+      "https://lh3.googleusercontent.com/bC5ZE4M7-ZNT5H0WkbqgQFTDcoPZlfdo_paIP7zVyq27J-yzVq44UInTeC8LLNR5Ag",
+    images: [
+      "https://lh3.googleusercontent.com/FhhwLPqpOdJyVDt4hABwySPR80lpj97sJBTXbqXOpuAzj225gsgAu4qHfd9XJAia8w",
+      "https://lh3.googleusercontent.com/tD2Y_LAO6BZYTKVLa4Y8Jk8_pBhOyIeAj9_WPjVyMjuidSwKjFeG8uzNXZLOAeYTRGKd",
+      "https://lh3.googleusercontent.com/Tymms1MH6fK3z1gaVjM6deBcRHHArgBdfDPffdcGpwnniGkwkfvNby5khlsqr8EZrA",
+    ],
+    horizontalImages: false,
+    webGLUrl: "https://itch.io/embed-upload/7989127?color=333333",
+    webgl_width: "850",
+    webgl_height: "520",
+    github_link: "https://github.com/canafarci/SoccerMania",
+    behance_link: null,
   },
   //!Montana
   {
@@ -133,153 +598,6 @@ export const contentData = [
     behance_link:
       "https://www.behance.net/gallery/152295771/Montana-NFT-Collection",
   },
-  //!Turtle
-  {
-    category: ["other_work"],
-    title: "Turtlerz NFT Collection",
-    date: "  March  2022",
-    description:
-      "Pseudo-random generation and Photoshop combination of an NFT project",
-    detailed_description:
-      "My part in the project was to create pseudo-random generation scripts for Adobe Photoshop to combine layers for specific rarities as per design document and generating the metadata for the blockchain network.",
-    skills: "  Javascript, Python, Photoshop",
-    genre: null,
-    job_type: "  Freelance Project",
-    image:
-      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/0f944b152292647.631b4067acc82.jpg",
-    images: [
-      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/0f944b152292647.631b4067acc82.jpg",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/409799152292647.631b4067b1ef6.jpg",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/99db39152292647.631b4067b47c1.jpg",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/bfb2ba152292647.631b4067afa63.jpg",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/3a7009152292647.631b4067ad6e6.jpg",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/7f60a3152292647.631b4067b1642.jpg",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/3e7bc9152292647.631b4067ae295.jpg",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/6ddf34152292647.631b4067b27fd.jpg",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/c95f2d152292647.631b4067b544d.jpg",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/a59b26152292647.631b4067b334d.jpg",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/3c6866152292647.631b4067b0370.jpg",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/0cc113152292647.631b4067af0c3.jpg",
-    ],
-    horizontalImages: true,
-    videoUrl: null,
-    webGLUrl: null,
-    github_link:
-      "https://github.com/canafarci/TurtleNFTGenerator/blob/master/turtleGeneratorl.jsx",
-    behance_link:
-      "https://www.behance.net/gallery/152292647/Turtlerz-NFT-Collection",
-  },
-  //!Train
-  {
-    category: ["mobile_games"],
-    title: "My Train Station!",
-    date: "  November 2022",
-    location: null,
-    description: "Train station management Idle-Arcade",
-    detailed_description:
-      "In this game, player emulates an train station manager. Player accepts new passengers into the train station, stores their luggage if they have one, and finally makes them get into the train. Player can also give drinks to waiting passangers for extra income, and has to repair the train when it returns broken.\n\nThe player can buy upgrades to automate passenger acception process by hiring an npc, can buy other npcs to automatically distribute drinks to the waiting passengers and store passanger luggages. Player can also buy new trains and add new wagons to the trains to be able to serve more customers. Player can also expand the passanger waiting zone by buying new seating areas.",
-    skills: "  Unity 3D, C#",
-    genre: "  Idle-Arcade",
-    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
-    job_type: "  Prototype project developed for Game Theory Games",
-    image:
-      "https://lh3.googleusercontent.com/WKG4H1vH5Nb9QllkCv6XIDo5iW2W-6A2gfhjmX-gjdh_9COK1BJzbPd3dauSwmw5HMA",
-    images: [
-      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODIyOC5qcGc=/794x1000/Q3gocu.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODI0MS5qcGc=/794x1000/91ed4m.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODIzOS5qcGc=/794x1000/f16YYJ.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODIzNC5qcGc=/794x1000/pzlLcR.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODIzMi5qcGc=/794x1000/lNSD%2Fr.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODIzNi5qcGc=/794x1000/5IUT%2B1.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODI0Mi5qcGc=/794x1000/JOMF2d.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODI0MC5qcGc=/794x1000/%2BfbpD4.jpg",
-    ],
-    horizontalImages: true,
-    webGLUrl: "https://itch.io/embed-upload/8061466?color=333333",
-    webgl_width: "500",
-    webgl_height: "870",
-    github_link: "https://github.com/canafarci/TrainStation",
-    google_play_link:
-      "https://play.google.com/store/apps/details?id=com.flowtart.mytrainidlearcade",
-    behance_link: null,
-  },
-  //!Expense Tracker
-  {
-    category: ["other_work"],
-    title: "Expense Tracker",
-    date: "   June 2022",
-    location: "   Ankara // Turkey",
-    description: "Expense tracking app built in React Native",
-    detailed_description:
-      "A mobile app developed as a freelance project, this app utilizes Firebase user authentication by email/password login and uses realtime database to store recent expenses. User can see the expenses recorded in the past month, edit and delete them and has an option to check the full expense history",
-    skills: "  Javascript, React Native, Expo, Google Firebase, REST API",
-    genre: null,
-    job_type: "  Freelance project",
-    image: "https://i.ibb.co/QJ6pLWB/1-1.jpg",
-    images: [
-      "https://i.ibb.co/QJ6pLWB/1-1.jpg",
-      "https://i.ibb.co/xjpbbvp/uc-export-view-id-1x9-Spu-Vr-Jn-J4mtl-VPd1-UP097-RV-3-Ju-QT.jpg",
-      "https://i.ibb.co/DQ9GnBY/uc-export-view-id-1-k-KNCGk-IMx-Tsd7-UXWTc-S4d-TOB8-Ot-Zzf-L.jpg",
-      "https://i.ibb.co/Z6DsCNq/1-3.jpg",
-      "https://i.ibb.co/gvVFppj/1-4.jpg",
-      "https://i.ibb.co/2ZMxFtD/uc-export-view-id-1-VA9hd-sjw-VZXnlwc-AUhd7-C-h-Idsj-T-ap.jpg",
-      "https://i.ibb.co/Z2PGcGk/uc-export-view-id-1v-M3h-Yww-URLnjwc-AYf-Cs-MSk-OFl-Vyu-Njwp.jpg",
-      "https://i.ibb.co/gvVFppj/1-4.jpg",
-    ],
-    horizontalImages: true,
-    github_link: "https://github.com/canafarci/ExpenseTracker",
-  },
-  //!Tez
-  {
-    category: ["academic_work"],
-    title: "Global Sensitivity Analysis for Urban Heat Island Effect",
-    date: "August 2022",
-    location: "   Ankara // Turkey",
-    description: "Thesis written for MARCH degree",
-    detailed_description:
-      "As part of a European Union research programme with my university (BAP), my thesis focused on exploring the detrimental consequences of Urban Heat Islands (UHI) caused by rapid urbanization and inadequate government policies. UHI exacerbates resource consumption, environmental footprint, and poses risks to human health and comfort. I emphasized the need for new design and adaptation strategies in urban settlements to reduce energy consumption and environmental impact.\n\nTo investigate the thermal conditions under UHI effects, I utilized the Urban Weather Generator (UWG), a simulation package written in Python. This powerful tool allowed me to model and analyze the impact of various parameters on UHI intensity. The simulation incorporated geometric data created using Rhinoceros3D, a 3D modeling software, to accurately represent the urban environment.\n\nIn my research, I employed sensitivity analysis, a valuable method to measure the impact of input variables on the output. Sensitivity analysis helps identify the most influential parameters and understand their contributions to the overall UHI effect. It provides valuable insights for modeling, decision-making, and developing effective mitigation strategies.\n\nThrough global sensitivity analysis, I assessed UHI increase in a residential district in Ankara, Turkey, and identified the parameters that significantly contribute to UHI effects. By conducting simulations during average summer and winter weeks, I also explored the seasonal impact on UHI.\n\nThe findings of my thesis highlight the urgent need for sustainable urban development and offer valuable insights for mitigating the adverse effects of UHI.\n\nYou can also explore the source code of the project from the link on the upper right.",
-    skills: "  Python, Rhinoceros3D, Grasshopper",
-    genre: null,
-    job_type: "  Master's Thesis",
-    image:
-      "https://www.bachelorprint.eu/wp-content/uploads/2019/12/Standard-leather-binding-red-comparison.png",
-    github_link: "https://github.com/canafarci/Bap_Project",
-    pdf_link:
-      "https://drive.google.com/file/d/1rjUUK0w3BS7LreUYc7eU5_TxjX2J76oN/preview",
-  },
-  //!License design works
-  {
-    category: ["academic_work"],
-    title: "Bachelor's Degree Design Works",
-    date: "  2014 - 2019",
-    location: "   Ankara // Turkey",
-    description: "Selected design works from my Bachelor's studies",
-    detailed_description:
-      "This collection includes works for my studio and architectural history classes",
-    skills: "  Python, Rhinoceros3D, Grasshopper, Revit, Autocad",
-    genre: null,
-    job_type: "  Study Collection",
-    image:
-      "https://i.ibb.co/ScHYVyw/uc-export-view-id-1-Wv-Sml-Heced-D5-QXGObuqo-ZZx1-DJ-9-HSAg.png",
-    pdf_link:
-      "https://drive.google.com/file/d/13wVPfTiS3bp1vrDdM1VVwg5uqLM85wWr/preview",
-  },
-  //!License AH works
-  {
-    category: ["academic_work"],
-    title: "Architectural History Researches",
-    date: "  2015 - 2019",
-    location: "   Ankara // Turkey",
-    description: "Selected Architectural History researches from my studies",
-    detailed_description:
-      "This collection includes architectural examination papers of of Aachen cathedral in Germany, Santiago del Compostela in Spain and a research paper titled 'Evolution of the State Mechanism and Transformation from City Temple to Palace Temple in Ancient Mesopotamia' \n\nFirst two works was part of the bachelor's studies, and the last work was done as a part of an Master's degree course in architectural history, which examined how cosmological patterns are used as design inspirations in medieval architecture.",
-    genre: null,
-    job_type: "  Study Collection",
-    image:
-      "https://i.ibb.co/B6XTR83/uc-export-view-id-1s-IFKA6x-I2b-ODoyx5-EVJIpp0-J4dmq-F8-X.png",
-    pdf_link:
-      "https://drive.google.com/file/d/1GKva-cFVQjsJoc37s1BdD-fOtOpv3i84/preview",
-  },
   //!RPG Unity Game
   {
     category: ["pc_games"],
@@ -300,25 +618,6 @@ export const contentData = [
     webgl_width: 850,
     github_link: "https://github.com/canafarci/ARPG-Repository",
   },
-  //!RadianceGAN
-  {
-    category: ["academic_work"],
-    title: "Indoor Illumination Calculation AI",
-    skills: "  Tensorflow, Python, Rhinoceros3D, Grasshopper, Honeybee",
-    date: "  2020",
-    location: "   Ankara // Turkey",
-    description:
-      "Generative Adversarial Network AI for fast prediction of indoor illumination ",
-    detailed_description:
-      "This project utilizes TensorFlow and generative AI techniques to predict the indoor illumination condition of a conceptual plan drawing by analyzing color-coded architectural drawings mapped with daylighting simulation results. \n\nI developed this AI model as my potential thesis topic prior to joining the EU funded global warming research program which focused on urban heat islands, which ended up as my thesis topic.",
-    genre: null,
-    job_type: "  Study Collection",
-    image:
-      "https://i.ibb.co/V2yyhkq/uc-export-view-id-1-XBy-Hvd4-GHFVqf-Jmn0s-A29-GA1r4rfm-Bjl.png",
-    pdf_link:
-      "https://drive.google.com/file/d/1O6e-eDvBIPborOOtz04gcg8rMmiIt5CD/preview",
-    github_link: "https://github.com/canafarci/MARCH_Repo",
-  },
   //!Arch Date prediction
   {
     category: ["academic_work"],
@@ -336,35 +635,6 @@ export const contentData = [
       "https://i.ibb.co/Qn1Fhy0/uc-export-view-id-13-NAIhe-XVOXo-Yf-EEJPutdg-VRMm-W0-Erws.jpg",
     pdf_link:
       "https://drive.google.com/file/d/1yHt_2Mw_kAkW725McSCc1BRioEyrmKgv/preview",
-  },
-  //!Kemerburgaz
-  {
-    category: ["architectural_designs"],
-    title: "Kemerburgaz Villas",
-    date: "  September 2020",
-    location: "   Kemerburgaz // İstanbul",
-    description: "Housing project in Kemerburgaz/İstanbul",
-    detailed_description:
-      "Façade, landscape and interior design work with 3D renders",
-    skills: "  3DS Max, Corona Renderer, Substance Painter, Photoshop, AutoCAD",
-    genre: null,
-    job_type: "  Freelance Project",
-    image:
-      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/140740152287837.631b2f94e7994.jpg",
-    images: [
-      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/140740152287837.631b2f94e7994.jpg",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/e56a9f152287837.631b2f94e9508.jpg",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/dd025d152287837.631b2f94e8b7c.jpg",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/291b80152287837.631b2f94e67a1.jpg",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/ca7858152287837.631b2f94e70b1.jpg",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/860819152287837.631b2f94e82d2.jpg",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/69844f152287837.631b2f94e5e0f.jpg",
-    ],
-    videoUrl: null,
-    webGLUrl: null,
-    github_link: null,
-    behance_link:
-      "https://www.behance.net/gallery/152287837/Kemerburgaz-Villas",
   },
   //!ERG
   {
@@ -470,36 +740,6 @@ export const contentData = [
     behance_link:
       "https://www.behance.net/gallery/152287443/Gaziantep-Municipal-Water-Board-Offices-Interior",
   },
-  //!Döşemealtı Villa
-  {
-    category: ["architectural_designs"],
-    title: "Döşemealtı Villa",
-    date: "  March 2021",
-    location: "   Döşemealtı  // Antalya",
-    description:
-      "Interior, façade and landscape design work for a residential unit",
-    detailed_description: "",
-    skills: "  3DS Max, Corona Renderer, Substance Painter, Photoshop, AutoCAD",
-    genre: null,
-    job_type: "  Freelance Project",
-    image:
-      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/5dc3f6152285065.631b255eb956a.png",
-    images: [
-      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/5dc3f6152285065.631b255eb956a.png",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/6088d5152285065.631b255ebb879.png",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/242493152285065.631b255ebc921.png",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/9cd4d0152285065.631b255eb9d30.jpg",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/b7e67c152285065.631b255eba5d7.png",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/c3fe3f152285065.631b255ebc3ca.jpg",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/2864fc152285065.631b255ebb312.jpg",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/7b8933152285065.631b255ebbe3e.jpg",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/af250c152285065.631b255ebacb8.jpg",
-    ],
-    videoUrl: null,
-    webGLUrl: null,
-    github_link: null,
-    behance_link: "https://www.behance.net/gallery/152285065/Doesemealt-Villa",
-  },
   //!Devrek
   {
     category: ["architectural_designs"],
@@ -575,59 +815,6 @@ export const contentData = [
     github_link: null,
     behance_link: "https://www.behance.net/gallery/152288675/Guezeloba-Housing",
   },
-  //!Drunken Dungeon
-  {
-    category: ["pc_games"],
-    title: "Drunken Dungeon",
-    date: "  July 2022",
-    location: null,
-    description: "An entry to the GMTK Game Jam 2022",
-    detailed_description:
-      "Traverse trough the dungeons with your un-trusty dice of elemental power! \nYou can only use 3 of your 4 powers, and the powers you can use and the buttons for those powers change depending on the roll of the dice.Defeat all of the enemies in the level to advance to the next level. \nControl using WASD keys, spacebar and mouse clicks, ranged actions aimed at cursor. \nRed - Ranged Fireball  \nBlue - Area Ice Attack \nBrown - Earth Shield \nWhite - Air Teleport",
-    skills: "  Unity 3D, C#",
-    genre: "  Roguelike",
-    role: "  Programming, Gameplay Design, Level Design",
-    job_type: "  Passion Project, completed with the Flowtart Studios team",
-    image: "https://img.itch.zone/aW1nLzk1NDk3NDkucG5n/315x250%23c/iCFxeA.png",
-    images: [
-      "https://img.itch.zone/aW1hZ2UvMTYyMTE2OS85NTA3OTMwLnBuZw==/original/qEci2l.png",
-      "https://img.itch.zone/aW1hZ2UvMTYyMTE2OS85NTA3OTMzLnBuZw==/original/X9VINU.png",
-    ],
-    videoUrl: "https://www.youtube.com/embed/ESMAKEjqmtw", // Add this only if video exists
-    webGLUrl: "https://itch.io/embed-upload/7921006?color=ededed", // Add this only if WebGL exists
-    webgl_width: "850",
-    webgl_height: "580",
-    github_link: "https://github.com/canafarci/DrunkenWizard",
-    behance_link: null,
-  },
-  //!NYT
-  {
-    category: ["mobile_games"],
-    title: "My Yellow Taxi Co.",
-    date: "  October 2022 (Version 1) April 2023 (Version 2)",
-    location: null,
-    description: "Idle-Arcade mobile game with a taxi theme",
-    detailed_description:
-      "Start from the ground up in this fun and fast-paced time-management game where the aim is to build a taxi station. \nShow your skills as a manager, invest wisely in staff and cars and work to become the best.",
-    skills: "  Unity 3D, C#",
-    genre: "  Idle-Arcade",
-    role: "  Programming, Gameplay Design, UI Design, completed with the Flowtart Studios team",
-    job_type:
-      "  Prototype project initially developed for Game Theory Games and later revised with Ketchapp games",
-    image:
-      "https://img.itch.zone/aW1nLzEyMTg1MTY5LnBuZw==/315x250%23c/6cytVJ.png",
-    images: [
-      "https://i.ibb.co/YtbQGwR/uc-export-view-id-1nl-YRdp-CHuj-Fo-PCl-Ad-IXg76-X5ray-TJBdv.jpg",
-    ],
-    videoUrl: "https://www.youtube.com/embed/v0I0KCClqKY",
-    webGLUrl: "https://itch.io/embed-upload/7922490?color=ededed",
-    webgl_width: "540",
-    webgl_height: "900",
-    google_play_link:
-      "https://play.google.com/store/apps/details?id=com.flowtart.taxicompany",
-    github_link: "https://github.com/canafarci/MyYellowTaxiCo",
-    behance_link: null,
-  },
   //!Weapon rush
   {
     category: ["mobile_games"],
@@ -659,68 +846,6 @@ export const contentData = [
       "https://play.google.com/store/apps/details?id=com.flowtart.weaponrush",
     behance_link: null,
   },
-  //!Wonder
-  {
-    category: ["mobile_games"],
-    title: "Wonder Builders",
-    date: "  January 2023",
-    location: null,
-    description: "Idle clicker with a wonder building theme",
-    detailed_description:
-      "Player upgrades the worker speed, count and merges them to build the wonder faster, \nin this prototype player can build Eiffel Tower and Pyramid at Giza",
-    skills: "  Unity 3D, C#",
-    genre: "  Idle Clicker",
-    role: "  Programming, Gameplay and Architectural design, completed with the Flowtart Studios team",
-    job_type: "  Prototype project developed for Game Theory Games",
-    image:
-      "https://play-lh.googleusercontent.com/U2bL4VmpWOmW0yXa5VzciV9hWWUaAzU-N-hCWsas2aAvf-LYt7mmZVPpjgtsoJpIXhQ=s256-rw",
-    images: [
-      "https://play-lh.googleusercontent.com/MYNX2emWmz7rBXrwmBck4Brw39jnIQOtoxz4JDfOEeYJzBLIceJmgM40rSr3XpGRdA=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/G9Y3zRnTgyAAz077h6DMOwOkl8LuHlqdTVtK23zJ84qL9hOUr-ZQeG-E7_3t3ugnyw=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/XI3eVb8FkHVUqnIlY77cjvLNj5wueAEEwHxQAbfIn-fVOsS8mNSU_GoAKt0yot1ZI2k=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/eU3vMxkuCMt6uFTQvYQh76Mpq5izrRU70wOo_gVR7zdkCkvgTO2853z9AdSFObCBdR4=w2560-h1440-rw",
-    ],
-    horizontalImages: true,
-    videoUrl: "https://www.youtube.com/embed/lUnxmFhP6J0",
-    webGLUrl: "https://itch.io/embed-upload/7933036?color=ededed",
-    webgl_width: "500",
-    webgl_height: "850",
-    github_link: "https://github.com/canafarci/WonderBuilder",
-    google_play_link:
-      "https://play.google.com/store/apps/details?id=com.flowtart.wondercraft",
-    behance_link: null,
-  },
-  //!Swing
-  {
-    category: ["mobile_games"],
-    title: "Swing Ride Idle ASMR",
-    date: "  January 2023",
-    location: null,
-    description: "Idle clicker with a theme park/christmas setting",
-    detailed_description:
-      "Player manages a swing ride, and makes money from ride customers \nPlayer can buy new seats, upgrade existing seats and buy a new wheel to make even more money",
-    skills: "  Unity 3D, C#",
-    genre: "  Idle Clicker",
-    role: "  Programming, Gameplay design, completed with the Flowtart Studios team",
-    job_type: "  Prototype project developed for Game Theory Games",
-    image:
-      "https://play-lh.googleusercontent.com/YPxSsNmTKNLjHUTCmjmveKSarMip5y3-ReQD2OLS8n_xHGqeL254fNVvCA9FAfeC1g=s256-rw",
-    images: [
-      "https://play-lh.googleusercontent.com/ZaHJOrt3qvXR5U5l0wXq0wtqUB3ZdsNJV7Lx7abV1SM4_02EXwfsKPOEE_3Jl5CuPcMB=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/k0of7LqyACYBABeDM-tYxL9l_623wy914aeS2yz9-XMDV99Iva7Dh8M_f9D8V1tDEEI=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/8YwGEDzhxEjGUvl3kWImfkcy4KBNz3oGcT8kvUlLMha2gKPvtnx5dFmLx43DfQivoRw=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/GepjRIMtmVO1KrjVc2htRfZbJ9N2iHZqokvBreZMDLeexUIbyUWEwdwKbdW3BS5wfuqK=w2560-h1440-rw",
-    ],
-    horizontalImages: true,
-    videoUrl: "https://www.youtube.com/embed/7GpVk9cp-XA",
-    webGLUrl: "https://itch.io/embed-upload/7936708?color=ededed",
-    webgl_width: "500",
-    webgl_height: "850",
-    github_link: "https://github.com/canafarci/SwingClicker",
-    google_play_link:
-      "https://play.google.com/store/apps/details?id=com.flowtart.swingclicker",
-    behance_link: null,
-  },
   //!Storage Wars
   {
     category: ["mobile_games"],
@@ -749,70 +874,6 @@ export const contentData = [
     github_link: "https://github.com/canafarci/StorageWars",
     google_play_link:
       "https://play.google.com/store/apps/details?id=com.flowtart.storagemasters",
-    behance_link: null,
-  },
-  //!House Flipper 3D
-  {
-    category: ["mobile_games"],
-    title: "House Flipper 3D",
-    date: "  March 2022",
-    location: null,
-    description: "House repair and renovation simulator",
-    detailed_description:
-      "Inspired by the house renovation reality shows, player buys a heavily damaged house, repairs it, \nbuys new furniture and assembles them, decorates the house and then sells it for profit",
-    skills: "  Unity 3D, C#",
-    genre: "  Simulator",
-    role: "  Programming, Gameplay and Architectural design, completed with the Flowtart Studios team",
-    job_type: "  Prototype project developed for Game Theory Games",
-    image:
-      "https://i.ibb.co/GTNz9fk/uc-export-view-id-1r-ATs-Im69-NCYDJu8-WRKC-3rc-Qm-Y8-RAzn.png",
-    images: [
-      "https://img.itch.zone/aW1hZ2UvMjA3NTU4NC8xMjIwODIwNS5qcGc=/original/Vd7DSZ.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjA3NTU4NC8xMjIwODIwNy5qcGc=/original/IBLo3y.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjA3NTU4NC8xMjIwODIxMS5qcGc=/original/KMNlkB.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjA3NTU4NC8xMjIwODIwOC5qcGc=/original/qaczSc.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjA3NTU4NC8xMjIwODIxMi5qcGc=/original/X%2FQiPk.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjA3NTU4NC8xMjIwODIxMC5qcGc=/original/OXIlHF.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjA3NTU4NC8xMjIwODIxMy5qcGc=/original/uA%2Fv2I.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjA3NTU4NC8xMjIwODIxNC5qcGc=/original/iPzT%2FC.jpg",
-    ],
-    horizontalImages: true,
-    webGLUrl: "https://itch.io/embed-upload/7937642?color=ededed",
-    webgl_width: "500",
-    webgl_height: "870",
-    github_link: "https://github.com/canafarci/HouseFlipper",
-    google_play_link:
-      "https://play.google.com/store/apps/details?id=com.flowtart.houseflipper",
-    behance_link: null,
-  },
-  //!Popcorn
-  {
-    category: ["mobile_games"],
-    title: "Pop-it Popcorn ASMR",
-    date: "  November 2022",
-    location: null,
-    description: "Popcorn Themed Idle Clicker",
-    detailed_description:
-      "Player buys upgrades to cook popcorn faster, then sells them to earn money",
-    skills: "  Unity 3D, C#",
-    genre: "  Idle Clicker",
-    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
-    job_type: "  Prototype project developed for Game Theory Games",
-    image:
-      "https://img.itch.zone/aW1nLzEyMjEwNzM5LnBuZw==/315x250%23c/VTx9jK.png",
-    images: [
-      "https://img.itch.zone/aW1hZ2UvMjA3NTk2Ny8xMjIxMDc0OC5qcGc=/347x500/SvRaCk.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjA3NTk2Ny8xMjIxMDc0OS5qcGc=/347x500/7dbLEt.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjA3NTk2Ny8xMjIxMDc1MC5qcGc=/347x500/4IKXrW.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjA3NTk2Ny8xMjIxMDc1MS5qcGc=/347x500/iddBd%2B.jpg",
-    ],
-    horizontalImages: true,
-    webGLUrl: "https://itch.io/embed-upload/7939293?color=ededed",
-    webgl_width: "500",
-    webgl_height: "870",
-    github_link: "https://github.com/canafarci/PopcornClicker",
-    google_play_link:
-      "https://play.google.com/store/apps/details?id=com.flowtart.popcornclicker",
     behance_link: null,
   },
   //!Easter Egg
@@ -980,40 +1041,6 @@ export const contentData = [
       "https://play.google.com/store/apps/details?id=com.flowtart.deadlymotoracer",
     behance_link: null,
   },
-  //!Cupcake
-  {
-    category: ["mobile_games"],
-    title: "Cupcake Stack",
-    date: "  May 2022",
-    location: null,
-    description: "Forward stack runner with a cake theme",
-    detailed_description:
-      "Player is given cupcake molds on the running platform,  gather them, fills them with dough, bakes them, adds sprinkles and filling and then sells them for profit",
-    skills: "  Unity 3D, C#",
-    genre: "  Forward stack runner",
-    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
-    job_type: "  Prototype project developed for Game Theory Games",
-    image:
-      "https://play-lh.googleusercontent.com/BMkVuEds9QMRHkncC8cELNi8Abkcs7dWS2_jOl--4yHdFeWy5xH1478OOVHVP6pui6U=w240-h480-rw",
-    images: [
-      "https://play-lh.googleusercontent.com/qVASqGYzDn8XZxofmfNlIu8rxvALB4c3ff8HaWa0ZrFFfgS421AO37d8HBvsT-PYa4Q=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/a8Qa-9lEm1uprqB3xWcBupnDbI2XaiUfANeGhSn8se_MilHFEGOXNfhSRQdLAaRc0g=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/5mlxRmDC27c11G0JwwkYbDNAZ_sHje6Soon2ChqMcKts0aQKRoFoGLemzfwGz3zVnUE=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/MFeL7EDP1MDEyB-GVESp_1DLMm0UIsDJyO3dSggJWtC-8kHlwogKZpoqwd1y5atXmQ=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/J-oysuOWZ1KzQ2VMr5yffDw4s--1uXf3ntuPR085QZjNzaqyPPEZfonll-wlL9a0BDM=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/w4O0z6F7BTLBVYjgN2cRGFmr5GN3QNrrNYgDwATJJ0tOVrTrIrcuiwD4Neun6Ktzmmc=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/LRpiJzZHy6IckbTyzfmg881pIT-bTdw8ncceA1tafPWW_ybc8H_oZePvOFUAjwEhbho=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/dLPq3hK31uiEpJAelTbmK_nv-hesNrWp-XPKSu2HHaQa8-OUSZ0XRZ89qab-iTNT9bci=w2560-h1440-rw",
-    ],
-    horizontalImages: true,
-    webGLUrl: "https://itch.io/embed-upload/7963906?color=ededed",
-    webgl_width: "500",
-    webgl_height: "870",
-    github_link: "https://github.com/canafarci/CupcakeStack",
-    google_play_link:
-      "https://play.google.com/store/apps/details?id=com.flowtart.cupcakestack",
-    behance_link: null,
-  },
   //!NFT
   {
     category: ["mobile_games"],
@@ -1112,38 +1139,6 @@ export const contentData = [
       "https://play.google.com/store/apps/details?id=com.flowtart.airpuppetrush",
     behance_link: null,
   },
-  //!Cupid Run
-  {
-    category: ["mobile_games"],
-    title: "Love or Hate Run",
-    date: "  January 2022",
-    location: null,
-    description: "Narrative runner with a matchmaking theme",
-    detailed_description:
-      "Player assumes the role of a cupid, who decides how the relationship of a couple will pan out. Player can choose to make the couple fall in love, or make them fight and break up. As player makes decisions, cupid turns into an angel or a demon according to the nature of the decisions.",
-    skills: "  Unity 3D, C#",
-    genre: "  Narrative runner",
-    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
-    job_type: "  Prototype project developed for Game Theory Games",
-    image:
-      "https://lh3.googleusercontent.com/l-mmiYgiLfbKbqUrhQEETvQd-m3eX_-NF83WU9fgmYi0F844yqGxP8qS-G9B8fAesQ",
-    images: [
-      "https://lh3.googleusercontent.com/nReme0Wo8wgHDBaNNoT7HxJIm-Uf-lt9Hj7bCsNQLn4RVR4wj1n0cEorEtCC4ut_Qg",
-      "https://lh3.googleusercontent.com/PW4JDhr0q76W4XI76kyqiFvMtulA07J3VSNR0Dik5mpUnc2A4uSj7tONLm6g7IXqLUY",
-      "https://lh3.googleusercontent.com/x7VdPbSkqd6eE2RIAKe46QXFiwjdpepZFguv73X_EVTvW8rL1MDpWAAiC6q_Z8jkI59v",
-      "https://lh3.googleusercontent.com/YWcdc0HrqXUv3fpxGFu1ZgMWNJQrVWJ6z-BT5jj4r9Hd847apBY-2yokEGFl3iQ1DQ",
-      "https://lh3.googleusercontent.com/mTENFjLtQjJZK2Vd-B7LWYC5NaCLLxIpC-d6PvLs6zEJjXrwJIZWh-T1GRTjOOAkGK0",
-      "https://lh3.googleusercontent.com/jsSu1MjRERRGsOeBVhykiL7th2jqQzZ9ZQ1riR5oUob-3G7RlQAKxbhOKdI8hi_-aHg",
-      "https://lh3.googleusercontent.com/wlXG5cMDOXkNuVhJNvqk7QeXHQ1ydCCOTwRw_FpvEnEfyFar5DroU3Y3Iajz8HWFo0U",
-      "https://lh3.googleusercontent.com/-wcQHJDkunMOVSNRT7hkkLeOlfY16miS3SFiw7kTy0nE4KFicO5E8tZvxoeQv8jA25-i",
-    ],
-    horizontalImages: true,
-    webGLUrl: "https://itch.io/embed-upload/7983581?color=333333",
-    webgl_width: "500",
-    webgl_height: "870",
-    github_link: "https://github.com/canafarci/CupidRun",
-    behance_link: null,
-  },
   //!Skate Rush
   {
     category: ["mobile_games"],
@@ -1174,33 +1169,6 @@ export const contentData = [
     webgl_width: "500",
     webgl_height: "870",
     github_link: "https://github.com/canafarci/SkateDancer",
-    behance_link: null,
-  },
-  //!Soccer Mania
-  {
-    category: ["mobile_games"],
-    title: "Soccer Mania",
-    date: "  September 2021",
-    location: null,
-    description: "Multiplayer tabletop inspired soccer game",
-    detailed_description:
-      "Two players compete to score goals in this game by dragging stationary player pins and kicking the ball towards each other. Pins are placed on top of small pits, so when the ball is kicked without a clear direction, it often ends up in another pin's vicinity. If the ball cant be interacted with, i.e. it gets stuck, the player who had the control of the ball most recently has an option to move the ball randomly. When a player scores 5 goals, wins the game. (In order to play the game, you need 2 clients. You can open another instance in a new window or another computer.)",
-    skills: "  Unity 3D, Photon Networking, C#",
-    genre: "  Multiplayer sports game",
-    role: "  Programming, Networking and Gameplay design, completed with the Flowtart Studios team",
-    job_type: "  Project developed for Diger Yapim",
-    image:
-      "https://lh3.googleusercontent.com/bC5ZE4M7-ZNT5H0WkbqgQFTDcoPZlfdo_paIP7zVyq27J-yzVq44UInTeC8LLNR5Ag",
-    images: [
-      "https://lh3.googleusercontent.com/FhhwLPqpOdJyVDt4hABwySPR80lpj97sJBTXbqXOpuAzj225gsgAu4qHfd9XJAia8w",
-      "https://lh3.googleusercontent.com/tD2Y_LAO6BZYTKVLa4Y8Jk8_pBhOyIeAj9_WPjVyMjuidSwKjFeG8uzNXZLOAeYTRGKd",
-      "https://lh3.googleusercontent.com/Tymms1MH6fK3z1gaVjM6deBcRHHArgBdfDPffdcGpwnniGkwkfvNby5khlsqr8EZrA",
-    ],
-    horizontalImages: false,
-    webGLUrl: "https://itch.io/embed-upload/7989127?color=333333",
-    webgl_width: "850",
-    webgl_height: "520",
-    github_link: "https://github.com/canafarci/SoccerMania",
     behance_link: null,
   },
   //!Rubix Box
@@ -1259,5 +1227,18 @@ export const contentData = [
     google_play_link:
       "https://play.google.com/store/apps/details?id=com.digeryapim.slickgammon",
     behance_link: null,
+  },
+  //!port website
+  {
+    category: ["other_work"],
+    title: "Portfolio Website",
+    date: "  June  2022",
+    description: "A website for showcasing my work collection",
+    detailed_description: "This website was developed by me using React",
+    skills: "  Javascript, React, Photoshop",
+    genre: null,
+    job_type: "  Personal Project",
+    image: "https://i.ibb.co/jbYPDd5/Screenshot-2023-06-09-at-01-30-23.png",
+    github_link: "https://github.com/canafarci/portfolio-website",
   },
 ];
