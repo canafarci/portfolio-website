@@ -50,6 +50,6 @@
 /*Small Size*/
 @media screen and (max-width: 600px) {
   .card_text p {
-    font-size: 10px;
+    font-size: 11px;
   }
 }
