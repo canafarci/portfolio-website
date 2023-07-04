@@ -69,4 +69,20 @@ header {
 
 /*Small Size*/
 @media screen and (max-width: 600px) {
+  .header__row h1 {
+    font-size: 35px;
+    margin: 0px;
+  }
+  .header__row h3 {
+    font-size: large;
+  }
+
+  .pfimage {
+    text-align: center;
+    width: 50%;
+  }
+  .header__container {
+    width: 50%;
+    gap: 0px;
+  }
 }
