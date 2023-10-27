@@ -7,7 +7,7 @@ export const contentData = [
     description:
       "Casual side scroller game with 10M+ downloads in Play store and 242K Ratings in App store",
     detailed_description:
-      "Player progresses through levels in a classical implementation of side scroller genre in mobile devices.  \n\nMy role in the project started with our contract with Game Theory Games, and i worked mainly on  improving the game and adding new features such as analytics and monetization. I have also worked on periodical events to create more engagement for the app and also led the development of an multiplayer version of this game.",
+      "My involvement in the project began with our contract with Game Theory Games. I primarily focused on enhancing the game, introducing new features like analytics and monetization. Additionally, I worked on periodic events to boost user engagement.",
     skills: "  C#, Unity, Photon Networking",
     genre: null,
     job_type: "  Feature development and Game maintenance in Unity",
@@ -70,7 +70,7 @@ export const contentData = [
     location: null,
     description: "Train station management Idle-Arcade",
     detailed_description:
-      "In this game, player emulates an train station manager. Player accepts new passengers into the train station, stores their luggage if they have one, and finally makes them get into the train. Player can also give drinks to waiting passangers for extra income, and has to repair the train when it returns broken.\n\nThe player can buy upgrades to automate passenger acception process by hiring an npc, can buy other npcs to automatically distribute drinks to the waiting passengers and store passanger luggages. Player can also buy new trains and add new wagons to the trains to be able to serve more customers. Player can also expand the passanger waiting zone by buying new seating areas.",
+      "In this game, players step into the role of a train station manager. Their responsibilities include welcoming new passengers to the train station, providing luggage storage services if needed, and ensuring passengers board the train promptly. Additionally, players have the opportunity to offer beverages to waiting passengers to generate extra income. Maintenance tasks include repairing the train when it returns damaged.\n\nTo enhance efficiency, players can invest in upgrades, such as hiring NPCs to automate the passenger acceptance process, employing NPCs to serve drinks to waiting passengers and manage passenger luggage. Furthermore, players can purchase new trains and expand the capacity by adding additional train cars, enabling them to cater to a larger customer base. Expanding the passenger waiting area is also possible by acquiring new seating areas.",
     skills: "  Unity 3D, C#",
     genre: "  Idle-Arcade",
     role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
@@ -104,7 +104,7 @@ export const contentData = [
     location: null,
     description: "Idle-Arcade mobile game with a taxi theme",
     detailed_description:
-      "Start from the ground up in this fun and fast-paced time-management game where the aim is to build a taxi station. \nShow your skills as a manager, invest wisely in staff and cars and work to become the best.",
+      "My Yellow Taxi Co. is an exciting and fast-paced time-management game that challenges players to create and manage their own taxi station.\nIn this game, you will step into the shoes of a taxi station manager and demonstrate your management skills by strategically investing in staff and vehicles to transform your station into the city's premier transportation hub.",
     skills: "  Unity 3D, C#",
     genre: "  Idle-Arcade",
     role: "  Programming, Gameplay Design, UI Design, completed with the Flowtart Studios team",
@@ -150,7 +150,7 @@ export const contentData = [
     location: null,
     description: "An entry to the GMTK Game Jam 2022",
     detailed_description:
-      "Traverse trough the dungeons with your un-trusty dice of elemental power! \nYou can only use 3 of your 4 powers, and the powers you can use and the buttons for those powers change depending on the roll of the dice.Defeat all of the enemies in the level to advance to the next level. \nControl using WASD keys, spacebar and mouse clicks, ranged actions aimed at cursor. \nRed - Ranged Fireball  \nBlue - Area Ice Attack \nBrown - Earth Shield \nWhite - Air Teleport",
+      "Traverse through the dungeons with your un-trusty dice of elemental power! \nYou can only use 3 of your 4 powers, and the powers you can use and the buttons for those powers change depending on the roll of the dice. \nDefeat all of the enemies in the level to advance to the next level. \nControl using WASD keys, spacebar, and mouse clicks, with ranged actions aimed at the cursor. \nRed - Ranged Fireball \nBlue - Area Ice Attack \nBrown - Earth Shield \nWhite - Air Teleport",
     skills: "  Unity 3D, C#",
     genre: "  Roguelike",
     role: "  Programming, Gameplay Design, Level Design",
@@ -167,6 +167,37 @@ export const contentData = [
     github_link: "https://github.com/canafarci/DrunkenWizard",
     behance_link: null,
   },
+  //!Wonder
+  {
+    category: ["mobile_games"],
+    title: "Wonder Builders",
+    date: "  January 2023",
+    location: null,
+    description: "Idle clicker with a wonder building theme",
+    detailed_description:
+      "Players have the ability to optimize worker speed and quantity, combining them to expedite the construction of wonders.\nIn this prototype, players can build both the Eiffel Tower and the Giza Pyramid.",
+    skills: "  Unity 3D, C#",
+    genre: "  Idle Clicker",
+    role: "  Programming, Gameplay and Architectural design, completed with the Flowtart Studios team",
+    job_type: "  Prototype project developed for Game Theory Games",
+    image:
+      "https://play-lh.googleusercontent.com/U2bL4VmpWOmW0yXa5VzciV9hWWUaAzU-N-hCWsas2aAvf-LYt7mmZVPpjgtsoJpIXhQ=s256-rw",
+    images: [
+      "https://play-lh.googleusercontent.com/MYNX2emWmz7rBXrwmBck4Brw39jnIQOtoxz4JDfOEeYJzBLIceJmgM40rSr3XpGRdA=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/G9Y3zRnTgyAAz077h6DMOwOkl8LuHlqdTVtK23zJ84qL9hOUr-ZQeG-E7_3t3ugnyw=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/XI3eVb8FkHVUqnIlY77cjvLNj5wueAEEwHxQAbfIn-fVOsS8mNSU_GoAKt0yot1ZI2k=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/eU3vMxkuCMt6uFTQvYQh76Mpq5izrRU70wOo_gVR7zdkCkvgTO2853z9AdSFObCBdR4=w2560-h1440-rw",
+    ],
+    horizontalImages: true,
+    videoUrl: "https://www.youtube.com/embed/lUnxmFhP6J0",
+    webGLUrl: "https://itch.io/embed-upload/7933036?color=ededed",
+    webgl_width: "500",
+    webgl_height: "850",
+    github_link: "https://github.com/canafarci/WonderBuilder",
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.flowtart.wondercraft",
+    behance_link: null,
+  },
   //!House Flipper 3D
   {
     category: ["mobile_games"],
@@ -175,7 +206,7 @@ export const contentData = [
     location: null,
     description: "House repair and renovation simulator",
     detailed_description:
-      "Inspired by the house renovation reality shows, player buys a heavily damaged house, repairs it, \nbuys new furniture and assembles them, decorates the house and then sells it for profit",
+      "Drawing inspiration from beloved house renovation reality programs, players begin by purchasing dilapidated houses. They undertake the challenge of restoring these homes, acquiring new furniture, assembling and creatively decorating interiors, and ultimately selling the rejuvenated properties for a lucrative profit.",
     skills: "  Unity 3D, C#",
     genre: "  Simulator",
     role: "  Programming, Gameplay and Architectural design, completed with the Flowtart Studios team",
@@ -201,54 +232,6 @@ export const contentData = [
       "https://play.google.com/store/apps/details?id=com.flowtart.houseflipper",
     behance_link: null,
   },
-  //!Tez
-  {
-    category: ["academic_work"],
-    title: "Global Sensitivity Analysis for Urban Heat Island Effect",
-    date: "August 2022",
-    location: "   Ankara // Turkey",
-    description: "Thesis written for MARCH degree",
-    detailed_description:
-      "As part of a European Union research programme with my university (BAP), my thesis focused on exploring the detrimental consequences of Urban Heat Islands (UHI) caused by rapid urbanization and inadequate government policies. UHI exacerbates resource consumption, environmental footprint, and poses risks to human health and comfort. I emphasized the need for new design and adaptation strategies in urban settlements to reduce energy consumption and environmental impact.\n\nTo investigate the thermal conditions under UHI effects, I utilized the Urban Weather Generator (UWG), a simulation package written in Python. This powerful tool allowed me to model and analyze the impact of various parameters on UHI intensity. The simulation incorporated geometric data created using Rhinoceros3D, a 3D modeling software, to accurately represent the urban environment.\n\nIn my research, I employed sensitivity analysis, a valuable method to measure the impact of input variables on the output. Sensitivity analysis helps identify the most influential parameters and understand their contributions to the overall UHI effect. It provides valuable insights for modeling, decision-making, and developing effective mitigation strategies.\n\nThrough global sensitivity analysis, I assessed UHI increase in a residential district in Ankara, Turkey, and identified the parameters that significantly contribute to UHI effects. By conducting simulations during average summer and winter weeks, I also explored the seasonal impact on UHI.\n\nThe findings of my thesis highlight the urgent need for sustainable urban development and offer valuable insights for mitigating the adverse effects of UHI.\n\nYou can also explore the source code of the project from the link on the upper right.",
-    skills: "  Python, Rhinoceros3D, Grasshopper",
-    genre: null,
-    job_type: "  Master's Thesis",
-    image: "https://i.ibb.co/b7LGznr/Screenshot-2023-06-09-at-20-41-36.png",
-    github_link: "https://github.com/canafarci/Bap_Project",
-    pdf_link:
-      "https://drive.google.com/file/d/1rjUUK0w3BS7LreUYc7eU5_TxjX2J76oN/preview",
-  },
-  //!Wonder
-  {
-    category: ["mobile_games"],
-    title: "Wonder Builders",
-    date: "  January 2023",
-    location: null,
-    description: "Idle clicker with a wonder building theme",
-    detailed_description:
-      "Player upgrades the worker speed, count and merges them to build the wonder faster, \nin this prototype player can build Eiffel Tower and Pyramid at Giza",
-    skills: "  Unity 3D, C#",
-    genre: "  Idle Clicker",
-    role: "  Programming, Gameplay and Architectural design, completed with the Flowtart Studios team",
-    job_type: "  Prototype project developed for Game Theory Games",
-    image:
-      "https://play-lh.googleusercontent.com/U2bL4VmpWOmW0yXa5VzciV9hWWUaAzU-N-hCWsas2aAvf-LYt7mmZVPpjgtsoJpIXhQ=s256-rw",
-    images: [
-      "https://play-lh.googleusercontent.com/MYNX2emWmz7rBXrwmBck4Brw39jnIQOtoxz4JDfOEeYJzBLIceJmgM40rSr3XpGRdA=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/G9Y3zRnTgyAAz077h6DMOwOkl8LuHlqdTVtK23zJ84qL9hOUr-ZQeG-E7_3t3ugnyw=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/XI3eVb8FkHVUqnIlY77cjvLNj5wueAEEwHxQAbfIn-fVOsS8mNSU_GoAKt0yot1ZI2k=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/eU3vMxkuCMt6uFTQvYQh76Mpq5izrRU70wOo_gVR7zdkCkvgTO2853z9AdSFObCBdR4=w2560-h1440-rw",
-    ],
-    horizontalImages: true,
-    videoUrl: "https://www.youtube.com/embed/lUnxmFhP6J0",
-    webGLUrl: "https://itch.io/embed-upload/7933036?color=ededed",
-    webgl_width: "500",
-    webgl_height: "850",
-    github_link: "https://github.com/canafarci/WonderBuilder",
-    google_play_link:
-      "https://play.google.com/store/apps/details?id=com.flowtart.wondercraft",
-    behance_link: null,
-  },
   //!RadianceGAN
   {
     category: ["academic_work"],
@@ -259,7 +242,7 @@ export const contentData = [
     description:
       "Generative Adversarial Network AI for fast prediction of indoor illumination ",
     detailed_description:
-      "This project utilizes TensorFlow and generative AI techniques to predict the indoor illumination condition of a conceptual plan drawing by analyzing color-coded architectural drawings mapped with daylighting simulation results. \n\nI developed this AI model as my potential thesis topic prior to joining the EU funded global warming research program which focused on urban heat islands, which ended up as my thesis topic.",
+      "This initiative employs TensorFlow and generative AI methodologies to forecast the indoor lighting conditions of a conceptual plan sketch by examining color-coded architectural diagrams associated with daylighting simulation outcomes. \n\nBefore joining the EU-sponsored research program on global warming, which concentrated on urban heat islands and eventually became my thesis subject, I devised this AI model as a potential thesis theme.",
     genre: null,
     job_type: "  Study Collection",
     image:
@@ -267,53 +250,6 @@ export const contentData = [
     pdf_link:
       "https://drive.google.com/file/d/1O6e-eDvBIPborOOtz04gcg8rMmiIt5CD/preview",
     github_link: "https://github.com/canafarci/MARCH_Repo",
-  },
-  //!Hollow Ocean Video
-  {
-    category: ["other_work"],
-    title: "AI Generated Videos for 2021 Venice Biennale",
-    date: "  September  2021",
-    description: "Aimed for creating environmental awareness",
-    detailed_description:
-      "Hollow Ocean is an installation intended to provide a glimpse at potential future changes to maritime environments.\n\nThe ocean, in this project, has six chapters. Each chapter belongs to death. The first chapter, Plastic Ocean which looks at the material invasion of aquatic life with man-made synthetic polymers. Entering the food chain both as prey and predator, plastic simply kills. The second chapter, Dark Ocean looks at the darkest depths of the ocean floor, where humans are drilling for an equally dark substance called petroleum. The third chapter, Phantom Ocean reveals that as humans devoured shrimp stir fry, overfishing has devoured 90% of top predators and continues to kill in a hungry hunt for what our species calls seafood. The fourth chapter, Acid Ocean observes the complex and delicately balanced chemistry of the ocean, providing a salty womb that allows myriad creatures to proliferate. A minute change in acidity, however, can and will take billions of lives. The fifth chapter, Stifled Ocean sees oceans just like the land, both are rendered man-made, with a new temperature, new salinity, and new acidity lives dictated by anthropogenic forces, ocean life is stifled. The last chapter, Hollow Ocean is dedicated to global warming.",
-    skills: "  Tensorflow, Python",
-    genre: null,
-    job_type: "  Freelance Project",
-    role: "  Creating environmental awareness videos using Generative Adversarial Networks.",
-    image:
-      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4845f6152299431.631b57353de95.jpg",
-    images: [
-      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4845f6152299431.631b57353de95.jpg",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5d925f152299431.631b57353ee46.jpg",
-      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c5c107152299431.631b57353e623.jpg",
-    ],
-    horizontalImages: true,
-    videos: [
-      "https://www-ccv.adobe.io/v1/player/ccv/Lo-RhPkirgZ/embed?api_key=behance1&bgcolor=%23191919",
-      "https://www-ccv.adobe.io/v1/player/ccv/TddXHDozVJq/embed?api_key=behance1&bgcolor=%23191919",
-      "https://www-ccv.adobe.io/v1/player/ccv/UBPBNsGEC5U/embed?api_key=behance1&bgcolor=%23191919",
-    ],
-    webGLUrl: null,
-    behance_link:
-      "https://www.behance.net/gallery/152299431/Hollow-Ocean-2048-for-Venice-Biennale",
-  },
-  //!Arch Date prediction
-  {
-    category: ["academic_work"],
-    title: "Architectural Date Prediction AI",
-    skills: "  Tensorflow, Python",
-    date: "  2020",
-    location: "   Ankara // Turkey",
-    description:
-      "Multiclass classification AI for predicting the construction date of an building. ",
-    detailed_description:
-      "This AI model utilizes Deep Learning multiclass image classification with Tensorflow backend and Keras API to correcty predict the date span which the work of architecture was constructed in. Date spans are not in equal length, rather they are classified in such a way that they give equal amount of attention to the various leaps in architectural design and construction technique changes. Dataset is composed of 3680 images, with 15 different date labels.",
-    genre: null,
-    job_type: "  Study Collection",
-    image:
-      "https://i.ibb.co/Qn1Fhy0/uc-export-view-id-13-NAIhe-XVOXo-Yf-EEJPutdg-VRMm-W0-Erws.jpg",
-    pdf_link:
-      "https://drive.google.com/file/d/1yHt_2Mw_kAkW725McSCc1BRioEyrmKgv/preview",
   },
   //!Döşemealtı Villa
   {
@@ -353,7 +289,7 @@ export const contentData = [
     location: null,
     description: "Idle clicker with a theme park/christmas setting",
     detailed_description:
-      "Player manages a swing ride, and makes money from ride customers \nPlayer can buy new seats, upgrade existing seats and buy a new wheel to make even more money",
+      "Player operates a swing ride and generates income from the customers who ride it.\nPlayer has the option to purchase new seats, enhance the current ones, and acquire a new wheel to boost their profits even further.",
     skills: "  Unity 3D, C#",
     genre: "  Idle Clicker",
     role: "  Programming, Gameplay design, completed with the Flowtart Studios team",
@@ -384,7 +320,7 @@ export const contentData = [
     description:
       "Pseudo-random generation and Photoshop combination of an NFT project",
     detailed_description:
-      "My part in the project was to create pseudo-random generation scripts for Adobe Photoshop to combine layers for specific rarities as per design document and generating the metadata for the blockchain network.",
+      "In the project, my role involved the creation of pseudo-random generation scripts for Adobe Photoshop. These scripts were designed to merge layers based on specific rarities, as dictated by the design document.\nIn addition to this, I was also tasked with the generation of metadata for the blockchain network.",
     skills: "  Javascript, Python, Photoshop",
     genre: null,
     job_type: "  Freelance Project",
@@ -420,7 +356,7 @@ export const contentData = [
     location: null,
     description: "Popcorn Themed Idle Clicker",
     detailed_description:
-      "Player buys upgrades to cook popcorn faster, then sells them to earn money",
+      "In the project, the player acquires upgrades to expedite the popcorn cooking process. \nThese upgrades then enable the player to sell popcorn more quickly and thus generate revenue.",
     skills: "  Unity 3D, C#",
     genre: "  Idle Clicker",
     role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
@@ -450,7 +386,7 @@ export const contentData = [
     location: "   Ankara // Turkey",
     description: "Expense tracking app built in React Native",
     detailed_description:
-      "A mobile app developed as a freelance project, this app utilizes Firebase user authentication by email/password login and uses realtime database to store recent expenses. User can see the expenses recorded in the past month, edit and delete them and has an option to check the full expense history",
+      "This is a mobile application developed as a freelance project. The app leverages Firebase for user authentication via email and password login, and employs a real-time database to store recent expenses. Users have the ability to view expenses recorded in the past month, as well as edit and delete them. Additionally, an option is provided to check the full expense history.",
     skills: "  Javascript, React Native, Expo, Google Firebase, REST API",
     genre: null,
     job_type: "  Freelance project",
@@ -476,7 +412,7 @@ export const contentData = [
     location: null,
     description: "Forward stack runner with a cake theme",
     detailed_description:
-      "Player is given cupcake molds on the running platform,  gather them, fills them with dough, bakes them, adds sprinkles and filling and then sells them for profit",
+      "The player is presented with cupcake molds on a moving platform. They collect these molds, fill them with dough, and bake them. After baking, they add sprinkles and filling to the cupcakes. The final step involves selling these cupcakes for a profit.",
     skills: "  Unity 3D, C#",
     genre: "  Forward stack runner",
     role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
@@ -502,22 +438,51 @@ export const contentData = [
       "https://play.google.com/store/apps/details?id=com.flowtart.cupcakestack",
     behance_link: null,
   },
-  //!License design works
+  //!Tez
   {
     category: ["academic_work"],
-    title: "Bachelor's Degree Design Works",
-    date: "  2014 - 2019",
+    title: "Global Sensitivity Analysis for Urban Heat Island Effect",
+    date: "August 2022",
     location: "   Ankara // Turkey",
-    description: "Selected design works from my Bachelor's studies",
+    description: "Thesis written for MARCH degree",
     detailed_description:
-      "This collection includes works for my studio and architectural history classes",
-    skills: "  Python, Rhinoceros3D, Grasshopper, Revit, Autocad",
+      "As part of a European Union research programme with my university (BAP), my thesis focused on exploring the detrimental consequences of Urban Heat Islands (UHI) caused by rapid urbanization and inadequate government policies. UHI exacerbates resource consumption, environmental footprint, and poses risks to human health and comfort. I emphasized the need for new design and adaptation strategies in urban settlements to reduce energy consumption and environmental impact.\n\nTo investigate the thermal conditions under UHI effects, I utilized the Urban Weather Generator (UWG), a simulation package written in Python. This powerful tool allowed me to model and analyze the impact of various parameters on UHI intensity. The simulation incorporated geometric data created using Rhinoceros3D, a 3D modeling software, to accurately represent the urban environment.\n\nIn my research, I employed sensitivity analysis, a valuable method to measure the impact of input variables on the output. Sensitivity analysis helps identify the most influential parameters and understand their contributions to the overall UHI effect. It provides valuable insights for modeling, decision-making, and developing effective mitigation strategies.\n\nThrough global sensitivity analysis, I assessed UHI increase in a residential district in Ankara, Turkey, and identified the parameters that significantly contribute to UHI effects. By conducting simulations during average summer and winter weeks, I also explored the seasonal impact on UHI.\n\nThe findings of my thesis highlight the urgent need for sustainable urban development and offer valuable insights for mitigating the adverse effects of UHI.\n\nYou can also explore the source code of the project from the link on the upper right.",
+    skills: "  Python, Rhinoceros3D, Grasshopper",
     genre: null,
-    job_type: "  Study Collection",
-    image:
-      "https://i.ibb.co/ScHYVyw/uc-export-view-id-1-Wv-Sml-Heced-D5-QXGObuqo-ZZx1-DJ-9-HSAg.png",
+    job_type: "  Master's Thesis",
+    image: "https://i.ibb.co/b7LGznr/Screenshot-2023-06-09-at-20-41-36.png",
+    github_link: "https://github.com/canafarci/Bap_Project",
     pdf_link:
-      "https://drive.google.com/file/d/13wVPfTiS3bp1vrDdM1VVwg5uqLM85wWr/preview",
+      "https://drive.google.com/file/d/1rjUUK0w3BS7LreUYc7eU5_TxjX2J76oN/preview",
+  },
+  //!Hollow Ocean Video
+  {
+    category: ["other_work"],
+    title: "AI Generated Videos for 2021 Venice Biennale",
+    date: "  September  2021",
+    description: "Aimed for creating environmental awareness",
+    detailed_description:
+      "Hollow Ocean is an art installation designed to offer a peek into the potential future transformations of marine environments.\n\nIn this project, the ocean is divided into six chapters, each representing a different aspect of death. The first chapter, Plastic Ocean, explores the invasion of aquatic life by man-made synthetic polymers. These plastics enter the food chain as both prey and predator, causing widespread death. The second chapter, Dark Ocean, delves into the darkest depths of the ocean floor where humans are drilling for petroleum. The third chapter, Phantom Ocean, reveals the devastating impact of overfishing, which has wiped out 90% of top predators in a relentless pursuit of seafood. The fourth chapter, Acid Ocean, examines the intricate and delicately balanced chemistry of the ocean, a salty womb that nurtures a plethora of creatures. However, even a slight increase in acidity can result in the loss of billions of lives. The fifth chapter, Stifled Ocean, portrays how both land and sea have been altered by human activity, with changes in temperature, salinity, and acidity stifling marine life. The final chapter, Hollow Ocean, is dedicated to the issue of global warming.",
+    skills: "  Tensorflow, Python",
+    genre: null,
+    job_type: "  Freelance Project",
+    role: "  Creating environmental awareness videos using Generative Adversarial Networks.",
+    image:
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4845f6152299431.631b57353de95.jpg",
+    images: [
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4845f6152299431.631b57353de95.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5d925f152299431.631b57353ee46.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c5c107152299431.631b57353e623.jpg",
+    ],
+    horizontalImages: true,
+    videos: [
+      "https://www-ccv.adobe.io/v1/player/ccv/Lo-RhPkirgZ/embed?api_key=behance1&bgcolor=%23191919",
+      "https://www-ccv.adobe.io/v1/player/ccv/TddXHDozVJq/embed?api_key=behance1&bgcolor=%23191919",
+      "https://www-ccv.adobe.io/v1/player/ccv/UBPBNsGEC5U/embed?api_key=behance1&bgcolor=%23191919",
+    ],
+    webGLUrl: null,
+    behance_link:
+      "https://www.behance.net/gallery/152299431/Hollow-Ocean-2048-for-Venice-Biennale",
   },
   //!Cupid Run
   {
@@ -527,7 +492,7 @@ export const contentData = [
     location: null,
     description: "Narrative runner with a matchmaking theme",
     detailed_description:
-      "Player assumes the role of a cupid, who decides how the relationship of a couple will pan out. Player can choose to make the couple fall in love, or make them fight and break up. As player makes decisions, cupid turns into an angel or a demon according to the nature of the decisions.",
+      "In this game, the player steps into the shoes of Cupid, the arbiter of a couple’s fate. The player has the power to shape the couple’s relationship, either nurturing their love or instigating conflict leading to a breakup. The choices made by the player influence Cupid’s transformation into either an angel or a demon, reflecting the nature of their decisions.",
     skills: "  Unity 3D, C#",
     genre: "  Narrative runner",
     role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
@@ -551,6 +516,57 @@ export const contentData = [
     github_link: "https://github.com/canafarci/CupidRun",
     behance_link: null,
   },
+  //!License design works
+  {
+    category: ["academic_work"],
+    title: "Bachelor's Degree Design Works",
+    date: "  2014 - 2019",
+    location: "   Ankara // Turkey",
+    description: "Selected design works from my Bachelor's studies",
+    detailed_description:
+      "This collection includes works for my studio and architectural history classes",
+    skills: "  Python, Rhinoceros3D, Grasshopper, Revit, Autocad",
+    genre: null,
+    job_type: "  Study Collection",
+    image:
+      "https://i.ibb.co/ScHYVyw/uc-export-view-id-1-Wv-Sml-Heced-D5-QXGObuqo-ZZx1-DJ-9-HSAg.png",
+    pdf_link:
+      "https://drive.google.com/file/d/13wVPfTiS3bp1vrDdM1VVwg5uqLM85wWr/preview",
+  },
+  //!Bowling
+  {
+    category: ["mobile_games"],
+    title: "Bowling Stack 3D",
+    date: "  April 2022",
+    location: null,
+    description: "Forward stack runner with a bowling theme",
+    detailed_description:
+      "In the game, the player strategically places bowling balls to hit pins and accumulate points, all while avoiding various obstacles. Once the finish line is reached, the bowling balls combine to form a larger ball. The player then attempts to knock down as many stacked pins as possible with this larger ball.",
+    skills: "  Unity 3D, C#",
+    genre: "  Forward Stack Runner",
+    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
+    job_type: "  Prototype project developed for Game Theory Games",
+    image:
+      "https://lh3.googleusercontent.com/0JVY0ER2rYWWf2rtIc6nRYE3riody34ANICbX557YTDqR3YTUbMFy0KNg3LBP-P9IQ",
+    images: [
+      "https://play-lh.googleusercontent.com/J02C_Q5g3ye32r751GCH2hc0iGEfAchWxJzd_Y4w3gBkQIHPQuHdiTQRtTGaHyO2cWY=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/whH8PnpoG538KKL2Mzc2E9JxgAJEmzr8vlfNIyuY83ujEku_2k-tWo6KnDomAUo0rA=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/NfS2-UjnltTWEmU-sawsJaIMjtxW6Tt9N1xpBDg0IZ5Ek1VnmDX34huYHRmkL29oow=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/JTuv0ZzbtRTdWDJSR67TqMXK-pgg0X_QvOVXBHy8K8sHe51U1vClrHYVZefmTVjaDw=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/QokHkfZJc6cKmzekEb0SPwld6LQ5ErjL2-cNYa9q-o75xeWcgCVLhb9Ega7Vv9TMX8E=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/VPUpH1PTPMhDVAOkhlKHbw9GMZRWoc08x8q1Lxg3csCXwbL8D0yABG643kl9U0Uhvmo=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/ugStJo8_MEfDjJkIH6x0nk5S8NAKH4Hu-6aOec_ra66nXK-Z7DTYPGdL4ADFDdzAyXg=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/uNup0842RQoxrVDFL5qZW0F9l918hKuUXziMkEsvH25vRR-ZhqGG3z9nLjQbHlQXrA=w2560-h1440-rw",
+    ],
+    horizontalImages: true,
+    webGLUrl: "https://itch.io/embed-upload/7965305?color=ededed",
+    webgl_width: "500",
+    webgl_height: "870",
+    github_link: "https://github.com/canafarci/BowlingStack",
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.flowtart.bowlingstack",
+    behance_link: null,
+  },
   //!License AH works
   {
     category: ["academic_work"],
@@ -559,7 +575,7 @@ export const contentData = [
     location: "   Ankara // Turkey",
     description: "Selected Architectural History researches from my studies",
     detailed_description:
-      "This collection includes architectural examination papers of of Aachen cathedral in Germany, Santiago del Compostela in Spain and a research paper titled 'Evolution of the State Mechanism and Transformation from City Temple to Palace Temple in Ancient Mesopotamia' \n\nFirst two works was part of the bachelor's studies, and the last work was done as a part of an Master's degree course in architectural history, which examined how cosmological patterns are used as design inspirations in medieval architecture.",
+      "This collection comprises architectural analysis papers on the Aachen Cathedral in Germany and the Santiago del Compostela in Spain, as well as a research paper titled ‘Evolution of the State Mechanism and Transformation from City Temple to Palace Temple in Ancient Mesopotamia’.\n\nThe first two works were part of a Bachelor’s degree program, while the latter was a component of a Master’s course in architectural history. The research paper delves into how cosmological patterns have been used as design inspirations in medieval architecture.",
     genre: null,
     job_type: "  Study Collection",
     image:
@@ -575,7 +591,7 @@ export const contentData = [
     location: null,
     description: "Multiplayer tabletop inspired soccer game",
     detailed_description:
-      "Two players compete to score goals in this game by dragging stationary player pins and kicking the ball towards each other. Pins are placed on top of small pits, so when the ball is kicked without a clear direction, it often ends up in another pin's vicinity. If the ball cant be interacted with, i.e. it gets stuck, the player who had the control of the ball most recently has an option to move the ball randomly. When a player scores 5 goals, wins the game. (In order to play the game, you need 2 clients. You can open another instance in a new window or another computer.)",
+      "This game pits two players against each other in a goal-scoring competition. Players maneuver stationary pins to kick a ball towards the opponent’s goal. The pins are strategically placed over small pits, causing the ball to often end up near another pin when kicked without a clear direction. If the ball becomes unplayable, the player who last controlled the ball has the option to randomly reposition it. The game concludes when a player scores 5 goals. To play the game, two clients are required, which can be opened in separate windows or on different computers.",
     skills: "  Unity 3D, Photon Networking, C#",
     genre: "  Multiplayer sports game",
     role: "  Programming, Networking and Gameplay design, completed with the Flowtart Studios team",
@@ -602,7 +618,7 @@ export const contentData = [
     description:
       "Pseudo-random generation and After Effects video generation of an NFT project",
     detailed_description:
-      "My part in the project was to create pseudo-random generation scripts for Adobe Photoshop to combine layers for specific rarities as per design document and generating the metadata for the blockchain network.",
+      "My role in the project involved developing pseudo-random generation scripts for Adobe Photoshop. These scripts were designed to merge layers according to specific rarities, as outlined in the design document. Additionally, I was responsible for generating the metadata for the blockchain network.",
     skills: "  Javascript, Python, After Effects",
     genre: null,
     job_type: "  Freelance Project",
@@ -641,7 +657,7 @@ export const contentData = [
     date: "  March 2020  ",
     description: "Action role playing game prototype",
     detailed_description:
-      "This project was developed when i was starting my Game Development journey. This game has core combat mechanics and Inventory system implementation.",
+      "I embarked on my journey into Game Development with this project. It features fundamental combat mechanics and an implemented inventory system.",
     skills: "  C#, Unity",
     genre: null,
     job_type: "  Passion project",
@@ -678,6 +694,37 @@ export const contentData = [
     github_link: null,
     behance_link: "https://www.behance.net/gallery/152287153/ERG-Headquarters",
   },
+  //!Weapon rush
+  {
+    category: ["mobile_games"],
+    title: "Weapon Rush: Runner Clicker",
+    date: "  February 2023",
+    location: null,
+    description: "Roguelite inspired runner game",
+    detailed_description:
+      "The objective of this game is to enhance the player’s abilities and acquire followers to defeat the final boss. \nUpon the player’s demise, they are resurrected with all previously purchased upgrades intact. However, these upgrades are reset when the player advances to the subsequent level.",
+    skills: "  Unity 3D, C#",
+    genre: "  Runner",
+    role: "  Programming and Gameplay Design, completed with the Flowtart Studios team",
+    job_type: "  Prototype project developed for Game Theory Games",
+    image:
+      "https://play-lh.googleusercontent.com/_DpBIJhbAyLWsSY1lcPQXOB9yRr7o9Yw-LdiUxzaOOPzItvhHOBO0ZR4iy5fdnWbRHk=s256-rw",
+    images: [
+      "https://play-lh.googleusercontent.com/-6YTic5_e90IA_72oIBv5ivGHob3cH2qzCqgbysgyq4xpHKj6lKrfcPKkwaouxm61w=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/lLN4HWmV98bZ0h0uqkux5kNqg3J-QI-lV4hD4CH0_nvO19QS-Ff_XmdS2wrWmoanuZ0=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/cTPhu8kWPaz8NXnUYSM9U_u_fBQg7KHa0Vkx4f6J3ykQdAvYtkwUhC3s21v3D_TrWA=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/bDNAsuykXaX5IBmy21iaou-4eFblq19ThhvfAtwVMNnr77S7oZGNZYBsuq-ptYKKEFQ=w2560-h1440-rw",
+    ],
+    horizontalImages: true,
+    videoUrl: "https://www.youtube.com/embed/sfCsFO9W1BQ",
+    webGLUrl: "https://itch.io/embed-upload/7927013?color=ededed",
+    webgl_width: "500",
+    webgl_height: "850",
+    github_link: "https://github.com/canafarci/RunnerClicker",
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.flowtart.weaponrush",
+    behance_link: null,
+  },
   //!Interior Study
   {
     category: ["architectural_designs"],
@@ -698,6 +745,36 @@ export const contentData = [
     webGLUrl: null,
     github_link: null,
     behance_link: "https://www.behance.net/gallery/152287153/ERG-Headquarters",
+  },
+  //!Storage Wars
+  {
+    category: ["mobile_games"],
+    title: "Storage Masters 3D",
+    date: "  February 2022",
+    location: null,
+    description: "Storage discovery and sale simulator",
+    detailed_description:
+      "In this game, the player discovers hidden storages, uncovers valuable items, and auctions them off to accumulate wealth.",
+    skills: "  Unity 3D, C#",
+    genre: "  Simulator",
+    role: "  Programming, Gameplay and Level design, completed with the Flowtart Studios team",
+    job_type: "  Prototype project developed for Game Theory Games",
+    image:
+      "https://i.ibb.co/4SK5HKT/uc-export-view-id-1-a-IUOMMz-DZ71-OP09gt-C1-Bcuny-Bn-AZF9x.png",
+    images: [
+      "https://i.ibb.co/pbZqXTy/uc-export-view-id-17k2u1ya-Pn-MDUeo-YWKP0yq-8-Ku-Ln-Rlq-Yh.jpg",
+      "https://i.ibb.co/SXWRbzB/uc-export-view-id-12ir4-Jt-XFXn-Tba-KXj64nk0y2-YDz8h9-L36.jpg",
+      "https://i.ibb.co/dJfq4BW/uc-export-view-id-1-KEv-Txu-G-bv3-s3z-N4krjq8-Uv-Ad-SZDSrk.jpg",
+      "https://i.ibb.co/2knHg0t/uc-export-view-id-1qses-PNGdsw9-Uvl-Y6-Yuuf-Nh-Ep-Jb-Bt-Hb-RP.jpg",
+    ],
+    horizontalImages: true,
+    webGLUrl: "https://itch.io/embed-upload/7937385?color=ededed",
+    webgl_width: "500",
+    webgl_height: "875",
+    github_link: "https://github.com/canafarci/StorageWars",
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.flowtart.storagemasters",
+    behance_link: null,
   },
   //!Alya Park
   {
@@ -725,6 +802,40 @@ export const contentData = [
     webGLUrl: null,
     github_link: null,
     behance_link: "https://www.behance.net/gallery/152279677/Alya-Park-Saryer",
+  },
+  //!Easter Egg
+  {
+    category: ["mobile_games"],
+    title: "Easter Egg Runner",
+    date: "  April 2022",
+    location: null,
+    description: "Easter themed forward stack runner",
+    detailed_description:
+      "In this game, the player assembles a pile of Easter eggs on the screen, adorns them with paint and stencil decorations, all while dodging obstacles. \nThese decorated eggs are then given to a girl who distributes them as gifts to neighboring houses.",
+    skills: "  Unity 3D, C#",
+    genre: "  Runner",
+    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
+    job_type: "  Prototype project developed for Game Theory Games",
+    image:
+      "	https://img.itch.zone/aW1nLzEyMjExMDQ3LnBuZw==/315x250%23c/tr2v7f.png",
+    images: [
+      "https://img.itch.zone/aW1hZ2UvMjA3NjAxMi8xMjIxMTA3Ny5qcGc=/347x500/cGTg1Q.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NjAxMi8xMjIxMTA3OC5qcGc=/347x500/MDDi9t.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NjAxMi8xMjIxMTA4MC5qcGc=/347x500/kHAekF.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NjAxMi8xMjIxMTA4MS5qcGc=/347x500/Dobxvz.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NjAxMi8xMjIxMTA4My5qcGc=/347x500/0a70Rg.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NjAxMi8xMjIxMTA4NS5qcGc=/347x500/36LgXY.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NjAxMi8xMjIxMTA4NC5qcGc=/347x500/sYbFbr.jpg",
+      "https://img.itch.zone/aW1hZ2UvMjA3NjAxMi8xMjIxMTA4Mi5qcGc=/347x500/DxGWrn.jpg",
+    ],
+    horizontalImages: true,
+    webGLUrl: "https://itch.io/embed-upload/7939428?color=ededed",
+    webgl_width: "500",
+    webgl_height: "870",
+    github_link: "https://github.com/canafarci/EasterEggRunner",
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.flowtart.easteregg",
+    behance_link: null,
   },
   //!Antep
   {
@@ -758,6 +869,40 @@ export const contentData = [
     behance_link:
       "https://www.behance.net/gallery/152287443/Gaziantep-Municipal-Water-Board-Offices-Interior",
   },
+  //!Wrecking Throw
+  {
+    category: ["mobile_games"],
+    title: "Wrecking Throw",
+    date: "  August 2022",
+    location: null,
+    description: "Olympics themed pixel demolisher",
+    detailed_description:
+      "In this game, the player assumes the role of an Olympian hammer thrower who demolishes a variety of voxelated objects.\nThe player has the ability to upgrade the Strength, Stamina, and Speed of the hammers they throw.\nAs objects are destroyed, the player accrues resources.",
+    skills: "  Unity 3D, C#",
+    genre: "  Pixel Demolisher",
+    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
+    job_type: "  Prototype project developed for Game Theory Games",
+    image:
+      "	https://play-lh.googleusercontent.com/g3YvwR3vaSaqxXqKedlPg1cy-rnaWlBhCkZGcxQoq5qXrQG3wt5IPjZcvibahWhnzDw=w240-h480-rw",
+    images: [
+      "https://play-lh.googleusercontent.com/ZiUjIECOk0RWwg3-4C2zYFKtcPcKhs9dQNFXlxAWx1q5RCYIBaUrL1u65TtRvdVScd5s=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/CQo_uh8rSxqCdoyekhfX6KMEEh0qJFcTil8yVeClTp7Zx2PJ6Qhx-0Me6pvN7UoJihM=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/T_04MRQhwFIMUWRhqLj-0mWgyeok19UUT2Es2zVvLlPtwjU2wAAVfALJN_2no4Ig6Q=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/NS5qZTMnHOaW6P4ArYA0u9DorItLoaxXqkCmhUZ7bv468_Vqdm2xTSLZfrXVCV6udA=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/PCAMn5SQtyuV_3W_BdE44onCffIoRAGgv1dQF7ainf4xBVr5_a5LYxY6et517USI7ObA=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/zH6yOHo1GeFCaGi5u5pDWumm2_EOYbaOt-kQ2ASdlPdYefpjThM6928-fe10WefkwHzD=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/WmodsvO5bwdotEn4jkUto6m_ePQG6MLVdMm9CBBP4D9W5G-DVHE2O7__WpuzGMIe5as=w526-h296-rw",
+      "https://play-lh.googleusercontent.com/RO6P-gismZcWo1kRuTtQHFiDAXTfkDEsspbSCSm74K6w8IO8bVu5qKX6DmFZ0DeGm4U=w526-h296-rw",
+    ],
+    horizontalImages: true,
+    webGLUrl: "https://itch.io/embed-upload/7942955?color=ededed",
+    webgl_width: "500",
+    webgl_height: "870",
+    github_link: "https://github.com/canafarci/WreckingThrow",
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.flowtart.wreckingthrow",
+    behance_link: null,
+  },
   //!Devrek
   {
     category: ["architectural_designs"],
@@ -782,6 +927,38 @@ export const contentData = [
     github_link: null,
     behance_link:
       "https://www.behance.net/gallery/152288179/Devrek-Community-Housing",
+  },
+  //!Skate Rush
+  {
+    category: ["mobile_games"],
+    title: "Skate Rush",
+    date: "  December 2021",
+    location: null,
+    description: "IK runner with a skateboard theme",
+    detailed_description:
+      "The player takes on the role of a skateboarder executing extreme maneuvers. As the player nears an action zone, time decelerates, allowing the player to manipulate the skateboarder’s limbs to perform stunts.",
+    skills: "  Unity 3D, C#",
+    genre: "  IK runner",
+    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
+    job_type: "  Prototype project developed for Game Theory Games",
+    image:
+      "https://lh3.googleusercontent.com/qZ1giroZkn-LemLTpmxfhPiM6TiccWGIQv3IrDnDaPR3OzbyXYvNOiW-fS5oFSBCK7Yb",
+    images: [
+      "https://lh3.googleusercontent.com/wyK9EhGmN32JKCNPdxFoiQ09JJlwrN-_dx4YarqXjYJmUom9a5DZCn2tu1bHYQz06b8",
+      "https://lh3.googleusercontent.com/05uwmHWsDZe_lExpTN5Wnt3MkQEXLNN6qjzN8qVUesRXkapmTJR95UDg4GH_O8CT0sU",
+      "https://lh3.googleusercontent.com/4qVn8K5CKv_2yjr662X2bZE6_Qc-D4Wb_argPJp3U5NiEIdhDE_6VfVDkU_nfCqqPGm3",
+      "https://lh3.googleusercontent.com/ORdxNerQu9HnHw4cWPSxVVH6CjvraqWKxl6Nf64WDQR79RFUVIFguZup6C3o0SpcAxIJ",
+      "https://lh3.googleusercontent.com/14Dgb3BvLZ_SG7dsWpvYfpnsBeiLSOrNwmc1nLVf1n4mUQDHMs-uqzBVJ3KeVJOFx72S",
+      "https://lh3.googleusercontent.com/nLE0tnvdbCn0xwSuPD0NpY1LIL36HUM5W6ifaBAYmvJ6yFx6kI6U3OKPyQBz_xFdurk",
+      "https://lh3.googleusercontent.com/5MzQim6MfYAHru6Tvhy3E6aAbEflwUMcbdaoxDasjAB1q1uqSuQ4RwlguywZA8gdgis",
+      "https://lh3.googleusercontent.com/oxsm2BRaI_NQq2NPBsSYyQc-n0FJOuKBOQX8GcdRRLiu0kWqAUNi5IkbWF_ZSrGBxKV_",
+    ],
+    horizontalImages: true,
+    webGLUrl: "https://itch.io/embed-upload/7984512?color=333333",
+    webgl_width: "500",
+    webgl_height: "870",
+    github_link: "https://github.com/canafarci/SkateDancer",
+    behance_link: null,
   },
   //!Güzeloba
   {
@@ -808,6 +985,36 @@ export const contentData = [
     github_link: null,
     behance_link: "https://www.behance.net/gallery/152288675/Guezeloba-Housing",
   },
+  //!Surfer Evolution
+  {
+    category: ["mobile_games"],
+    title: "Level Up Surfers",
+    date: "  June 2022",
+    location: null,
+    description: "Evolution runner with a beach theme",
+    detailed_description:
+      "In this game, the player navigates a naval vehicle through a sea race, skillfully avoiding obstacles to accumulate points.\nAs the player levels up, they gain access to faster naval vehicles, increasing their chances of winning the race.",
+    skills: "  Unity 3D, C#",
+    genre: "  Evolution Runner",
+    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
+    job_type: "  Prototype project developed for Game Theory Games",
+    image:
+      "	https://play-lh.googleusercontent.com/cGACGBmP9nxmMT_60BzuJKAXjSvWeQRfuiA41Kdr51j4CBDQ7KZ1O6Cz7HRBFC2Bu7g=w240-h480-rw",
+    images: [
+      "https://play-lh.googleusercontent.com/c80R1XU1FI-w9a2Nne1aYW0PzPPfO1Rs7CQP5KQlD3uGwToS2Iv8pXWRh71An9JDpg=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/saPLxWJlMaY3YCqCsS34Ax9n7wb1hBn-Ix6Y-Cpw8nKPF6BZSSlQpJyp_IUiEeI5vhQ=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/VTzPHq_IudwuHVXSFf2pWlHYfASCVYS41J15W0LTVuMv7YRre613lnab91gA_RWs7g=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/xEY445hGtkP05yFRex1wjpSAmLY6h_PSynA1R8k-PY5TMkb0iQIj1jhlB1_58v2pV9sk=w2560-h1440-rw",
+    ],
+    horizontalImages: true,
+    webGLUrl: "https://itch.io/embed-upload/7962575?color=ededed",
+    webgl_width: "500",
+    webgl_height: "870",
+    github_link: "https://github.com/canafarci/LevelupSurfers",
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.flowtart.levelupsurfers",
+    behance_link: null,
+  },
   //!Başiskele
   {
     category: ["architectural_designs"],
@@ -833,135 +1040,6 @@ export const contentData = [
     github_link: null,
     behance_link: "https://www.behance.net/gallery/152288675/Guezeloba-Housing",
   },
-  //!Weapon rush
-  {
-    category: ["mobile_games"],
-    title: "Weapon Rush: Runner Clicker",
-    date: "  February 2023",
-    location: null,
-    description: "Roguelite inspired runner game",
-    detailed_description:
-      "In this game, goal is to upgrade the player and buy followers to kill the end boss. \nWhenever player dies, he restarts with all of the previously bought upgrades, which resets when player progresses to the next level.",
-    skills: "  Unity 3D, C#",
-    genre: "  Runner",
-    role: "  Programming and Gameplay Design, completed with the Flowtart Studios team",
-    job_type: "  Prototype project developed for Game Theory Games",
-    image:
-      "https://play-lh.googleusercontent.com/_DpBIJhbAyLWsSY1lcPQXOB9yRr7o9Yw-LdiUxzaOOPzItvhHOBO0ZR4iy5fdnWbRHk=s256-rw",
-    images: [
-      "https://play-lh.googleusercontent.com/-6YTic5_e90IA_72oIBv5ivGHob3cH2qzCqgbysgyq4xpHKj6lKrfcPKkwaouxm61w=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/lLN4HWmV98bZ0h0uqkux5kNqg3J-QI-lV4hD4CH0_nvO19QS-Ff_XmdS2wrWmoanuZ0=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/cTPhu8kWPaz8NXnUYSM9U_u_fBQg7KHa0Vkx4f6J3ykQdAvYtkwUhC3s21v3D_TrWA=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/bDNAsuykXaX5IBmy21iaou-4eFblq19ThhvfAtwVMNnr77S7oZGNZYBsuq-ptYKKEFQ=w2560-h1440-rw",
-    ],
-    horizontalImages: true,
-    videoUrl: "https://www.youtube.com/embed/sfCsFO9W1BQ",
-    webGLUrl: "https://itch.io/embed-upload/7927013?color=ededed",
-    webgl_width: "500",
-    webgl_height: "850",
-    github_link: "https://github.com/canafarci/RunnerClicker",
-    google_play_link:
-      "https://play.google.com/store/apps/details?id=com.flowtart.weaponrush",
-    behance_link: null,
-  },
-  //!Storage Wars
-  {
-    category: ["mobile_games"],
-    title: "Storage Masters 3D",
-    date: "  February 2022",
-    location: null,
-    description: "Storage discovery and sale simulator",
-    detailed_description:
-      "Player unlocks forgotten storages, finds valuable items and sells them in auctions to make money",
-    skills: "  Unity 3D, C#",
-    genre: "  Simulator",
-    role: "  Programming, Gameplay and Level design, completed with the Flowtart Studios team",
-    job_type: "  Prototype project developed for Game Theory Games",
-    image:
-      "https://i.ibb.co/4SK5HKT/uc-export-view-id-1-a-IUOMMz-DZ71-OP09gt-C1-Bcuny-Bn-AZF9x.png",
-    images: [
-      "https://i.ibb.co/pbZqXTy/uc-export-view-id-17k2u1ya-Pn-MDUeo-YWKP0yq-8-Ku-Ln-Rlq-Yh.jpg",
-      "https://i.ibb.co/SXWRbzB/uc-export-view-id-12ir4-Jt-XFXn-Tba-KXj64nk0y2-YDz8h9-L36.jpg",
-      "https://i.ibb.co/dJfq4BW/uc-export-view-id-1-KEv-Txu-G-bv3-s3z-N4krjq8-Uv-Ad-SZDSrk.jpg",
-      "https://i.ibb.co/2knHg0t/uc-export-view-id-1qses-PNGdsw9-Uvl-Y6-Yuuf-Nh-Ep-Jb-Bt-Hb-RP.jpg",
-    ],
-    horizontalImages: true,
-    webGLUrl: "https://itch.io/embed-upload/7937385?color=ededed",
-    webgl_width: "500",
-    webgl_height: "875",
-    github_link: "https://github.com/canafarci/StorageWars",
-    google_play_link:
-      "https://play.google.com/store/apps/details?id=com.flowtart.storagemasters",
-    behance_link: null,
-  },
-  //!Easter Egg
-  {
-    category: ["mobile_games"],
-    title: "Easter Egg Runner",
-    date: "  April 2022",
-    location: null,
-    description: "Easter themed forward stack runner",
-    detailed_description:
-      "Player stacks easter eggs in front of the screen, paints them, decorates them with stencils while avoiding obstacles \nand gives them to a girl who gifts them to the neighboring houses.",
-    skills: "  Unity 3D, C#",
-    genre: "  Runner",
-    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
-    job_type: "  Prototype project developed for Game Theory Games",
-    image:
-      "	https://img.itch.zone/aW1nLzEyMjExMDQ3LnBuZw==/315x250%23c/tr2v7f.png",
-    images: [
-      "https://img.itch.zone/aW1hZ2UvMjA3NjAxMi8xMjIxMTA3Ny5qcGc=/347x500/cGTg1Q.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjA3NjAxMi8xMjIxMTA3OC5qcGc=/347x500/MDDi9t.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjA3NjAxMi8xMjIxMTA4MC5qcGc=/347x500/kHAekF.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjA3NjAxMi8xMjIxMTA4MS5qcGc=/347x500/Dobxvz.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjA3NjAxMi8xMjIxMTA4My5qcGc=/347x500/0a70Rg.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjA3NjAxMi8xMjIxMTA4NS5qcGc=/347x500/36LgXY.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjA3NjAxMi8xMjIxMTA4NC5qcGc=/347x500/sYbFbr.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjA3NjAxMi8xMjIxMTA4Mi5qcGc=/347x500/DxGWrn.jpg",
-    ],
-    horizontalImages: true,
-    webGLUrl: "https://itch.io/embed-upload/7939428?color=ededed",
-    webgl_width: "500",
-    webgl_height: "870",
-    github_link: "https://github.com/canafarci/EasterEggRunner",
-    google_play_link:
-      "https://play.google.com/store/apps/details?id=com.flowtart.easteregg",
-    behance_link: null,
-  },
-  //!Wrecking Throw
-  {
-    category: ["mobile_games"],
-    title: "Wrecking Throw",
-    date: "  August 2022",
-    location: null,
-    description: "Olympics themed pixel demolisher",
-    detailed_description:
-      "Player takes up the role of a olympiad hammer thrower and demolishes various voxelated objects in the game \nplayer can upgrade the Strength, Stamina and Speed of the thrown hammers, and gains resources as the objects are destroyed",
-    skills: "  Unity 3D, C#",
-    genre: "  Pixel Demolisher",
-    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
-    job_type: "  Prototype project developed for Game Theory Games",
-    image:
-      "	https://play-lh.googleusercontent.com/g3YvwR3vaSaqxXqKedlPg1cy-rnaWlBhCkZGcxQoq5qXrQG3wt5IPjZcvibahWhnzDw=w240-h480-rw",
-    images: [
-      "https://play-lh.googleusercontent.com/ZiUjIECOk0RWwg3-4C2zYFKtcPcKhs9dQNFXlxAWx1q5RCYIBaUrL1u65TtRvdVScd5s=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/CQo_uh8rSxqCdoyekhfX6KMEEh0qJFcTil8yVeClTp7Zx2PJ6Qhx-0Me6pvN7UoJihM=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/T_04MRQhwFIMUWRhqLj-0mWgyeok19UUT2Es2zVvLlPtwjU2wAAVfALJN_2no4Ig6Q=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/NS5qZTMnHOaW6P4ArYA0u9DorItLoaxXqkCmhUZ7bv468_Vqdm2xTSLZfrXVCV6udA=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/PCAMn5SQtyuV_3W_BdE44onCffIoRAGgv1dQF7ainf4xBVr5_a5LYxY6et517USI7ObA=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/zH6yOHo1GeFCaGi5u5pDWumm2_EOYbaOt-kQ2ASdlPdYefpjThM6928-fe10WefkwHzD=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/WmodsvO5bwdotEn4jkUto6m_ePQG6MLVdMm9CBBP4D9W5G-DVHE2O7__WpuzGMIe5as=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/RO6P-gismZcWo1kRuTtQHFiDAXTfkDEsspbSCSm74K6w8IO8bVu5qKX6DmFZ0DeGm4U=w526-h296-rw",
-    ],
-    horizontalImages: true,
-    webGLUrl: "https://itch.io/embed-upload/7942955?color=ededed",
-    webgl_width: "500",
-    webgl_height: "870",
-    github_link: "https://github.com/canafarci/WreckingThrow",
-    google_play_link:
-      "https://play.google.com/store/apps/details?id=com.flowtart.wreckingthrow",
-    behance_link: null,
-  },
   //!Gear and Ropes
   {
     category: ["mobile_games"],
@@ -970,7 +1048,7 @@ export const contentData = [
     location: null,
     description: "Mechanical themed puzzle",
     detailed_description:
-      "Player tries to make the light the lamp by connecting the gear and rope pieces ",
+      "The player endeavors to illuminate a lamp by strategically connecting gear and rope pieces.",
     skills: "  Unity 3D, C#",
     genre: "  Puzzle",
     role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
@@ -995,36 +1073,6 @@ export const contentData = [
       "https://play.google.com/store/apps/details?id=com.flowtart.gearswitch",
     behance_link: null,
   },
-  //!Surfer Evolution
-  {
-    category: ["mobile_games"],
-    title: "Level Up Surfers",
-    date: "  June 2022",
-    location: null,
-    description: "Evolution runner with a beach theme",
-    detailed_description:
-      "Player tries to avoid obstacles and gain points to level up and get faster naval vehicles,and tries to win the sea race ",
-    skills: "  Unity 3D, C#",
-    genre: "  Evolution Runner",
-    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
-    job_type: "  Prototype project developed for Game Theory Games",
-    image:
-      "	https://play-lh.googleusercontent.com/cGACGBmP9nxmMT_60BzuJKAXjSvWeQRfuiA41Kdr51j4CBDQ7KZ1O6Cz7HRBFC2Bu7g=w240-h480-rw",
-    images: [
-      "https://play-lh.googleusercontent.com/c80R1XU1FI-w9a2Nne1aYW0PzPPfO1Rs7CQP5KQlD3uGwToS2Iv8pXWRh71An9JDpg=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/saPLxWJlMaY3YCqCsS34Ax9n7wb1hBn-Ix6Y-Cpw8nKPF6BZSSlQpJyp_IUiEeI5vhQ=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/VTzPHq_IudwuHVXSFf2pWlHYfASCVYS41J15W0LTVuMv7YRre613lnab91gA_RWs7g=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/xEY445hGtkP05yFRex1wjpSAmLY6h_PSynA1R8k-PY5TMkb0iQIj1jhlB1_58v2pV9sk=w2560-h1440-rw",
-    ],
-    horizontalImages: true,
-    webGLUrl: "https://itch.io/embed-upload/7962575?color=ededed",
-    webgl_width: "500",
-    webgl_height: "870",
-    github_link: "https://github.com/canafarci/LevelupSurfers",
-    google_play_link:
-      "https://play.google.com/store/apps/details?id=com.flowtart.levelupsurfers",
-    behance_link: null,
-  },
   //!Deadly motoracer
   {
     category: ["mobile_games"],
@@ -1033,7 +1081,7 @@ export const contentData = [
     location: null,
     description: "Motorcycle highway speeding simulator",
     detailed_description:
-      "Player dodges traffic and tries to stay in the designated area to go even faster",
+      "In this game, the player skillfully maneuvers through traffic, aiming to remain within a specified area to gain speed.",
     skills: "  Unity 3D, C#",
     genre: "  Simulator",
     role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
@@ -1067,7 +1115,7 @@ export const contentData = [
     location: null,
     description: "NFT crafting and trading simulator",
     detailed_description:
-      "Player creates a 2D NFT by dragging and dropping 2D parts which make up the final image, colors the NFT and then trades the NFT for profit",
+      "In this game, the player constructs a 2D NFT by dragging and dropping various 2D components that form the final image.\nThe player has the ability to color the NFT to their liking.\nOnce the NFT is complete, it can be traded for profit.",
     skills: "  Unity 3D, C#",
     genre: "  Simulator",
     role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
@@ -1089,40 +1137,6 @@ export const contentData = [
       "https://play.google.com/store/apps/details?id=com.flowtart.nftcrafter",
     behance_link: null,
   },
-  //!Bowling
-  {
-    category: ["mobile_games"],
-    title: "Bowling Stack 3D",
-    date: "  April 2022",
-    location: null,
-    description: "Forward stack runner with a bowling theme",
-    detailed_description:
-      "Player stacks bowling balls and hits pins to gain score while avoiding the obstacles. After the finish line is reached, bowling balls merge and create a bigger ball and the player tries to knock down as many stacked pins as possible",
-    skills: "  Unity 3D, C#",
-    genre: "  Forward Stack Runner",
-    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
-    job_type: "  Prototype project developed for Game Theory Games",
-    image:
-      "https://lh3.googleusercontent.com/0JVY0ER2rYWWf2rtIc6nRYE3riody34ANICbX557YTDqR3YTUbMFy0KNg3LBP-P9IQ",
-    images: [
-      "https://play-lh.googleusercontent.com/J02C_Q5g3ye32r751GCH2hc0iGEfAchWxJzd_Y4w3gBkQIHPQuHdiTQRtTGaHyO2cWY=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/whH8PnpoG538KKL2Mzc2E9JxgAJEmzr8vlfNIyuY83ujEku_2k-tWo6KnDomAUo0rA=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/NfS2-UjnltTWEmU-sawsJaIMjtxW6Tt9N1xpBDg0IZ5Ek1VnmDX34huYHRmkL29oow=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/JTuv0ZzbtRTdWDJSR67TqMXK-pgg0X_QvOVXBHy8K8sHe51U1vClrHYVZefmTVjaDw=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/QokHkfZJc6cKmzekEb0SPwld6LQ5ErjL2-cNYa9q-o75xeWcgCVLhb9Ega7Vv9TMX8E=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/VPUpH1PTPMhDVAOkhlKHbw9GMZRWoc08x8q1Lxg3csCXwbL8D0yABG643kl9U0Uhvmo=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/ugStJo8_MEfDjJkIH6x0nk5S8NAKH4Hu-6aOec_ra66nXK-Z7DTYPGdL4ADFDdzAyXg=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/uNup0842RQoxrVDFL5qZW0F9l918hKuUXziMkEsvH25vRR-ZhqGG3z9nLjQbHlQXrA=w2560-h1440-rw",
-    ],
-    horizontalImages: true,
-    webGLUrl: "https://itch.io/embed-upload/7965305?color=ededed",
-    webgl_width: "500",
-    webgl_height: "870",
-    github_link: "https://github.com/canafarci/BowlingStack",
-    google_play_link:
-      "https://play.google.com/store/apps/details?id=com.flowtart.bowlingstack",
-    behance_link: null,
-  },
   //!Air Puppet
   {
     category: ["mobile_games"],
@@ -1131,7 +1145,7 @@ export const contentData = [
     location: null,
     description: "Vertical runner with a air puppet theme",
     detailed_description:
-      "Player is an inflationary mascot and gains height as he/she progresses through the level. Player avoids obstacles which makes his/her lose height and paints and customizes his/her puppet by painting it to match the design visible on the right side of the screen. At the end, player crashes glasses and sticks to the end game board for high score",
+      "The player controls an inflatable mascot that gains height as it progresses through the level. The player must avoid obstacles that cause the mascot to lose height. Additionally, the player has the opportunity to paint and customize their puppet to match a design displayed on the right side of the screen. Upon reaching the end of the level, the player crashes through glass and sticks to a game board to achieve a high score.",
     skills: "  Unity 3D, C#",
     genre: "  Vertical paint runner",
     role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
@@ -1157,38 +1171,6 @@ export const contentData = [
       "https://play.google.com/store/apps/details?id=com.flowtart.airpuppetrush",
     behance_link: null,
   },
-  //!Skate Rush
-  {
-    category: ["mobile_games"],
-    title: "Skate Rush",
-    date: "  December 2021",
-    location: null,
-    description: "IK runner with a skateboard theme",
-    detailed_description:
-      "Player controls a skateboarder trying to do extreme moves. When the player approaches a action zone, time slows down and player drags the limbs of the skater to perform the moves.",
-    skills: "  Unity 3D, C#",
-    genre: "  IK runner",
-    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
-    job_type: "  Prototype project developed for Game Theory Games",
-    image:
-      "https://lh3.googleusercontent.com/qZ1giroZkn-LemLTpmxfhPiM6TiccWGIQv3IrDnDaPR3OzbyXYvNOiW-fS5oFSBCK7Yb",
-    images: [
-      "https://lh3.googleusercontent.com/wyK9EhGmN32JKCNPdxFoiQ09JJlwrN-_dx4YarqXjYJmUom9a5DZCn2tu1bHYQz06b8",
-      "https://lh3.googleusercontent.com/05uwmHWsDZe_lExpTN5Wnt3MkQEXLNN6qjzN8qVUesRXkapmTJR95UDg4GH_O8CT0sU",
-      "https://lh3.googleusercontent.com/4qVn8K5CKv_2yjr662X2bZE6_Qc-D4Wb_argPJp3U5NiEIdhDE_6VfVDkU_nfCqqPGm3",
-      "https://lh3.googleusercontent.com/ORdxNerQu9HnHw4cWPSxVVH6CjvraqWKxl6Nf64WDQR79RFUVIFguZup6C3o0SpcAxIJ",
-      "https://lh3.googleusercontent.com/14Dgb3BvLZ_SG7dsWpvYfpnsBeiLSOrNwmc1nLVf1n4mUQDHMs-uqzBVJ3KeVJOFx72S",
-      "https://lh3.googleusercontent.com/nLE0tnvdbCn0xwSuPD0NpY1LIL36HUM5W6ifaBAYmvJ6yFx6kI6U3OKPyQBz_xFdurk",
-      "https://lh3.googleusercontent.com/5MzQim6MfYAHru6Tvhy3E6aAbEflwUMcbdaoxDasjAB1q1uqSuQ4RwlguywZA8gdgis",
-      "https://lh3.googleusercontent.com/oxsm2BRaI_NQq2NPBsSYyQc-n0FJOuKBOQX8GcdRRLiu0kWqAUNi5IkbWF_ZSrGBxKV_",
-    ],
-    horizontalImages: true,
-    webGLUrl: "https://itch.io/embed-upload/7984512?color=333333",
-    webgl_width: "500",
-    webgl_height: "870",
-    github_link: "https://github.com/canafarci/SkateDancer",
-    behance_link: null,
-  },
   //!Rubix Box
   {
     category: ["mobile_games"],
@@ -1197,7 +1179,7 @@ export const contentData = [
     location: null,
     description: "Puzzle game inspired by Rubik's Cube",
     detailed_description:
-      "Player is given a 5x5 board with one empty square to move all of the other pieces. Goal is to match the central 3x3 area to the 3x3 pattern displayed above the playing area.",
+      "The player is presented with a 5x5 board, with one square left empty to allow for the movement of other pieces. The objective is to arrange the central 3x3 area to match the 3x3 pattern displayed above the game area.",
     skills: "  Unity 3D, C#",
     genre: "  Multiplayer sports game",
     role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
@@ -1217,6 +1199,24 @@ export const contentData = [
     github_link: "https://github.com/canafarci/RubixBox",
     behance_link: null,
   },
+  //!Arch Date prediction
+  {
+    category: ["academic_work"],
+    title: "Architectural Date Prediction AI",
+    skills: "  Tensorflow, Python",
+    date: "  2020",
+    location: "   Ankara // Turkey",
+    description:
+      "Multiclass classification AI for predicting the construction date of an building. ",
+    detailed_description:
+      "This initiative employs TensorFlow and generative AI methodologies to forecast the indoor lighting conditions of a conceptual plan sketch by examining color-coded architectural diagrams associated with daylighting simulation outcomes. \n\nBefore joining the EU-sponsored research program on global warming, which concentrated on urban heat islands and eventually became my thesis subject, I devised this AI model as a potential thesis theme.",
+    genre: null,
+    job_type: "  Study Collection",
+    image:
+      "https://i.ibb.co/Qn1Fhy0/uc-export-view-id-13-NAIhe-XVOXo-Yf-EEJPutdg-VRMm-W0-Erws.jpg",
+    pdf_link:
+      "https://drive.google.com/file/d/1yHt_2Mw_kAkW725McSCc1BRioEyrmKgv/preview",
+  },
   //!Slick Gammon
   {
     category: ["mobile_games"],
@@ -1225,7 +1225,7 @@ export const contentData = [
     location: null,
     description: "Multiplayer arcade game",
     detailed_description:
-      "Two players compete to stack all of the pucks on the other player's side by throwing them to other side with a slingshot. The game has two modes, one for playing against an AI and another for local multiplayer. (In order to play offline multipler, a device with touch input is required, mouse clicks does not register in this build. You can try downloading the app from the play store.)",
+      "Two players engage in a competition to stack all the pucks on their opponent’s side by propelling them across with a slingshot. The game offers two modes: one for competing against an AI, and another for local multiplayer. Please note, to enjoy the offline multiplayer feature, a device with touch input is necessary as mouse clicks are not registered in this build. Consider downloading the app from the Play Store for a better experience.",
     skills: "  Unity 3D, C#",
     genre: "  Multiplayer arcade game",
     role: "  Programming, AI and Gameplay design, completed with the Flowtart Studios team",

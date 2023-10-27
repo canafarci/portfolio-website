@@ -120,7 +120,7 @@ function ItemDialog({ selectedItem, onCloseClicked }) {
         <p>{selectedItem.description}</p>
         <p>{selectedItem.detailed_description}</p>
       </div>
-      {selectedItem.webGLUrl && (
+      {selectedItem.webGLUrl && window.innerWidth > 800 && (
         <div className="media">
           <iframe
             frameborder="0"
