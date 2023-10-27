@@ -251,6 +251,37 @@ export const contentData = [
       "https://drive.google.com/file/d/1O6e-eDvBIPborOOtz04gcg8rMmiIt5CD/preview",
     github_link: "https://github.com/canafarci/MARCH_Repo",
   },
+  //!Swing
+  {
+    category: ["mobile_games"],
+    title: "Swing Ride Idle ASMR",
+    date: "  January 2023",
+    location: null,
+    description: "Idle clicker with a theme park/christmas setting",
+    detailed_description:
+      "Player operates a swing ride and generates income from the customers who ride it.\nPlayer has the option to purchase new seats, enhance the current ones, and acquire a new wheel to boost their profits even further.",
+    skills: "  Unity 3D, C#",
+    genre: "  Idle Clicker",
+    role: "  Programming, Gameplay design, completed with the Flowtart Studios team",
+    job_type: "  Prototype project developed for Game Theory Games",
+    image:
+      "https://play-lh.googleusercontent.com/YPxSsNmTKNLjHUTCmjmveKSarMip5y3-ReQD2OLS8n_xHGqeL254fNVvCA9FAfeC1g=s256-rw",
+    images: [
+      "https://play-lh.googleusercontent.com/ZaHJOrt3qvXR5U5l0wXq0wtqUB3ZdsNJV7Lx7abV1SM4_02EXwfsKPOEE_3Jl5CuPcMB=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/k0of7LqyACYBABeDM-tYxL9l_623wy914aeS2yz9-XMDV99Iva7Dh8M_f9D8V1tDEEI=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/8YwGEDzhxEjGUvl3kWImfkcy4KBNz3oGcT8kvUlLMha2gKPvtnx5dFmLx43DfQivoRw=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/GepjRIMtmVO1KrjVc2htRfZbJ9N2iHZqokvBreZMDLeexUIbyUWEwdwKbdW3BS5wfuqK=w2560-h1440-rw",
+    ],
+    horizontalImages: true,
+    videoUrl: "https://www.youtube.com/embed/7GpVk9cp-XA",
+    webGLUrl: "https://itch.io/embed-upload/7936708?color=ededed",
+    webgl_width: "500",
+    webgl_height: "850",
+    github_link: "https://github.com/canafarci/SwingClicker",
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.flowtart.swingclicker",
+    behance_link: null,
+  },
   //!Döşemealtı Villa
   {
     category: ["architectural_designs"],
@@ -281,35 +312,38 @@ export const contentData = [
     github_link: null,
     behance_link: "https://www.behance.net/gallery/152285065/Doesemealt-Villa",
   },
-  //!Swing
+  //!Bowling
   {
     category: ["mobile_games"],
-    title: "Swing Ride Idle ASMR",
-    date: "  January 2023",
+    title: "Bowling Stack 3D",
+    date: "  April 2022",
     location: null,
-    description: "Idle clicker with a theme park/christmas setting",
+    description: "Forward stack runner with a bowling theme",
     detailed_description:
-      "Player operates a swing ride and generates income from the customers who ride it.\nPlayer has the option to purchase new seats, enhance the current ones, and acquire a new wheel to boost their profits even further.",
+      "In the game, the player strategically places bowling balls to hit pins and accumulate points, all while avoiding various obstacles. Once the finish line is reached, the bowling balls combine to form a larger ball. The player then attempts to knock down as many stacked pins as possible with this larger ball.",
     skills: "  Unity 3D, C#",
-    genre: "  Idle Clicker",
-    role: "  Programming, Gameplay design, completed with the Flowtart Studios team",
+    genre: "  Forward Stack Runner",
+    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
     job_type: "  Prototype project developed for Game Theory Games",
     image:
-      "https://play-lh.googleusercontent.com/YPxSsNmTKNLjHUTCmjmveKSarMip5y3-ReQD2OLS8n_xHGqeL254fNVvCA9FAfeC1g=s256-rw",
+      "https://lh3.googleusercontent.com/0JVY0ER2rYWWf2rtIc6nRYE3riody34ANICbX557YTDqR3YTUbMFy0KNg3LBP-P9IQ",
     images: [
-      "https://play-lh.googleusercontent.com/ZaHJOrt3qvXR5U5l0wXq0wtqUB3ZdsNJV7Lx7abV1SM4_02EXwfsKPOEE_3Jl5CuPcMB=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/k0of7LqyACYBABeDM-tYxL9l_623wy914aeS2yz9-XMDV99Iva7Dh8M_f9D8V1tDEEI=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/8YwGEDzhxEjGUvl3kWImfkcy4KBNz3oGcT8kvUlLMha2gKPvtnx5dFmLx43DfQivoRw=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/GepjRIMtmVO1KrjVc2htRfZbJ9N2iHZqokvBreZMDLeexUIbyUWEwdwKbdW3BS5wfuqK=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/J02C_Q5g3ye32r751GCH2hc0iGEfAchWxJzd_Y4w3gBkQIHPQuHdiTQRtTGaHyO2cWY=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/whH8PnpoG538KKL2Mzc2E9JxgAJEmzr8vlfNIyuY83ujEku_2k-tWo6KnDomAUo0rA=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/NfS2-UjnltTWEmU-sawsJaIMjtxW6Tt9N1xpBDg0IZ5Ek1VnmDX34huYHRmkL29oow=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/JTuv0ZzbtRTdWDJSR67TqMXK-pgg0X_QvOVXBHy8K8sHe51U1vClrHYVZefmTVjaDw=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/QokHkfZJc6cKmzekEb0SPwld6LQ5ErjL2-cNYa9q-o75xeWcgCVLhb9Ega7Vv9TMX8E=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/VPUpH1PTPMhDVAOkhlKHbw9GMZRWoc08x8q1Lxg3csCXwbL8D0yABG643kl9U0Uhvmo=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/ugStJo8_MEfDjJkIH6x0nk5S8NAKH4Hu-6aOec_ra66nXK-Z7DTYPGdL4ADFDdzAyXg=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/uNup0842RQoxrVDFL5qZW0F9l918hKuUXziMkEsvH25vRR-ZhqGG3z9nLjQbHlQXrA=w2560-h1440-rw",
     ],
     horizontalImages: true,
-    videoUrl: "https://www.youtube.com/embed/7GpVk9cp-XA",
-    webGLUrl: "https://itch.io/embed-upload/7936708?color=ededed",
+    webGLUrl: "https://itch.io/embed-upload/7965305?color=ededed",
     webgl_width: "500",
-    webgl_height: "850",
-    github_link: "https://github.com/canafarci/SwingClicker",
+    webgl_height: "870",
+    github_link: "https://github.com/canafarci/BowlingStack",
     google_play_link:
-      "https://play.google.com/store/apps/details?id=com.flowtart.swingclicker",
+      "https://play.google.com/store/apps/details?id=com.flowtart.bowlingstack",
     behance_link: null,
   },
   //!Turtle
@@ -378,31 +412,31 @@ export const contentData = [
       "https://play.google.com/store/apps/details?id=com.flowtart.popcornclicker",
     behance_link: null,
   },
-  //!Expense Tracker
+  //!Muratpaşa Housing
   {
-    category: ["other_work"],
-    title: "Expense Tracker",
-    date: "   June 2022",
-    location: "   Ankara // Turkey",
-    description: "Expense tracking app built in React Native",
-    detailed_description:
-      "This is a mobile application developed as a freelance project. The app leverages Firebase for user authentication via email and password login, and employs a real-time database to store recent expenses. Users have the ability to view expenses recorded in the past month, as well as edit and delete them. Additionally, an option is provided to check the full expense history.",
-    skills: "  Javascript, React Native, Expo, Google Firebase, REST API",
+    category: ["architectural_designs"],
+    title: "Muratpaşa Housing",
+    date: "  October 2023",
+    location: "   Muratpaşa  // Antalya",
+    description:
+      "Interior, façade and landscape design work for a residential unit",
+    detailed_description: "",
+    skills: "  3DS Max, Corona Renderer, Substance Painter, Photoshop, AutoCAD",
     genre: null,
-    job_type: "  Freelance project",
-    image: "https://i.ibb.co/QJ6pLWB/1-1.jpg",
+    job_type: "  Freelance Project",
+    image:
+      "https://mir-s3-cdn-cf.behance.net/project_modules/fs/a9f30d183247119.653be844dc0ab.jpg",
     images: [
-      "https://i.ibb.co/QJ6pLWB/1-1.jpg",
-      "https://i.ibb.co/xjpbbvp/uc-export-view-id-1x9-Spu-Vr-Jn-J4mtl-VPd1-UP097-RV-3-Ju-QT.jpg",
-      "https://i.ibb.co/DQ9GnBY/uc-export-view-id-1-k-KNCGk-IMx-Tsd7-UXWTc-S4d-TOB8-Ot-Zzf-L.jpg",
-      "https://i.ibb.co/Z6DsCNq/1-3.jpg",
-      "https://i.ibb.co/gvVFppj/1-4.jpg",
-      "https://i.ibb.co/2ZMxFtD/uc-export-view-id-1-VA9hd-sjw-VZXnlwc-AUhd7-C-h-Idsj-T-ap.jpg",
-      "https://i.ibb.co/Z2PGcGk/uc-export-view-id-1v-M3h-Yww-URLnjwc-AYf-Cs-MSk-OFl-Vyu-Njwp.jpg",
-      "https://i.ibb.co/gvVFppj/1-4.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/fs/a9f30d183247119.653be844dc0ab.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/fs/8a2425183247119.653be844de44a.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/763c56183247119.653be844df64a.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/b28a90183247119.653be844e96fc.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/1308f0183247119.653be844e5ec1.jpg",
     ],
-    horizontalImages: true,
-    github_link: "https://github.com/canafarci/ExpenseTracker",
+    videoUrl: null,
+    webGLUrl: null,
+    github_link: null,
+    behance_link: "https://www.behance.net/gallery/152285065/Doesemealt-Villa",
   },
   //!Cupcake
   {
@@ -532,40 +566,6 @@ export const contentData = [
       "https://i.ibb.co/ScHYVyw/uc-export-view-id-1-Wv-Sml-Heced-D5-QXGObuqo-ZZx1-DJ-9-HSAg.png",
     pdf_link:
       "https://drive.google.com/file/d/13wVPfTiS3bp1vrDdM1VVwg5uqLM85wWr/preview",
-  },
-  //!Bowling
-  {
-    category: ["mobile_games"],
-    title: "Bowling Stack 3D",
-    date: "  April 2022",
-    location: null,
-    description: "Forward stack runner with a bowling theme",
-    detailed_description:
-      "In the game, the player strategically places bowling balls to hit pins and accumulate points, all while avoiding various obstacles. Once the finish line is reached, the bowling balls combine to form a larger ball. The player then attempts to knock down as many stacked pins as possible with this larger ball.",
-    skills: "  Unity 3D, C#",
-    genre: "  Forward Stack Runner",
-    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
-    job_type: "  Prototype project developed for Game Theory Games",
-    image:
-      "https://lh3.googleusercontent.com/0JVY0ER2rYWWf2rtIc6nRYE3riody34ANICbX557YTDqR3YTUbMFy0KNg3LBP-P9IQ",
-    images: [
-      "https://play-lh.googleusercontent.com/J02C_Q5g3ye32r751GCH2hc0iGEfAchWxJzd_Y4w3gBkQIHPQuHdiTQRtTGaHyO2cWY=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/whH8PnpoG538KKL2Mzc2E9JxgAJEmzr8vlfNIyuY83ujEku_2k-tWo6KnDomAUo0rA=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/NfS2-UjnltTWEmU-sawsJaIMjtxW6Tt9N1xpBDg0IZ5Ek1VnmDX34huYHRmkL29oow=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/JTuv0ZzbtRTdWDJSR67TqMXK-pgg0X_QvOVXBHy8K8sHe51U1vClrHYVZefmTVjaDw=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/QokHkfZJc6cKmzekEb0SPwld6LQ5ErjL2-cNYa9q-o75xeWcgCVLhb9Ega7Vv9TMX8E=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/VPUpH1PTPMhDVAOkhlKHbw9GMZRWoc08x8q1Lxg3csCXwbL8D0yABG643kl9U0Uhvmo=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/ugStJo8_MEfDjJkIH6x0nk5S8NAKH4Hu-6aOec_ra66nXK-Z7DTYPGdL4ADFDdzAyXg=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/uNup0842RQoxrVDFL5qZW0F9l918hKuUXziMkEsvH25vRR-ZhqGG3z9nLjQbHlQXrA=w2560-h1440-rw",
-    ],
-    horizontalImages: true,
-    webGLUrl: "https://itch.io/embed-upload/7965305?color=ededed",
-    webgl_width: "500",
-    webgl_height: "870",
-    github_link: "https://github.com/canafarci/BowlingStack",
-    google_play_link:
-      "https://play.google.com/store/apps/details?id=com.flowtart.bowlingstack",
-    behance_link: null,
   },
   //!License AH works
   {
@@ -1258,5 +1258,31 @@ export const contentData = [
     job_type: "  Personal Project",
     image: "https://i.ibb.co/jbYPDd5/Screenshot-2023-06-09-at-01-30-23.png",
     github_link: "https://github.com/canafarci/portfolio-website",
+  },
+  //!Expense Tracker
+  {
+    category: ["other_work"],
+    title: "Expense Tracker",
+    date: "   June 2022",
+    location: "   Ankara // Turkey",
+    description: "Expense tracking app built in React Native",
+    detailed_description:
+      "This is a mobile application developed as a freelance project. The app leverages Firebase for user authentication via email and password login, and employs a real-time database to store recent expenses. Users have the ability to view expenses recorded in the past month, as well as edit and delete them. Additionally, an option is provided to check the full expense history.",
+    skills: "  Javascript, React Native, Expo, Google Firebase, REST API",
+    genre: null,
+    job_type: "  Freelance project",
+    image: "https://i.ibb.co/QJ6pLWB/1-1.jpg",
+    images: [
+      "https://i.ibb.co/QJ6pLWB/1-1.jpg",
+      "https://i.ibb.co/xjpbbvp/uc-export-view-id-1x9-Spu-Vr-Jn-J4mtl-VPd1-UP097-RV-3-Ju-QT.jpg",
+      "https://i.ibb.co/DQ9GnBY/uc-export-view-id-1-k-KNCGk-IMx-Tsd7-UXWTc-S4d-TOB8-Ot-Zzf-L.jpg",
+      "https://i.ibb.co/Z6DsCNq/1-3.jpg",
+      "https://i.ibb.co/gvVFppj/1-4.jpg",
+      "https://i.ibb.co/2ZMxFtD/uc-export-view-id-1-VA9hd-sjw-VZXnlwc-AUhd7-C-h-Idsj-T-ap.jpg",
+      "https://i.ibb.co/Z2PGcGk/uc-export-view-id-1v-M3h-Yww-URLnjwc-AYf-Cs-MSk-OFl-Vyu-Njwp.jpg",
+      "https://i.ibb.co/gvVFppj/1-4.jpg",
+    ],
+    horizontalImages: true,
+    github_link: "https://github.com/canafarci/ExpenseTracker",
   },
 ];
