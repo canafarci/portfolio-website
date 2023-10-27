@@ -120,6 +120,22 @@ function ItemDialog({ selectedItem, onCloseClicked }) {
         <p>{selectedItem.description}</p>
         <p>{selectedItem.detailed_description}</p>
       </div>
+      {selectedItem.images && (
+        <div className={selectedItem.horizontalImages ? "image-row" : ""}>
+          {selectedItem.images.map((image, index) => (
+            <img
+              loading="lazy"
+              key={index}
+              src={image}
+              alt={`${selectedItem.title} ${index}`}
+              className={
+                selectedItem.doubleImage ? "double_image" : "portfolio_image"
+              }
+              referrerPolicy="no-referrer"
+            />
+          ))}
+        </div>
+      )}
       {selectedItem.webGLUrl && window.innerWidth > 800 && (
         <div className="media">
           <iframe
@@ -165,22 +181,6 @@ function ItemDialog({ selectedItem, onCloseClicked }) {
               title="videoplayer"
               className="portfolio_video"
             ></iframe>
-          ))}
-        </div>
-      )}
-      {selectedItem.images && (
-        <div className={selectedItem.horizontalImages ? "image-row" : ""}>
-          {selectedItem.images.map((image, index) => (
-            <img
-              loading="lazy"
-              key={index}
-              src={image}
-              alt={`${selectedItem.title} ${index}`}
-              className={
-                selectedItem.doubleImage ? "double_image" : "portfolio_image"
-              }
-              referrerPolicy="no-referrer"
-            />
           ))}
         </div>
       )}
