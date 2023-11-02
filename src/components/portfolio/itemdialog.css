@@ -83,6 +83,7 @@
   font-size: medium;
 }
 .descriptions {
+  white-space: pre-wrap;
   margin-top: 20px;
   line-height: auto;
 }
