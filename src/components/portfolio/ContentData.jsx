@@ -70,22 +70,18 @@ export const contentData = [
     location: null,
     description: "Train station management Idle-Arcade",
     detailed_description:
-      "In this game, players step into the role of a train station manager. \nTheir responsibilities include welcoming new passengers to the train station, providing luggage storage services if needed, and ensuring passengers board the train promptly.\nI have implemented a object pool to optimize the memory for money objects and NPCs. I used a state machine to design an AI for a NPC which can help the player.\nOther features which i implemented in this game include Stacking mechanics, Analytics, persistent saving system and an unlocking system for player progress.\nThis game was tested with Supersonic and Game Theory Games and i participated in game design process with their publishing managers.",
+      "In this game, players step into the role of a train station manager. \nTheir responsibilities include welcoming new passengers to the train station, providing luggage storage services if needed, and ensuring passengers board the train promptly.\nI was tasked with developing the central game loop and visual mechanics, as well as contributing to the design of levels and overall gameplay.\nI have implemented a object pool to optimize the memory for money objects and NPCs. I used a state machine to design an AI for a NPC which can help the player.\nOther features which i implemented in this game include Stacking mechanics, Analytics, persistent saving system and an unlocking system for player progress.\nThis game was tested with Supersonic and Game Theory Games and i participated in game design process with their publishing managers.",
     skills: "  Unity 3D, C#",
     genre: "  Idle-Arcade",
     role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
     job_type: "  Prototype project developed for Game Theory Games",
     image:
-      "https://lh3.googleusercontent.com/WKG4H1vH5Nb9QllkCv6XIDo5iW2W-6A2gfhjmX-gjdh_9COK1BJzbPd3dauSwmw5HMA",
-    images: [
-      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODIyOC5qcGc=/794x1000/Q3gocu.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODI0MS5qcGc=/794x1000/91ed4m.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODIzOS5qcGc=/794x1000/f16YYJ.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODIzNC5qcGc=/794x1000/pzlLcR.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODIzMi5qcGc=/794x1000/lNSD%2Fr.jpg",
       "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODIzNi5qcGc=/794x1000/5IUT%2B1.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODI0Mi5qcGc=/794x1000/JOMF2d.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODI0MC5qcGc=/794x1000/%2BfbpD4.jpg",
+    images: [
+      "https://i.imgur.com/Ec1wfYv.gif",
+      "https://i.imgur.com/MozRB1b.gif",
+      "https://i.imgur.com/fXhbw7q.gif",
+      "https://i.imgur.com/gmX3mVI.gif",
     ],
     horizontalImages: true,
     webGLUrl: "https://itch.io/embed-upload/8061466?color=333333",
@@ -104,16 +100,27 @@ export const contentData = [
     location: null,
     description: "Idle-Arcade mobile game with a taxi theme",
     detailed_description:
-      "My Yellow Taxi Co. is an exciting and fast-paced time-management game that challenges players to create and manage their own taxi station.\nFor this game, i used Zenject Dependency Injection to manage dependencies and implemented a helper NPC AI using state machine to help player with managing drivers.\nIn this game, there were 4 types of vehicles and each of them could be broken in a possible 3 ways, so i used a factory to pseudo-randomly generate vehicles and used callbacks to change the state of the vehicles as player acted on them.\nThere were 6 different upgrades which player could purchase to change the state of the game, so in order to simplify the persistent saving system, i used commands to execute state changes. \nI used the same approach for NPC behaviours, which simplified patrolling, waiting, moving to car and following the player states.\nMy other responsibilities for this game includes integrating Adjust and GameAnalytics, Designing and implementing adaptive UI, implementing player controls, animating objects using DOTween and level design.\nThis game was tested with Ketchapp and Supersonic and i participated in game design process with their publishing managers.",
+      "My Yellow Taxi Co. is an exciting and fast-paced time-management game that challenges players to create and manage their own taxi station.\nI was tasked with developing the central game loop and visual mechanics, as well as contributing to the design of levels and overall gameplay.\nFor this game, i used Zenject Dependency Injection to manage dependencies and implemented a helper NPC AI using state machine to help player with managing drivers.\nIn this game, there were 4 types of vehicles and each of them could be broken in a possible 3 ways, so i used a factory to pseudo-randomly generate vehicles and used callbacks to change the state of the vehicles as player acted on them.\nThere were 6 different upgrades which player could purchase to change the state of the game, so in order to simplify the persistent saving system, i used commands to execute state changes. \nI used the same approach for NPC behaviours, which simplified patrolling, waiting, moving to car and following the player states.\nMy other responsibilities for this game includes integrating Adjust and GameAnalytics, Designing and implementing adaptive UI, implementing player controls, animating objects using DOTween and level design.\nThis game was tested with Ketchapp and Supersonic and i participated in game design process with their publishing managers.",
     skills: "  Unity 3D, C#",
     genre: "  Idle-Arcade",
     role: "  Programming, Gameplay Design, UI Design, completed with the Flowtart Studios team",
     job_type:
       "  Prototype project initially developed for Game Theory Games and later revised with Ketchapp games",
     image:
-      "https://img.itch.zone/aW1nLzEyMTg1MTY5LnBuZw==/315x250%23c/6cytVJ.png",
-    images: [
       "https://i.ibb.co/YtbQGwR/uc-export-view-id-1nl-YRdp-CHuj-Fo-PCl-Ad-IXg76-X5ray-TJBdv.jpg",
+    images: [
+      "https://i.imgur.com/2Ef131Y.gif",
+      "https://i.imgur.com/SrCAg8z.gif",
+      "https://i.imgur.com/yG8NcoM.gif",
+      "https://i.imgur.com/9Uoj09O.gif",
+      "https://i.imgur.com/g1Ndpgm.gif",
+      "https://i.imgur.com/DtPgV6T.gif",
+      "https://i.imgur.com/1ejNfY7.gif",
+      "https://i.imgur.com/CBjTyHY.gif",
+      "https://i.imgur.com/sLX9yKw.gif",
+      "https://i.imgur.com/UeLAcBl.gif",
+      "https://i.imgur.com/EBSJjPS.gif",
+      "https://i.imgur.com/8Lj841u.gif",
     ],
     videoUrl: "https://www.youtube.com/embed/v0I0KCClqKY",
     webGLUrl: "https://itch.io/embed-upload/7922490?color=ededed",
@@ -123,6 +130,7 @@ export const contentData = [
       "https://play.google.com/store/apps/details?id=com.flowtart.taxicompany",
     github_link: "https://github.com/canafarci/MyYellowTaxiCo",
     behance_link: null,
+    horizontalImages: true,
   },
   //!Hollow Ocean Game
   {
@@ -131,12 +139,12 @@ export const contentData = [
     date: "  August 2021  ",
     description: "Interactive experience for creating pollution awareness",
     detailed_description:
-      "As a part of UC San Diego's Art department professor Pinar Yoldas's Studiolab Yoldas, this interactive experience preceded the 2021 Architecture Biennale presentation. It showcases the human impact on the ocean by interacting with 6 layers of damage caused by the humans.",
+      "As a part of UC San Diego's Art department professor Pinar Yoldas's Studiolab Yoldas, this interactive experience preceded the 2021 Architecture Biennale presentation. It showcases the human impact on the ocean by interacting with 6 layers of damage caused by the humans.\nI implemented separate controls for VR and joystick controlled versions of the game.\nMy responsibilities also included importing of a 3D scanned mesh with data gathered from coral reefs and managing performance while displaying the mesh.",
     skills: "  C#, Unity",
     genre: null,
     job_type: "  Development and maintenance",
     role: "  Gameplay and UI programming, game maintenance as a part of Studiolab Yoldas",
-    image: "https://i.ibb.co/rbr5Nm2/Screenshot-2023-06-08-at-18-25-39.png",
+    image: "https://i.ibb.co/18qP221/Screenshot-2023-11-08-022226.jpg",
     horizontalImages: true,
     doubleImage: true,
     videoUrl: "https://www.youtube.com/embed/uSWx1r0df4A",
@@ -167,6 +175,33 @@ export const contentData = [
     github_link: "https://github.com/canafarci/DrunkenWizard",
     behance_link: null,
   },
+  //!Cooking Game
+  {
+    category: ["pc_games"],
+    title: "Cooking Game",
+    date: "  October 2023",
+    horizontalImages: true,
+    location: null,
+    description: "A project to experiment with Netcode Co-op",
+    detailed_description:
+      "A learning project inspired from games like PlateUp and Overcooked. Started with following a lecture and diverged at design and code structure.\nImplemented Netcode to create a multiplayer game, used lobbies and Relay transport infrastructure.\nImplemented game logic which included generating cooking recipes, checking for delivered foods and state transition of cookable items.\nImplemented Input system to be playable with keyboard/mouse and gamepad.\nImplemented remappable input bindings.",
+    skills: "  Unity 3D, C#",
+    genre: "  Multiplayer Co-op",
+    role: "  Programming, Gameplay Design, Level Design",
+    job_type: "  Learning project",
+    image: "https://i.ibb.co/Jrr6SYj/frame-1.jpg",
+    images: [
+      "https://i.ibb.co/TbVqRWg/Part1.gif",
+      "https://i.ibb.co/187dgyH/Part2.gif",
+      "https://i.ibb.co/QpdchBn/Part3.gif",
+      "https://i.ibb.co/tPb3pjV/Part4.gif",
+    ],
+    webGLUrl: "https://itch.io/embed-upload/9055584?color=ededed", // Add this only if WebGL exists
+    webgl_width: "850",
+    webgl_height: "580",
+    github_link: "https://github.com/canafarci/CookingGame",
+    behance_link: null,
+  },
   //!Wonder
   {
     category: ["mobile_games"],
@@ -175,18 +210,17 @@ export const contentData = [
     location: null,
     description: "Idle clicker with a wonder building theme",
     detailed_description:
-      "Players have the ability to optimize worker speed and quantity, combining them to expedite the construction of wonders.\nIn this prototype, players can build both the Eiffel Tower and the Giza Pyramid.",
+      "Players have the ability to optimize worker speed and quantity, combining them to expedite the construction of wonders.\nIn this prototype, players can build both the Eiffel Tower and the Giza Pyramid.\nI was tasked with developing the central game loop and visual mechanics, as well as contributing to the design of levels and overall gameplay.\nI implemented AI behaviors using a state machine and a dynamic NavMesh, enhancing the game's interactivity and realism.\nI created an upgrade system and designed a system which listens for player input to create a interactive idle game.\nI designed and implemented a reactive UI for the game.\nI established systems for game state management and data persistence.\nI managed the overall game flow, creating a coherent narrative and gameplay balance. ",
     skills: "  Unity 3D, C#",
     genre: "  Idle Clicker",
     role: "  Programming, Gameplay and Architectural design, completed with the Flowtart Studios team",
     job_type: "  Prototype project developed for Game Theory Games",
-    image:
-      "https://play-lh.googleusercontent.com/U2bL4VmpWOmW0yXa5VzciV9hWWUaAzU-N-hCWsas2aAvf-LYt7mmZVPpjgtsoJpIXhQ=s256-rw",
+    image: "https://i.ibb.co/PDbL62r/frame-4.jpg",
     images: [
-      "https://play-lh.googleusercontent.com/MYNX2emWmz7rBXrwmBck4Brw39jnIQOtoxz4JDfOEeYJzBLIceJmgM40rSr3XpGRdA=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/G9Y3zRnTgyAAz077h6DMOwOkl8LuHlqdTVtK23zJ84qL9hOUr-ZQeG-E7_3t3ugnyw=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/XI3eVb8FkHVUqnIlY77cjvLNj5wueAEEwHxQAbfIn-fVOsS8mNSU_GoAKt0yot1ZI2k=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/eU3vMxkuCMt6uFTQvYQh76Mpq5izrRU70wOo_gVR7zdkCkvgTO2853z9AdSFObCBdR4=w2560-h1440-rw",
+      "https://i.imgur.com/MDvuHe5.gif",
+      "https://i.imgur.com/N0m6yBZ.gif",
+      "https://i.imgur.com/DMuRgKK.gif",
+      "https://i.imgur.com/v3D64Wa.gif",
     ],
     horizontalImages: true,
     videoUrl: "https://www.youtube.com/embed/lUnxmFhP6J0",
