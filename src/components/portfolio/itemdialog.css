@@ -107,8 +107,17 @@
   margin: 3%;
 }
 .image-row .double_image {
-  width: 47%;
+  width: 43%;
   margin: 1%;
+  border-radius: 15px;
+}
+
+.image-row .landscape_image {
+  width: 43.5%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+
+  border-radius: 15px;
 }
 .image-row .portfolio_video {
   width: 47%;

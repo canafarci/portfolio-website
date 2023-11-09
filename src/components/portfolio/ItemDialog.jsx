@@ -128,9 +128,7 @@ function ItemDialog({ selectedItem, onCloseClicked }) {
               key={index}
               src={image}
               alt={`${selectedItem.title} ${index}`}
-              className={
-                selectedItem.doubleImage ? "double_image" : "portfolio_image"
-              }
+              className={getClassName()}
               referrerPolicy="no-referrer"
             />
           ))}
@@ -186,6 +184,19 @@ function ItemDialog({ selectedItem, onCloseClicked }) {
       )}
     </div>
   );
+
+  function getClassName() {
+    let className = "";
+    if (selectedItem.doubleImage) {
+      className = "double_image";
+    } else if (selectedItem.landscapeImage) {
+      className = "landscape_image";
+    } else {
+      className = "portfolio_image";
+    }
+
+    return className;
+  }
 }
 
 export default ItemDialog;
