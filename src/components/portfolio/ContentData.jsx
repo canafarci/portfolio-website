@@ -207,6 +207,33 @@ export const contentData = [
     horizontalImages: true,
     landscapeImage: true,
   },
+  //!Skate Rush
+  {
+    category: ["mobile_games"],
+    title: "Skate Rush",
+    date: "  December 2021",
+    location: null,
+    description: "IK runner with a skateboard theme",
+    detailed_description:
+      "The player takes on the role of a skateboarder executing extreme maneuvers. As the player nears an action zone, time decelerates, allowing the player to manipulate the skateboarder’s limbs to perform stunts.\nImplemeted a draggable IK limbs to move player character to target positions.\nCreated a instant replay system.\nCreated a spline based movement system with swerve mechanics.\nUsed shader graph to create dynamic materials. ",
+    skills: "  Unity 3D, C#",
+    genre: "  IK runner",
+    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
+    job_type: "  Prototype project developed for Game Theory Games",
+    image: "https://i.imgur.com/G0oLAOE.jpg",
+    images: [
+      "https://i.imgur.com/YlbXGjF.gif",
+      "https://i.imgur.com/A7AITP3.gif",
+      "https://i.imgur.com/xGv29Y9.gif",
+      "https://i.imgur.com/4j8UfLh.gif",
+    ],
+    horizontalImages: true,
+    webGLUrl: "https://itch.io/embed-upload/7984512?color=333333",
+    webgl_width: "500",
+    webgl_height: "870",
+    github_link: "https://github.com/canafarci/SkateDancer",
+    behance_link: null,
+  },
   //!Wonder
   {
     category: ["mobile_games"],
@@ -303,7 +330,7 @@ export const contentData = [
     genre: "  Idle Clicker",
     role: "  Programming, Gameplay design, completed with the Flowtart Studios team",
     job_type: "  Prototype project developed for Game Theory Games",
-    image: "https://i.ibb.co/jhKbPkn/frame-9.jpg",
+    image: "https://i.imgur.com/3FuURRM.jpg",
     images: [
       "https://i.imgur.com/twZQ5f3.gif",
       "https://i.imgur.com/NJ29ME9.gif",
@@ -363,7 +390,7 @@ export const contentData = [
     genre: "  Forward Stack Runner",
     role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
     job_type: "  Prototype project developed for Game Theory Games",
-    image: "https://i.ibb.co/P6FGMzr/Screenshot-2023-11-09-161420.jpg",
+    image: "https://i.imgur.com/mivUiEl.jpg",
     images: [
       "https://i.imgur.com/Bch0bKr.gif",
       "https://i.imgur.com/DO2TwNO.gif",
@@ -423,18 +450,17 @@ export const contentData = [
     location: null,
     description: "Popcorn Themed Idle Clicker",
     detailed_description:
-      "In the project, the player acquires upgrades to expedite the popcorn cooking process. \nThese upgrades then enable the player to sell popcorn more quickly and thus generate revenue.",
+      "Implemented a memory pool and used Flyweight pattern to optimize performance.",
     skills: "  Unity 3D, C#",
     genre: "  Idle Clicker",
     role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
     job_type: "  Prototype project developed for Game Theory Games",
-    image:
-      "https://img.itch.zone/aW1nLzEyMjEwNzM5LnBuZw==/315x250%23c/VTx9jK.png",
+    image: "https://i.imgur.com/BwQH1Oh.jpg",
     images: [
-      "https://img.itch.zone/aW1hZ2UvMjA3NTk2Ny8xMjIxMDc0OC5qcGc=/347x500/SvRaCk.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjA3NTk2Ny8xMjIxMDc0OS5qcGc=/347x500/7dbLEt.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjA3NTk2Ny8xMjIxMDc1MC5qcGc=/347x500/4IKXrW.jpg",
-      "https://img.itch.zone/aW1hZ2UvMjA3NTk2Ny8xMjIxMDc1MS5qcGc=/347x500/iddBd%2B.jpg",
+      "https://i.imgur.com/sTuLBn0.gif",
+      "https://i.imgur.com/9IBg54r.gif",
+      "https://i.imgur.com/aPUQvFN.gif",
+      "https://i.imgur.com/a7EJRaz.gif",
     ],
     horizontalImages: true,
     webGLUrl: "https://itch.io/embed-upload/7939293?color=ededed",
@@ -960,38 +986,6 @@ export const contentData = [
     github_link: null,
     behance_link:
       "https://www.behance.net/gallery/152288179/Devrek-Community-Housing",
-  },
-  //!Skate Rush
-  {
-    category: ["mobile_games"],
-    title: "Skate Rush",
-    date: "  December 2021",
-    location: null,
-    description: "IK runner with a skateboard theme",
-    detailed_description:
-      "The player takes on the role of a skateboarder executing extreme maneuvers. As the player nears an action zone, time decelerates, allowing the player to manipulate the skateboarder’s limbs to perform stunts.",
-    skills: "  Unity 3D, C#",
-    genre: "  IK runner",
-    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
-    job_type: "  Prototype project developed for Game Theory Games",
-    image:
-      "https://lh3.googleusercontent.com/qZ1giroZkn-LemLTpmxfhPiM6TiccWGIQv3IrDnDaPR3OzbyXYvNOiW-fS5oFSBCK7Yb",
-    images: [
-      "https://lh3.googleusercontent.com/wyK9EhGmN32JKCNPdxFoiQ09JJlwrN-_dx4YarqXjYJmUom9a5DZCn2tu1bHYQz06b8",
-      "https://lh3.googleusercontent.com/05uwmHWsDZe_lExpTN5Wnt3MkQEXLNN6qjzN8qVUesRXkapmTJR95UDg4GH_O8CT0sU",
-      "https://lh3.googleusercontent.com/4qVn8K5CKv_2yjr662X2bZE6_Qc-D4Wb_argPJp3U5NiEIdhDE_6VfVDkU_nfCqqPGm3",
-      "https://lh3.googleusercontent.com/ORdxNerQu9HnHw4cWPSxVVH6CjvraqWKxl6Nf64WDQR79RFUVIFguZup6C3o0SpcAxIJ",
-      "https://lh3.googleusercontent.com/14Dgb3BvLZ_SG7dsWpvYfpnsBeiLSOrNwmc1nLVf1n4mUQDHMs-uqzBVJ3KeVJOFx72S",
-      "https://lh3.googleusercontent.com/nLE0tnvdbCn0xwSuPD0NpY1LIL36HUM5W6ifaBAYmvJ6yFx6kI6U3OKPyQBz_xFdurk",
-      "https://lh3.googleusercontent.com/5MzQim6MfYAHru6Tvhy3E6aAbEflwUMcbdaoxDasjAB1q1uqSuQ4RwlguywZA8gdgis",
-      "https://lh3.googleusercontent.com/oxsm2BRaI_NQq2NPBsSYyQc-n0FJOuKBOQX8GcdRRLiu0kWqAUNi5IkbWF_ZSrGBxKV_",
-    ],
-    horizontalImages: true,
-    webGLUrl: "https://itch.io/embed-upload/7984512?color=333333",
-    webgl_width: "500",
-    webgl_height: "870",
-    github_link: "https://github.com/canafarci/SkateDancer",
-    behance_link: null,
   },
   //!Güzeloba
   {
