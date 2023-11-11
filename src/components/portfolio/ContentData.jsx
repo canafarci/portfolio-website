@@ -62,34 +62,28 @@ export const contentData = [
     behance_link:
       "https://www.behance.net/gallery/152287837/Kemerburgaz-Villas",
   },
-  //!Train
+  //!Obstacle Runner
   {
     category: ["mobile_games"],
-    title: "My Train Station!",
-    date: "  November 2022",
+    title: "Parkour Race Master",
+    date: "  October 2023",
     location: null,
-    description: "Train station management Idle-Arcade",
+    description: "Obstacle dodge race game",
     detailed_description:
-      "In this game, players step into the role of a train station manager. \nTheir responsibilities include welcoming new passengers to the train station, providing luggage storage services if needed, and ensuring passengers board the train promptly.\nI was tasked with developing the central game loop and visual mechanics, as well as contributing to the design of levels and overall gameplay.\nI have implemented a object pool to optimize the memory for money objects and NPCs. I used a state machine to design an AI for a NPC which can help the player.\nOther features which i implemented in this game include Stacking mechanics, Analytics, persistent saving system and an unlocking system for player progress.\nThis game was tested with Supersonic and Game Theory Games and i participated in game design process with their publishing managers.",
+      "This prototype was inspired from Fun Race 3D by Azur Games.\nI was tasked with developing the central game loop and visual mechanics, as well as contributing to the design of levels and overall gameplay.\nUsed Zenject Dependecy injection to limit use of MonoBehaviours as much as possible for performace concerns with memory pools and prefab installer subcontainers.\nImplemented two compute shaders, one for painting an end game painting board with changeable colors and brush size, another for calculating total painted area in order to increase performance.\nCreated an AI state machine which responds to obstacles and acts accordingly.\nImplemented a 2D directional animation blend tree to respond to omnidirectional movement.\nUsed DOTween for obstacle movements and UI animations.\nCreated a physics based controller in order to respond to physics based obstacles.",
     skills: "  Unity 3D, C#",
     genre: "  Idle-Arcade",
     role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
     job_type: "  Prototype project developed for Game Theory Games",
-    image:
-      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODIzNi5qcGc=/794x1000/5IUT%2B1.jpg",
+    image: "https://i.imgur.com/RxoMmPE.jpg",
     images: [
-      "https://i.imgur.com/Ec1wfYv.gif",
-      "https://i.imgur.com/MozRB1b.gif",
-      "https://i.imgur.com/fXhbw7q.gif",
-      "https://i.imgur.com/gmX3mVI.gif",
+      "https://i.imgur.com/dWRHmVq.gif",
+      "https://i.imgur.com/bhnBrkl.gif",
+      "https://i.imgur.com/s64pAxo.gif",
+      "https://i.imgur.com/IJX8H7Q.gif",
     ],
     horizontalImages: true,
-    webGLUrl: "https://itch.io/embed-upload/8061466?color=333333",
-    webgl_width: "500",
-    webgl_height: "870",
-    github_link: "https://github.com/canafarci/TrainStation",
-    google_play_link:
-      "https://play.google.com/store/apps/details?id=com.flowtart.mytrainidlearcade",
+    github_link: "https://github.com/canafarci/RunnerTest",
     behance_link: null,
   },
   //!NYT
@@ -316,6 +310,36 @@ export const contentData = [
     pdf_link:
       "https://drive.google.com/file/d/1O6e-eDvBIPborOOtz04gcg8rMmiIt5CD/preview",
     github_link: "https://github.com/canafarci/MARCH_Repo",
+  },
+  //!Train
+  {
+    category: ["mobile_games"],
+    title: "My Train Station!",
+    date: "  November 2022",
+    location: null,
+    description: "Train station management Idle-Arcade",
+    detailed_description:
+      "In this game, players step into the role of a train station manager. \nTheir responsibilities include welcoming new passengers to the train station, providing luggage storage services if needed, and ensuring passengers board the train promptly.\nI was tasked with developing the central game loop and visual mechanics, as well as contributing to the design of levels and overall gameplay.\nI have implemented a object pool to optimize the memory for money objects and NPCs. I used a state machine to design an AI for a NPC which can help the player.\nOther features which i implemented in this game include Stacking mechanics, Analytics, persistent saving system and an unlocking system for player progress.\nThis game was tested with Supersonic and Game Theory Games and i participated in game design process with their publishing managers.",
+    skills: "  Unity 3D, C#",
+    genre: "  Idle-Arcade",
+    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
+    job_type: "  Prototype project developed for Game Theory Games",
+    image:
+      "https://img.itch.zone/aW1hZ2UvMjEwNjExMi8xMjM5ODIzNi5qcGc=/794x1000/5IUT%2B1.jpg",
+    images: [
+      "https://i.imgur.com/Ec1wfYv.gif",
+      "https://i.imgur.com/MozRB1b.gif",
+      "https://i.imgur.com/fXhbw7q.gif",
+      "https://i.imgur.com/gmX3mVI.gif",
+    ],
+    horizontalImages: true,
+    webGLUrl: "https://itch.io/embed-upload/8061466?color=333333",
+    webgl_width: "500",
+    webgl_height: "870",
+    github_link: "https://github.com/canafarci/TrainStation",
+    google_play_link:
+      "https://play.google.com/store/apps/details?id=com.flowtart.mytrainidlearcade",
+    behance_link: null,
   },
   //!Swing
   {
