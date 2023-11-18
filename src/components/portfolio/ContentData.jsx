@@ -62,30 +62,6 @@ export const contentData = [
     behance_link:
       "https://www.behance.net/gallery/152287837/Kemerburgaz-Villas",
   },
-  //!Obstacle Runner
-  {
-    category: ["mobile_games"],
-    title: "Parkour Race Master",
-    date: "  October 2023",
-    location: null,
-    description: "Obstacle dodge race game",
-    detailed_description:
-      "This prototype was inspired from Fun Race 3D by Azur Games.\nI was tasked with developing the central game loop and visual mechanics, as well as contributing to the design of levels and overall gameplay.\nUsed Zenject Dependecy injection to limit use of MonoBehaviours as much as possible for performace concerns with memory pools and prefab installer subcontainers.\nImplemented two compute shaders, one for painting an end game painting board with changeable colors and brush size, another for calculating total painted area in order to increase performance.\nCreated an AI state machine which responds to obstacles and acts accordingly.\nImplemented a 2D directional animation blend tree to respond to omnidirectional movement.\nUsed DOTween for obstacle movements and UI animations.\nCreated a physics based controller in order to respond to physics based obstacles.",
-    skills: "  Unity 3D, C#",
-    genre: "  Idle-Arcade",
-    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
-    job_type: "  Prototype project developed for Game Theory Games",
-    image: "https://i.imgur.com/RxoMmPE.jpg",
-    images: [
-      "https://i.imgur.com/dWRHmVq.gif",
-      "https://i.imgur.com/bhnBrkl.gif",
-      "https://i.imgur.com/s64pAxo.gif",
-      "https://i.imgur.com/IJX8H7Q.gif",
-    ],
-    horizontalImages: true,
-    github_link: "https://github.com/canafarci/RunnerTest",
-    behance_link: null,
-  },
   //!NYT
   {
     category: ["mobile_games"],
@@ -256,6 +232,30 @@ export const contentData = [
     github_link: "https://github.com/canafarci/WonderBuilder",
     google_play_link:
       "https://play.google.com/store/apps/details?id=com.flowtart.wondercraft",
+    behance_link: null,
+  },
+  //!Obstacle Runner
+  {
+    category: ["mobile_games"],
+    title: "Parkour Race Master",
+    date: "  October 2023",
+    location: null,
+    description: "Obstacle dodge race game",
+    detailed_description:
+      "This prototype was inspired from Fun Race 3D by Azur Games.\nI was tasked with developing the central game loop and visual mechanics, as well as contributing to the design of levels and overall gameplay.\nUsed Zenject Dependecy injection to limit use of MonoBehaviours as much as possible for performace concerns with memory pools and prefab installer subcontainers.\nImplemented two compute shaders, one for painting an end game painting board with changeable colors and brush size, another for calculating total painted area in order to increase performance.\nCreated an AI state machine which responds to obstacles and acts accordingly.\nImplemented a 2D directional animation blend tree to respond to omnidirectional movement.\nUsed DOTween for obstacle movements and UI animations.\nCreated a physics based controller in order to respond to physics based obstacles.",
+    skills: "  Unity 3D, C#",
+    genre: "  Idle-Arcade",
+    role: "  Programming and Gameplay design, completed with the Flowtart Studios team",
+    job_type: "  Prototype project developed for Game Theory Games",
+    image: "https://i.imgur.com/RxoMmPE.jpg",
+    images: [
+      "https://i.imgur.com/dWRHmVq.gif",
+      "https://i.imgur.com/bhnBrkl.gif",
+      "https://i.imgur.com/s64pAxo.gif",
+      "https://i.imgur.com/IJX8H7Q.gif",
+    ],
+    horizontalImages: true,
+    github_link: "https://github.com/canafarci/RunnerTest",
     behance_link: null,
   },
   //!House Flipper 3D
