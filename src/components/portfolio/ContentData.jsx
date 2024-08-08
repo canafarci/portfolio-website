@@ -33,6 +33,34 @@ export const contentData = [
     app_store_link:
       "https://apps.apple.com/us/app/city-fighter-vs-street-gang/id1380448783",
   },
+  //!Forsaken Graves
+  {
+    category: ["pc_games"],
+    title: "Forsaken Graves",
+    date: "  May 2024 - Present",
+    description:
+      "Multiplayer co-op zombie survival game built with Netcode for GameObjects, VContainer, Animancer and HDRP pipeline",
+    detailed_description:
+      "Personal passion project for learning Networking, VContainer and HDRP. \nImplemented a custom Client Side Prediction algorithm on top of Netcode for Gameobjects infrastructure \nImplemented lobbies using Unity Lobbies API and transport using Relay. \nCreated a custom FPS controller compatible with Networking.",
+    skills: "  C#, Unity, Netcode for GameObjects, Gameplay Programming",
+    genre: null,
+    job_type: "  Feature development and Game maintenance in Unity",
+    role: "  Gameplay and UI programming , Multiplayer prototyping, Game maintenance as a part of Game Theory Games",
+    image:
+      "https://play-lh.googleusercontent.com/-qVtOWsgH0ftF1FIJ09Ce13rFn1zaBA_WVxRRBHyuvrG7alWLFA-nldU402Qm-T_Kg",
+    images: [
+      "https://imgur.com/xTcfduj",
+      "https://imgur.com/2V02lgc",
+      "https://imgur.com/RcdyG1r",
+      "https://imgur.com/CEmSZyQ",
+    ],
+    horizontalImages: true,
+    doubleImage: true,
+    videoUrl: null,
+    webGLUrl: "CO-OP Survival",
+    google_play_link: null,
+    app_store_link: null,
+  },
   //!Kemerburgaz
   {
     category: ["architectural_designs"],
