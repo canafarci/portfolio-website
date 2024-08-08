@@ -47,7 +47,7 @@ export const contentData = [
     job_type: "  Feature development and Game maintenance in Unity",
     role: "  Gameplay and UI programming , Multiplayer prototyping, Game maintenance as a part of Game Theory Games",
     image:
-      "https://play-lh.googleusercontent.com/-qVtOWsgH0ftF1FIJ09Ce13rFn1zaBA_WVxRRBHyuvrG7alWLFA-nldU402Qm-T_Kg",
+      "https://imgur.com/xTcfduj",
     images: [
       "https://imgur.com/xTcfduj",
       "https://imgur.com/2V02lgc",
