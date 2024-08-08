@@ -42,24 +42,25 @@ export const contentData = [
       "Multiplayer co-op zombie survival game built with Netcode for GameObjects, VContainer, Animancer and HDRP pipeline",
     detailed_description:
       "Personal passion project for learning Networking, VContainer and HDRP. \nImplemented a custom Client Side Prediction algorithm on top of Netcode for Gameobjects infrastructure \nImplemented lobbies using Unity Lobbies API and transport using Relay. \nCreated a custom FPS controller compatible with Networking.",
-    skills: "  C#, Unity, Netcode for GameObjects, Gameplay Programming",
-    genre: null,
+    skills: "  C#, Unity, Netcode for GameObjects, Gameplay Programming, Animancer",
+    genre: "CO-OP Zombie Survival",
     job_type: "  Feature development and Game maintenance in Unity",
     role: "  Gameplay and UI programming , Multiplayer prototyping, Game maintenance as a part of Game Theory Games",
     image:
-      "https://imgur.com/xTcfduj",
+      "https://imgur.com/xTcfduj.jpg",
     images: [
-      "https://imgur.com/xTcfduj",
-      "https://imgur.com/2V02lgc",
-      "https://imgur.com/RcdyG1r",
-      "https://imgur.com/CEmSZyQ",
+      "https://imgur.com/xTcfduj.jpg",
+      "https://imgur.com/2V02lgc.jpg",
+      "https://imgur.com/RcdyG1r.jpg",
+      "https://imgur.com/CEmSZyQ.jpg",
     ],
     horizontalImages: true,
     doubleImage: true,
     videoUrl: null,
-    webGLUrl: "CO-OP Survival",
+    webGLUrl:null,
     google_play_link: null,
     app_store_link: null,
+    github_link: "https://github.com/canafarci/ForsakenGraves",
   },
   //!Kemerburgaz
   {
@@ -90,6 +91,42 @@ export const contentData = [
     behance_link:
       "https://www.behance.net/gallery/152287837/Kemerburgaz-Villas",
   },
+    //!Word Bubbles
+    {
+      category: ["mobile_games"],
+      title: "Word Bubbles",
+      date: "  February 2023 (Version 1) September 2023 - Present (Version 2)",
+      location: null,
+      description: "Word Puzzle Casual mobile game built with StrangeIoC",
+      detailed_description:
+        "In this project, i worked on adding a new event system, implemantation of Adressables,\nPlay store and App store leaderboards, notification system using Unity package",
+      skills: "  Unity 3D, Addressables, Live Ops, Playables",
+      genre: "  Word Puzzle",
+      role: "  Programming, Feature implementation, Maintenance, completed with the Teek Games team",
+      job_type:
+        "  Maintenance and feature implementation job with Teek Games",
+      image:
+        "https://play-lh.googleusercontent.com/3tD_KayznIx3njVtXDfTDmOHUbW881WjjEMumA95BR63Ta1qyR_p0EaaMP_rOPe2XqKr=w2560-h1440-rw",
+      images: [
+        "https://play-lh.googleusercontent.com/3tD_KayznIx3njVtXDfTDmOHUbW881WjjEMumA95BR63Ta1qyR_p0EaaMP_rOPe2XqKr=w2560-h1440-rw",
+        "https://play-lh.googleusercontent.com/cZYs-g5l3RGC5-41Eqnoo5A964N6GMW_eFZrWh6CPtRLGiJcfh7wJzDD5LyS7qD88E-g=w2560-h1440-rw",
+        "https://play-lh.googleusercontent.com/Ab6AfjUTdNGfKdFjPfup7HRex2oTCPdD-yRUUTP_vmNuV7TNgzWRB4WHGXtrGPEs6Q=w2560-h1440-rw",
+        "https://play-lh.googleusercontent.com/DGPSnJNspAZBjOlYLv2jApxN29vouPJ88rW9g4M7ywxAeRkFdXpxypg3e_a0vLgoNw=w2560-h1440-rw",
+        "https://play-lh.googleusercontent.com/paC98hE2QLVhgwUEdJUaywDTwW2_VZ2wFLNXpSdMc8-qF_bMwbU3dNj_HVcIzCs9F5Y=w2560-h1440-rw",
+        "https://play-lh.googleusercontent.com/HmKMHS4XyaDqP9s_oJHFLUYFqzLbFy98vARuib4U2TyDGzVWdPkfU8CE-B2jFTcX5hIA=w2560-h1440-rw",
+        "https://play-lh.googleusercontent.com/YXnHn6fNVabKwr_GRw4klwTbVG4c856FTA-chwGteLVlq7bJQyV9HdIp7WP8nBVTwds=w2560-h1440-rw",
+        "https://play-lh.googleusercontent.com/UH4hs9FbRPady5smnrquPh7yqL-MBZy75Aq-UT5AxoRp_RuvHa8J_0L-PriVGsMlTTw=w2560-h1440-rw",
+      ],
+      videoUrl:null,
+      webGLUrl: null,
+      webgl_width: "540",
+      webgl_height: "900",
+      github_link:null,
+      behance_link: null,
+      horizontalImages: true,
+      google_play_link: "https://play.google.com/store/apps/details?id=com.TeekGames.WordBubbles&pcampaignid=web_share",
+      app_store_link: "https://apps.apple.com/us/app/word-bubbles-blast/id6449360210"
+    },
   //!NYT
   {
     category: ["mobile_games"],
