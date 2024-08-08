@@ -91,42 +91,74 @@ export const contentData = [
     behance_link:
       "https://www.behance.net/gallery/152287837/Kemerburgaz-Villas",
   },
-    //!Word Bubbles
-    {
-      category: ["mobile_games"],
-      title: "Word Bubbles",
-      date: "  February 2023 (Version 1) September 2023 - Present (Version 2)",
-      location: null,
-      description: "Word Puzzle Casual mobile game built with StrangeIoC",
-      detailed_description:
-        "In this project, i worked on adding a new event system, implemantation of Adressables,\nPlay store and App store leaderboards, notification system using Unity package",
-      skills: "  Unity 3D, Addressables, Live Ops, Playables",
-      genre: "  Word Puzzle",
-      role: "  Programming, Feature implementation, Maintenance, completed with the Teek Games team",
-      job_type:
-        "  Maintenance and feature implementation job with Teek Games",
-      image:
-        "https://play-lh.googleusercontent.com/3tD_KayznIx3njVtXDfTDmOHUbW881WjjEMumA95BR63Ta1qyR_p0EaaMP_rOPe2XqKr=w2560-h1440-rw",
-      images: [
-        "https://play-lh.googleusercontent.com/3tD_KayznIx3njVtXDfTDmOHUbW881WjjEMumA95BR63Ta1qyR_p0EaaMP_rOPe2XqKr=w2560-h1440-rw",
-        "https://play-lh.googleusercontent.com/cZYs-g5l3RGC5-41Eqnoo5A964N6GMW_eFZrWh6CPtRLGiJcfh7wJzDD5LyS7qD88E-g=w2560-h1440-rw",
-        "https://play-lh.googleusercontent.com/Ab6AfjUTdNGfKdFjPfup7HRex2oTCPdD-yRUUTP_vmNuV7TNgzWRB4WHGXtrGPEs6Q=w2560-h1440-rw",
-        "https://play-lh.googleusercontent.com/DGPSnJNspAZBjOlYLv2jApxN29vouPJ88rW9g4M7ywxAeRkFdXpxypg3e_a0vLgoNw=w2560-h1440-rw",
-        "https://play-lh.googleusercontent.com/paC98hE2QLVhgwUEdJUaywDTwW2_VZ2wFLNXpSdMc8-qF_bMwbU3dNj_HVcIzCs9F5Y=w2560-h1440-rw",
-        "https://play-lh.googleusercontent.com/HmKMHS4XyaDqP9s_oJHFLUYFqzLbFy98vARuib4U2TyDGzVWdPkfU8CE-B2jFTcX5hIA=w2560-h1440-rw",
-        "https://play-lh.googleusercontent.com/YXnHn6fNVabKwr_GRw4klwTbVG4c856FTA-chwGteLVlq7bJQyV9HdIp7WP8nBVTwds=w2560-h1440-rw",
-        "https://play-lh.googleusercontent.com/UH4hs9FbRPady5smnrquPh7yqL-MBZy75Aq-UT5AxoRp_RuvHa8J_0L-PriVGsMlTTw=w2560-h1440-rw",
-      ],
-      videoUrl:null,
-      webGLUrl: null,
-      webgl_width: "540",
-      webgl_height: "900",
-      github_link:null,
-      behance_link: null,
-      horizontalImages: true,
-      google_play_link: "https://play.google.com/store/apps/details?id=com.TeekGames.WordBubbles&pcampaignid=web_share",
-      app_store_link: "https://apps.apple.com/us/app/word-bubbles-blast/id6449360210"
-    },
+  //!Word Bubbles
+  {
+    category: ["mobile_games"],
+    title: "Word Bubbles",
+    date: "  February 2023 (Version 1) September 2023 - Present (Version 2)",
+    location: null,
+    description: "Word Puzzle genre Casual mobile game built with StrangeIoC and Live Ops",
+    detailed_description:
+      "In this project, i worked on adding a new event system, implemantation of Adressables,\nPlay store and App store leaderboards, notification system using Unity package",
+    skills: "  Unity 3D, Addressables, Live Ops, Playables",
+    genre: "  Word Puzzle",
+    role: "  Programming, Feature implementation, Maintenance, completed with the Teek Games team",
+    job_type:
+      "  Maintenance and feature implementation job with Teek Games",
+    image:
+      "https://play-lh.googleusercontent.com/3tD_KayznIx3njVtXDfTDmOHUbW881WjjEMumA95BR63Ta1qyR_p0EaaMP_rOPe2XqKr=w2560-h1440-rw",
+    images: [
+      "https://play-lh.googleusercontent.com/3tD_KayznIx3njVtXDfTDmOHUbW881WjjEMumA95BR63Ta1qyR_p0EaaMP_rOPe2XqKr=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/cZYs-g5l3RGC5-41Eqnoo5A964N6GMW_eFZrWh6CPtRLGiJcfh7wJzDD5LyS7qD88E-g=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/Ab6AfjUTdNGfKdFjPfup7HRex2oTCPdD-yRUUTP_vmNuV7TNgzWRB4WHGXtrGPEs6Q=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/DGPSnJNspAZBjOlYLv2jApxN29vouPJ88rW9g4M7ywxAeRkFdXpxypg3e_a0vLgoNw=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/paC98hE2QLVhgwUEdJUaywDTwW2_VZ2wFLNXpSdMc8-qF_bMwbU3dNj_HVcIzCs9F5Y=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/HmKMHS4XyaDqP9s_oJHFLUYFqzLbFy98vARuib4U2TyDGzVWdPkfU8CE-B2jFTcX5hIA=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/YXnHn6fNVabKwr_GRw4klwTbVG4c856FTA-chwGteLVlq7bJQyV9HdIp7WP8nBVTwds=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/UH4hs9FbRPady5smnrquPh7yqL-MBZy75Aq-UT5AxoRp_RuvHa8J_0L-PriVGsMlTTw=w2560-h1440-rw",
+    ],
+    videoUrl:null,
+    webGLUrl: null,
+    webgl_width: "540",
+    webgl_height: "900",
+    github_link:null,
+    behance_link: null,
+    horizontalImages: true,
+    google_play_link: "https://play.google.com/store/apps/details?id=com.TeekGames.WordBubbles&pcampaignid=web_share",
+    app_store_link: "https://apps.apple.com/us/app/word-bubbles-blast/id6449360210"
+  },
+  //!Hidden Order
+  {
+    category: ["mobile_games"],
+    title: "Hidden Order",
+    date: "  March 2024 - Present",
+    location: null,
+    description: "Hidden Object genre casual mobile game, using Addressables, Zenject and a custom Signal-Command binding",
+    detailed_description:
+      "I led this project's development, with UML class and sequence diagram documentation,\nImplemented a custom binding of Command objects to Zenject signals, inspired by StrangeIoC's MVCS system,\nImplemented CCD Addressables background loading system\nSupervised creation of a Level Creation tool to place and generate data for a vast amount of hidden objects in-game",
+    skills: "  Unity 3D, Addressables, Live Ops, Playables",
+    genre: "  Word Puzzle",
+    role: "  Scrum Master, Lead Developer, completed with the Teek Games team",
+    job_type:
+      "  Project creation, development and maintenance, completed with Teek Games team",
+    image:
+      "https://play-lh.googleusercontent.com/uxz-IxfddCnxG7EMbAewB_sDNmqEeYwfzOMPSCYrifnRfm-LdvgTdYpn2cIR2EHHig=w2560-h1440-rw",
+    images: [
+      "https://play-lh.googleusercontent.com/9G4pYPJQTGm5JeNPLdMW5-OFwroJAj21bi3SNp5zkGcq0AoqhxNuMu_worFUykce9_Q=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/QOc2UqdhXgfaIiO0wP5xMUdZAggl_ZlU0b-X1fXdQ-LtysuyG-_oJ6KF9xYgA2QfdRo=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/wPUXuHA9YhRxYQnhF6Tv9KFRb-45-LkKB9dFMWvDBUyiyzkqY2QinjNl-3v6Z5IciJwX=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/2v_4nIYnSy3VcnLDj64ch0fGKTcdyXu5-BAQ55RitCXQ8B1PTCnFTeROXVceXT_I4-A=w2560-h1440-rw",
+    ],
+    videoUrl:null,
+    webGLUrl: null,
+    webgl_width: "540",
+    webgl_height: "900",
+    github_link:null,
+    behance_link: null,
+    horizontalImages: true,
+    google_play_link: "https://play.google.com/store/apps/details?id=com.TeekGames.HiddenOrder&pcampaignid=web_share",
+    app_store_link: "https://apps.apple.com/us/app/hidden-order/id6479645238"
+  },
   //!NYT
   {
     category: ["mobile_games"],
