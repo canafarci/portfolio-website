@@ -16,6 +16,11 @@
   width: auto;
 }
 
+.experience-container p {
+  text-align: left;
+  margin-left: 3ch;
+}
+
 .headers {
   display: flex;
   flex-direction: row;

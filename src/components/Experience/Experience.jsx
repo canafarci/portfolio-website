@@ -28,19 +28,29 @@ const Experience = () => {
         <div className="item_container">
           <h3>Professional Experience</h3>
           <div>
-            <h4>Freelance Designer</h4>
-            <p>Freelance Architectural Designer and Interior Designer</p>
-            <i>2019 - present</i>
+            <h4>Teek Games</h4>
+            <p>Mid Game Developer</p>
+            <i>2023 - present</i>
           </div>
           <div>
             <h4>Flowtart Studios</h4>
-            <p>Lead Game Developer</p>
-            <i>September 2021 - present</i>
+            <p>Game Developer</p>
+            <i>2021 - 2023</i>
           </div>
           <div>
             <h4>Diger Yapim</h4>
             <p>Unity Game Developer</p>
-            <i>April 2020 - September 2021</i>
+            <i>2020 - 2021</i>
+          </div>
+          <div>
+            <h4>Freelance Developer</h4>
+            <p>Freelance mobile and web developer</p>
+            <i>2019 - 2020</i>
+          </div>
+          <div>
+            <h4>Freelance Designer</h4>
+            <p>Freelance Architectural Designer and Interior Designer</p>
+            <i>2019 - present</i>
           </div>
         </div>
       </div>
