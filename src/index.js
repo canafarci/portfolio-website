@@ -1,15 +1,16 @@
+// src/index.js
 import React from "react";
-import App from "./App";
-import "./index.css";
-import { createBrowserHistory } from "history";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
+import App from "./App";
+import { ThemeProvider } from "@mui/material/styles";
+import theme from "./theme";
 
-const history = createBrowserHistory();
-
-ReactDOM.render(
-  <BrowserRouter history={history}>
-    <App />
-  </BrowserRouter>,
-  document.getElementById("root")
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+    <ThemeProvider theme={theme}>
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
+    </ThemeProvider>
 );
