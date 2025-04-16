@@ -61,9 +61,9 @@ const ProjectDetail = () => {
                     >
                         {project.title}
                     </Typography>
-                    {project.date && (
+                    {project.description && (
                         <Typography variant="h6" color="white">
-                            {project.date}
+                            {project.description}
                         </Typography>
                     )}
                 </Box>
@@ -139,13 +139,13 @@ const ProjectDetail = () => {
             <Container sx={{ mt: 2, mb: 4 }}>
                 {/* Description & Details */}
                 <Box sx={{ mb: 4 }}>
-                    {project.description && (
+                    {project.date && (
                         <>
                             <Typography variant="h5" gutterBottom>
-                                Description
+                                Date
                             </Typography>
                             <Typography variant="body1" paragraph>
-                                {project.description}
+                                {project.date}
                             </Typography>
                         </>
                     )}

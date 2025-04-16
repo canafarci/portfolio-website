@@ -195,7 +195,6 @@ export const contentData = [
     webgl_height: "900",
     google_play_link:
       "https://play.google.com/store/apps/details?id=com.flowtart.taxicompany",
-    github_link: "https://github.com/canafarci/MyYellowTaxiCo",
     behance_link: null,
     horizontalImages: true,
   },
@@ -298,7 +297,6 @@ export const contentData = [
     webGLUrl: "https://itch.io/embed-upload/7984512?color=333333",
     webgl_width: "500",
     webgl_height: "870",
-    github_link: "https://github.com/canafarci/SkateDancer",
     behance_link: null,
   },
   //!Wonder
@@ -326,7 +324,6 @@ export const contentData = [
     webGLUrl: "https://itch.io/embed-upload/7933036?color=ededed",
     webgl_width: "500",
     webgl_height: "850",
-    github_link: "https://github.com/canafarci/WonderBuilder",
     google_play_link:
       "https://play.google.com/store/apps/details?id=com.flowtart.wondercraft",
     behance_link: null,
@@ -384,7 +381,6 @@ export const contentData = [
     webGLUrl: "https://itch.io/embed-upload/7937642?color=ededed",
     webgl_width: "500",
     webgl_height: "870",
-    github_link: "https://github.com/canafarci/HouseFlipper",
     google_play_link:
       "https://play.google.com/store/apps/details?id=com.flowtart.houseflipper",
     behance_link: null,
@@ -433,7 +429,6 @@ export const contentData = [
     webGLUrl: "https://itch.io/embed-upload/8061466?color=333333",
     webgl_width: "500",
     webgl_height: "870",
-    github_link: "https://github.com/canafarci/TrainStation",
     google_play_link:
       "https://play.google.com/store/apps/details?id=com.flowtart.mytrainidlearcade",
     behance_link: null,
@@ -463,7 +458,6 @@ export const contentData = [
     webGLUrl: "https://itch.io/embed-upload/7936708?color=ededed",
     webgl_width: "500",
     webgl_height: "850",
-    github_link: "https://github.com/canafarci/SwingClicker",
     google_play_link:
       "https://play.google.com/store/apps/details?id=com.flowtart.swingclicker",
     behance_link: null,
@@ -522,7 +516,6 @@ export const contentData = [
     webGLUrl: "https://itch.io/embed-upload/7965305?color=ededed",
     webgl_width: "500",
     webgl_height: "870",
-    github_link: "https://github.com/canafarci/BowlingStack",
     google_play_link:
       "https://play.google.com/store/apps/details?id=com.flowtart.bowlingstack",
     behance_link: null,
@@ -558,8 +551,6 @@ export const contentData = [
     horizontalImages: true,
     videoUrl: null,
     webGLUrl: null,
-    github_link:
-      "https://github.com/canafarci/TurtleNFTGenerator/blob/master/turtleGeneratorl.jsx",
     behance_link:
       "https://www.behance.net/gallery/152292647/Turtlerz-NFT-Collection",
   },
@@ -587,7 +578,6 @@ export const contentData = [
     webGLUrl: "https://itch.io/embed-upload/7939293?color=ededed",
     webgl_width: "500",
     webgl_height: "870",
-    github_link: "https://github.com/canafarci/PopcornClicker",
     google_play_link:
       "https://play.google.com/store/apps/details?id=com.flowtart.popcornclicker",
     behance_link: null,
@@ -647,7 +637,6 @@ export const contentData = [
     webGLUrl: "https://itch.io/embed-upload/7963906?color=ededed",
     webgl_width: "500",
     webgl_height: "870",
-    github_link: "https://github.com/canafarci/CupcakeStack",
     google_play_link:
       "https://play.google.com/store/apps/details?id=com.flowtart.cupcakestack",
     behance_link: null,
@@ -727,7 +716,6 @@ export const contentData = [
     webGLUrl: "https://itch.io/embed-upload/7983581?color=333333",
     webgl_width: "500",
     webgl_height: "870",
-    github_link: "https://github.com/canafarci/CupidRun",
     behance_link: null,
   },
   //!License design works
@@ -787,7 +775,6 @@ export const contentData = [
     webGLUrl: "https://itch.io/embed-upload/7989127?color=333333",
     webgl_width: "850",
     webgl_height: "520",
-    github_link: "https://github.com/canafarci/SoccerMania",
     behance_link: null,
   },
   //!Montana
@@ -826,7 +813,6 @@ export const contentData = [
       "https://www-ccv.adobe.io/v1/player/ccv/MH4sZAh-D-F/embed?api_key=behance1&bgcolor=%23191919",
     ],
     webGLUrl: null,
-    github_link: "https://github.com/canafarci/MontanaNFTGenerator",
     behance_link:
       "https://www.behance.net/gallery/152295771/Montana-NFT-Collection",
   },
@@ -848,7 +834,6 @@ export const contentData = [
     webGLUrl: "https://itch.io/embed-upload/8072398?color=333333",
     webgl_height: 500,
     webgl_width: 850,
-    github_link: "https://github.com/canafarci/ARPG-Repository",
   },
   //!ERG
   {
@@ -900,7 +885,6 @@ export const contentData = [
     webGLUrl: "https://itch.io/embed-upload/7927013?color=ededed",
     webgl_width: "500",
     webgl_height: "850",
-    github_link: "https://github.com/canafarci/RunnerClicker",
     google_play_link:
       "https://play.google.com/store/apps/details?id=com.flowtart.weaponrush",
     behance_link: null,
@@ -951,7 +935,6 @@ export const contentData = [
     webGLUrl: "https://itch.io/embed-upload/7937385?color=ededed",
     webgl_width: "500",
     webgl_height: "875",
-    github_link: "https://github.com/canafarci/StorageWars",
     google_play_link:
       "https://play.google.com/store/apps/details?id=com.flowtart.storagemasters",
     behance_link: null,
@@ -1012,7 +995,6 @@ export const contentData = [
     webGLUrl: "https://itch.io/embed-upload/7939428?color=ededed",
     webgl_width: "500",
     webgl_height: "870",
-    github_link: "https://github.com/canafarci/EasterEggRunner",
     google_play_link:
       "https://play.google.com/store/apps/details?id=com.flowtart.easteregg",
     behance_link: null,
@@ -1078,7 +1060,6 @@ export const contentData = [
     webGLUrl: "https://itch.io/embed-upload/7942955?color=ededed",
     webgl_width: "500",
     webgl_height: "870",
-    github_link: "https://github.com/canafarci/WreckingThrow",
     google_play_link:
       "https://play.google.com/store/apps/details?id=com.flowtart.wreckingthrow",
     behance_link: null,
@@ -1158,7 +1139,6 @@ export const contentData = [
     webGLUrl: "https://itch.io/embed-upload/7962575?color=ededed",
     webgl_width: "500",
     webgl_height: "870",
-    github_link: "https://github.com/canafarci/LevelupSurfers",
     google_play_link:
       "https://play.google.com/store/apps/details?id=com.flowtart.levelupsurfers",
     behance_link: null,
@@ -1216,7 +1196,6 @@ export const contentData = [
     horizontalImages: true,
     webgl_width: "500",
     webgl_height: "870",
-    github_link: "https://github.com/canafarci/GearAndRopes",
     google_play_link:
       "https://play.google.com/store/apps/details?id=com.flowtart.gearswitch",
     behance_link: null,
@@ -1250,7 +1229,6 @@ export const contentData = [
     webGLUrl: "https://itch.io/embed-upload/7962885?color=ededed",
     webgl_width: "500",
     webgl_height: "870",
-    github_link: "https://github.com/canafarci/DeadlyMotoracer",
     google_play_link:
       "https://play.google.com/store/apps/details?id=com.flowtart.deadlymotoracer",
     behance_link: null,
@@ -1280,7 +1258,6 @@ export const contentData = [
     webGLUrl: "https://itch.io/embed-upload/7964347?color=ededed",
     webgl_width: "500",
     webgl_height: "870",
-    github_link: "https://github.com/canafarci/NonFungibleGame",
     google_play_link:
       "https://play.google.com/store/apps/details?id=com.flowtart.nftcrafter",
     behance_link: null,
@@ -1314,7 +1291,6 @@ export const contentData = [
     webGLUrl: "https://itch.io/embed-upload/7969090?color=ededed",
     webgl_width: "500",
     webgl_height: "870",
-    github_link: "https://github.com/canafarci/AirPuppet",
     google_play_link:
       "https://play.google.com/store/apps/details?id=com.flowtart.airpuppetrush",
     behance_link: null,
@@ -1344,7 +1320,6 @@ export const contentData = [
     webGLUrl: "https://itch.io/embed-upload/8006590?color=333333",
     webgl_width: "500",
     webgl_height: "870",
-    github_link: "https://github.com/canafarci/RubixBox",
     behance_link: null,
   },
   //!Arch Date prediction

@@ -39,9 +39,9 @@ const Navbar = () => {
 
     // Drawer content for mobile internal navigation
     const drawer = (
-        <Box onClick={handleDrawerToggle} sx={{ textAlign: "center", pt: 2 }}>
+        <Box onClick={handleDrawerToggle} sx={{ textAlign: "center", pt: 5 }}>
             <Typography variant="h6" sx={{ my: 2, fontWeight: "bold" }}>
-                İsmet Berke Çakır
+
             </Typography>
             <List>
                 {[
