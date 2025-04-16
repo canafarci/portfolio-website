@@ -11,8 +11,12 @@ const PortfolioItem = ({ project, id }) => {
             sx={{
                 position: "relative",
                 display: "block",
-                width:  { xs: 200, md: 300 },
-                height: { xs: 300, md: 400 },
+                // On mobile, fill the grid item width; on larger screens, fix at 300px.
+                width: { xs: "100vw", md: 300 },
+                // Force a 3:4 aspect ratio on mobile using CSS aspect-ratio property.
+                aspectRatio: "3 / 4",
+                // For larger screens, fix the height explicitly.
+                height: { xs: "auto", md: 400 },
                 backgroundImage: `url(${project.image})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
@@ -33,10 +37,12 @@ const PortfolioItem = ({ project, id }) => {
                     right: 0,
                     bgcolor: "rgba(0, 0, 0, 0.5)",
                     color: "white",
-                    p: 2,
+                    p: 1,
                 }}
             >
-                <Typography variant="h5">{project.title}</Typography>
+                <Typography variant="h5" sx={{ fontSize: { xs: "1.2rem", md: "inherit" } }}>
+                    {project.title}
+                </Typography>
             </Box>
         </Box>
     );

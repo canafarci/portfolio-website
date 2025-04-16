@@ -11,10 +11,20 @@ import {
     ImageListItem,
 } from "@mui/material";
 import { contentData } from "../data/contentData";
+import { useTheme, useMediaQuery } from "@mui/material";
+
 
 const ProjectDetail = () => {
     const { id } = useParams();
     const project = contentData[id]; // In production, use a proper unique identifier
+    const isPortrait = project.horizontalImages;
+
+
+    // Inside your ProjectDetail component, after defining isPortrait:
+    const theme = useTheme();
+    const isXs = useMediaQuery(theme.breakpoints.only("xs"));
+    const galleryCols = isXs ? 1 : (isPortrait ? 3 : 1);
+
 
     if (!project) {
         return (
@@ -24,16 +34,13 @@ const ProjectDetail = () => {
         );
     }
 
-    // horizontalImages: true means images are portrait (vertical) mode.
-    // We'll use this flag to determine how many columns to show.
-    const isPortrait = project.horizontalImages;
 
     return (
         <>
             {/* HERO SECTION */}
             <Box
                 sx={{
-                    height: { xs: 300, md: 500 },
+                    height: { xs: 250, md: 500 },
                     backgroundImage: `url(${project.image})`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
@@ -44,7 +51,7 @@ const ProjectDetail = () => {
                     sx={{
                         position: "absolute",
                         inset: 0,
-                        bgcolor: "rgba(0, 0, 0, 0.6)",
+                        bgcolor: "rgba(0,0,0,0.6)",
                         display: "flex",
                         flexDirection: "column",
                         justifyContent: "center",
@@ -57,12 +64,12 @@ const ProjectDetail = () => {
                         variant="h2"
                         color="white"
                         gutterBottom
-                        sx={{ fontWeight: "bold" }}
+                        sx={{ fontWeight: "bold", fontSize: { xs: "2rem", md: "3rem" } }}
                     >
                         {project.title}
                     </Typography>
                     {project.description && (
-                        <Typography variant="h6" color="white">
+                        <Typography variant="h6" color="white" sx={{ fontSize: { xs:"1rem", md:"1.5rem" } }}>
                             {project.description}
                         </Typography>
                     )}
@@ -263,7 +270,7 @@ const ProjectDetail = () => {
                         <Typography variant="h5" gutterBottom>
                             Gallery
                         </Typography>
-                        <ImageList variant="standard" cols={isPortrait ? 3 : 1} gap={8}>
+                        <ImageList variant="standard" cols={galleryCols} gap={8}>
                             {project.images.map((imgUrl, idx) => (
                                 <ImageListItem key={idx}>
                                     <img

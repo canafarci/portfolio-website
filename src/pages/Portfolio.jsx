@@ -1,6 +1,6 @@
 // src/pages/Portfolio.jsx
 import React from 'react';
-import { Container, Grid, Typography } from '@mui/material';
+import { Container, Grid } from '@mui/material';
 import PortfolioItem from '../components/PortfolioItem';
 import { contentData } from '../data/contentData';
 
@@ -15,7 +15,6 @@ const Portfolio = () => {
                         sm={6}
                         md={4}
                         key={index}
-                        // Center the content within each Grid item
                         sx={{
                             display: 'flex',
                             justifyContent: 'center',

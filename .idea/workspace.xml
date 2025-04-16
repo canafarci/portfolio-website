@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="636baf00-f36b-4f0e-bdc0-40f64a19d66d" name="Changes" comment="Mobile view revised">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PortfolioItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PortfolioItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Portfolio.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProjectDetail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProjectDetail.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="total-rework" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "canafarci"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/canafarci/portfolio-website.git",
+    "accountId": "1739d907-d4c3-41b2-921c-b51e10695819"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2vljIzR1TW4zNxQvhGDJAW2huBt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/WORK/PORTFOLIO/portfolio-website/src/data",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\WORK\PORTFOLIO\portfolio-website\src\data" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="636baf00-f36b-4f0e-bdc0-40f64a19d66d" name="Changes" comment="" />
+      <created>1744726478943</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744726478943</updated>
+      <workItem from="1744726480874" duration="6208000" />
+      <workItem from="1744810070788" duration="6611000" />
+      <workItem from="1744817322648" duration="1854000" />
+    </task>
+    <task id="LOCAL-00001" summary="version 1">
+      <option name="closed" value="true" />
+      <created>1744729198248</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744729198248</updated>
+    </task>
+    <task id="LOCAL-00002" summary="version 2">
+      <option name="closed" value="true" />
+      <created>1744732726579</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744732726579</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Navbar white outline and social links">
+      <option name="closed" value="true" />
+      <created>1744813902444</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744813902444</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Navbar change appearance for mobile">
+      <option name="closed" value="true" />
+      <created>1744814333734</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744814333734</updated>
+    </task>
+    <task id="LOCAL-00005" summary="removed broken links">
+      <option name="closed" value="true" />
+      <created>1744815636552</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744815636552</updated>
+    </task>
+    <task id="LOCAL-00006" summary="about page revised">
+      <option name="closed" value="true" />
+      <created>1744817226113</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744817226113</updated>
+    </task>
+    <task id="LOCAL-00007" summary="gitignore revised">
+      <option name="closed" value="true" />
+      <created>1744817600201</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1744817600201</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="version 1" />
+    <MESSAGE value="version 2" />
+    <MESSAGE value="Navbar white outline and social links" />
+    <MESSAGE value="Navbar change appearance for mobile" />
+    <MESSAGE value="removed broken links" />
+    <MESSAGE value="about page revised" />
+    <MESSAGE value="gitignore revised" />
+    <MESSAGE value="Mobile view revised" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mobile view revised" />
+  </component>
+</project>
