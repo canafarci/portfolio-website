@@ -100,7 +100,7 @@ const Navbar = () => {
                                     textShadow: textOutline,
                                 }}
                             >
-                                İsmet Berke Çakır
+                                Berke Çakır
                             </Typography>
                         </>
                     ) : (
@@ -117,7 +117,7 @@ const Navbar = () => {
                                     textShadow: textOutline,
                                 }}
                             >
-                                İsmet Berke Çakır
+                                Berke Çakır
                             </Typography>
                             <Button
                                 component={RouterLink}
