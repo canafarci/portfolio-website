@@ -159,35 +159,6 @@ export const contentData = [
     google_play_link: "https://play.google.com/store/apps/details?id=com.TeekGames.HiddenOrder&pcampaignid=web_share",
     app_store_link: "https://apps.apple.com/us/app/hidden-order/id6479645238"
   },
-  //!Zuma-Sort
-  {
-    category: ["mobile_games"],
-    title: "Zuma Sort",
-    date: "  December 2025",
-    location: null,
-    description: "Zuma inspired stack puzzle game",
-    detailed_description:
-    "In this game, the goal is to fill piggy banks by stacking same colored coins on top of each other by shooting coins through a central sling. \n I led the development, which included addressable loading, a progression system and spline math for smooth movement. ",
-    skills: "  Unity 3D, C#, VContainer, Addressables",
-    genre: " Dock Sort Puzzle",
-    role: "  Programming, Gameplay Design, completed with the Teek Games",
-    job_type:
-        "  Prototype project developed with Teek Games and tested with Voodoo",
-    image:
-        "https://i.imgur.com/cdvtlHb.jpeg",
-    images: [
-      "https://i.imgur.com/x2uxQiS.jpeg",
-        "https://i.imgur.com/BOPqW1n.jpeg",
-        "https://i.imgur.com/cdvtlHb.jpeg",
-        "https://i.imgur.com/JbAXP1h.jpeg",
-        "https://i.imgur.com/FN1LIw7.jpeg",
-        "https://i.imgur.com/bTYeUSr.jpeg"
-    ],
-    videoUrl: "https://www.youtube.com/shorts/Fs6x1SbE7Y4",
-    app_store_link: "https://apps.apple.com/us/app/zuma-match/id6739570843",
-    behance_link: null,
-    horizontalImages: true,
-  },
   //!NYT
   {
     category: ["mobile_games"],
@@ -301,6 +272,35 @@ export const contentData = [
     behance_link: null,
     horizontalImages: true,
     landscapeImage: true,
+  },
+  //!Zuma-Sort
+  {
+    category: ["mobile_games"],
+    title: "Zuma Sort",
+    date: "  December 2025",
+    location: null,
+    description: "Zuma inspired stack puzzle game",
+    detailed_description:
+        "In this game, the goal is to fill piggy banks by stacking same colored coins on top of each other by shooting coins through a central sling. \n I led the development, which included addressable loading, a progression system and spline math for smooth movement. ",
+    skills: "  Unity 3D, C#, VContainer, Addressables",
+    genre: " Dock Sort Puzzle",
+    role: "  Programming, Gameplay Design, completed with the Teek Games",
+    job_type:
+        "  Prototype project developed with Teek Games and tested with Voodoo",
+    image:
+        "https://i.imgur.com/cdvtlHb.jpeg",
+    images: [
+      "https://i.imgur.com/x2uxQiS.jpeg",
+      "https://i.imgur.com/BOPqW1n.jpeg",
+      "https://i.imgur.com/cdvtlHb.jpeg",
+      "https://i.imgur.com/JbAXP1h.jpeg",
+      "https://i.imgur.com/FN1LIw7.jpeg",
+      "https://i.imgur.com/bTYeUSr.jpeg"
+    ],
+    videoUrl: "https://www.youtube.com/shorts/Fs6x1SbE7Y4",
+    app_store_link: "https://apps.apple.com/us/app/zuma-match/id6739570843",
+    behance_link: null,
+    horizontalImages: true,
   },
   //!Skate Rush
   {

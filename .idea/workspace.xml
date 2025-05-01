@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="636baf00-f36b-4f0e-bdc0-40f64a19d66d" name="Changes" comment="Header title changed">
+    <list default="true" id="636baf00-f36b-4f0e-bdc0-40f64a19d66d" name="Changes" comment="Zuma Match added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/contentData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/contentData.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +87,7 @@
       <workItem from="1744817322648" duration="3962000" />
       <workItem from="1744833285173" duration="1492000" />
       <workItem from="1746118700944" duration="1862000" />
-      <workItem from="1746123998488" duration="309000" />
+      <workItem from="1746123998488" duration="699000" />
     </task>
     <task id="LOCAL-00001" summary="version 1">
       <option name="closed" value="true" />
@@ -162,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744819785593</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Zuma Match added">
+      <option name="closed" value="true" />
+      <created>1746124683631</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1746124683631</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +196,7 @@
     <MESSAGE value="gitignore revised" />
     <MESSAGE value="Mobile view revised" />
     <MESSAGE value="Header title changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Header title changed" />
+    <MESSAGE value="Zuma Match added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zuma Match added" />
   </component>
 </project>
