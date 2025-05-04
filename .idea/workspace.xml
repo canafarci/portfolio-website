@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="636baf00-f36b-4f0e-bdc0-40f64a19d66d" name="Changes" comment="Zuma Match position changed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="636baf00-f36b-4f0e-bdc0-40f64a19d66d" name="Changes" comment="Logo removed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +89,7 @@
       <workItem from="1746126887712" duration="42000" />
       <workItem from="1746179781276" duration="1084000" />
       <workItem from="1746181423640" duration="753000" />
-      <workItem from="1746373225560" duration="348000" />
+      <workItem from="1746373225560" duration="392000" />
     </task>
     <task id="LOCAL-00001" summary="version 1">
       <option name="closed" value="true" />
@@ -181,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746126921426</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Logo removed">
+      <option name="closed" value="true" />
+      <created>1746373615535</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1746373615535</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +216,7 @@
     <MESSAGE value="Header title changed" />
     <MESSAGE value="Zuma Match added" />
     <MESSAGE value="Zuma Match position changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zuma Match position changed" />
+    <MESSAGE value="Logo removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logo removed" />
   </component>
 </project>
