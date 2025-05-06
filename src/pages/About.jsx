@@ -37,15 +37,15 @@ const About = () => {
                     analysis using Python, TensorFlow, and generative adversarial networks.
                 </Typography>
 
-                {/* Contact Section */}
-                <Box sx={{ mt: 3, display: 'flex', alignItems: 'center', gap: 2 }}>
-                    <Typography variant="body1" sx={{ fontWeight: 'bold' }}>
-                        Phone: +90 506 934 84 39
-                    </Typography>
-                    <Typography variant="body1" sx={{ fontWeight: 'bold' }}>
-                        Email: ismetberke@gmail.com
-                    </Typography>
-                </Box>
+                {/*/!* Contact Section *!/*/}
+                {/*<Box sx={{ mt: 3, display: 'flex', alignItems: 'center', gap: 2 }}>*/}
+                {/*    <Typography variant="body1" sx={{ fontWeight: 'bold' }}>*/}
+                {/*        Phone: +90 506 934 84 39*/}
+                {/*    </Typography>*/}
+                {/*    <Typography variant="body1" sx={{ fontWeight: 'bold' }}>*/}
+                {/*        Email: ismetberke@gmail.com*/}
+                {/*    </Typography>*/}
+                {/*</Box>*/}
             </Box>
         </Container>
     );
